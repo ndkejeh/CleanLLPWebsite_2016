@@ -1,0 +1,115 @@
+/***Initial reset of all html tags - this removes the annoying default whitespace at the top of the page ****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    background-color: #ebebeb;
+}
+
+.container {
+    position: relative;
+    width: auto !important;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 626px;
+    height: 72px;
+    transform: translateX(-95.9%);
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+
+
+.nav-list li{
+    display: inline;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: AdelleSans, sans-serif;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a:hover {
+    color: #b24026;
+}
+
+
+.nav-list {
+    margin: auto;
+}
+
+.site-logo {
+    width:188px;
+    height: auto;
+    float: left;
+}
+
+.site-logo img {
+    width: 188px;
+    height: 72px;
+}
+
+.nav-links {
+    width:auto;
+    height: auto;
+    float: left;
+}
+
+.nav-links nav {
+    padding-top: 25px;
+    padding-left: 33px;
+}
+
+/* beginning of row coloumn definitions, Width and float is reset in a row*******/
+.row {
+    width: auto;
+    float: none;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  float: left;    
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+[class*="col-"] img {
+    height: auto; 
+    width: 100%;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+img#corner {
+    width: 34px; 
+    height:34px; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+}
