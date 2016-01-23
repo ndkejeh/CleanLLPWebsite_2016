@@ -126,3 +126,7 @@ img#corner {
     top: 0; 
     right: 0;
 }
+
+.col-lg-9 {
+    width: 75%;
+}
