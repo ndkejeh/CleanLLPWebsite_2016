@@ -1,4 +1,5 @@
-/***Initial reset of all html tags - this removes the annoying default whitespace at the top of the page ****/
+/*
+/***Initial reset of all html tags - this removes the annoying default whitespace at the top of the page ****
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
     margin: 0;
     padding: 0;
@@ -7,9 +8,26 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+}*/
+
+html {
+    position: relative;
+    min-height: 100%;
 }
+
 body {
     background-color: #ebebeb;
+    margin-bottom: 300px;
+}
+
+.footer{
+    position: absolute;
+    left: 50%;
+    width: 1200px;
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 300px;
+    background-color: #b24026;
 }
 
 .container {
@@ -77,13 +95,30 @@ body {
     padding-left: 33px;
 }
 
-/* beginning of row coloumn definitions, Width and float is reset in a row*******/
-.row {
-    width: auto;
-    float: none;
-    /***margin-top: -3.5px;**/
+img#corner {
+    width: 34px; 
+    height: 34px; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
 }
 
+img#propscale{ /**For banner imaag and others that you want to scale**/
+    width: 100%;
+    height: auto;
+}
+
+.nopadding { /***important for proper grid layout!!**/
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+
+/*beginning of row coloumn definitions, Width and float is reset in a row*******
+.row {
+    width: auto;
+}*/
+/*
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
@@ -96,11 +131,6 @@ body {
 
 .col-lg-3 {
     width: 25%;
-}
-
-[class*="col-"] img {
-    height: auto; 
-    width: 100%;
 }
 
 .col-lg-6 {
@@ -118,15 +148,14 @@ body {
 .col-lg-pull-8 {
     right: 66.66666667%;
   }
+*/
 
-img#corner {
-    width: 34px; 
-    height: 34px; 
-    position: absolute; 
-    top: 0; 
-    right: 0;
-}
-
-.col-lg-9 {
+/*.col-lg-9 {
     width: 75%;
 }
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}*/
+
