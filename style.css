@@ -27,7 +27,7 @@ body {
     transform: translateX(-50%);
     bottom: 0;
     height: 300px;
-    background-color: #b24026;
+    background-color: #252525;
 }
 
 .container {
@@ -159,3 +159,40 @@ img#propscale{ /**For banner imaag and others that you want to scale**/
    margin: 0 !important;
 }*/
 
+
+.footerl-padding {
+    padding-left: 43px;
+}
+
+.footertext {
+    color: #ffffff;
+    font-size: 1.05em;
+    font-family: 'Lora', serif;
+}
+
+.copytext {
+    font-size: .8em;
+    color: #717171;
+    font-family: 'Lato', sans-serif;
+    padding-top: 15px;
+    
+}
+
+img.footerl-padding {
+    padding-top: 60px
+}
+
+.FooterMidText {
+    font-family: Lato;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+.FooterMidPad {
+    padding-left: 68px;
+}
+
+.FooterIcon {
+    padding-top: 30px;
+    float: left;
+}
