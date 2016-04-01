@@ -196,3 +196,24 @@ img.footerl-padding {
     padding-top: 30px;
     float: left;
 }
+
+.FooterLeftPad {
+    margin-top: 83px;
+}
+
+.FooterInput {
+    padding-left: 20px;
+    height: 48px;
+    width: 247px;
+    color: #b24026;
+    font: 300 1.1em Lato;
+}
+
+.subButton {
+    width: 102px;
+    height: 28px;
+    background-color: #db7833;
+    margin-left: 145px;
+    color: #fff;
+    border: none;
+}
