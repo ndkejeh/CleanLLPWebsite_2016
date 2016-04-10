@@ -217,3 +217,64 @@ img.footerl-padding {
     color: #fff;
     border: none;
 }
+
+#engr {
+    background: url(images/EngineersBlock.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.aboutText {
+    font-family: Lora;
+    font-size: 1.59em;
+    color: #ffffff;
+}
+
+#entre {
+    background: url(images/EntreBlock.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.entreText {
+    position: absolute;
+    top: 314px;
+    left: 21px;
+    right: 78px;
+}
+
+.engrText {
+    position: absolute;
+    top: 314px;
+    left: 16px;
+    right: 37px;
+}
+
+#multi {
+    background: url(images/MultiBlock.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.multiText {
+    position: absolute;
+    top: 34px;
+    left: 444px;
+    right: 15px;
+}
+
+
+
+.blueText {
+    position: absolute;
+    top: 324px;
+    left: 26px;
+    right: 84px;
+}
+
+.storyText {
+    position: absolute;
+    top: 509px;
+    left: 17px;
+    right: 68px;
+}

@@ -1,24 +1,26 @@
 <!doctype html>
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
-<!--Adobe typekit-->
-<script src="https://use.typekit.net/usk7nvk.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<!--End of Adobe typekit-->    
-<meta charset="utf-8">
-<title>De Charles LLP</title>
-<link href="style.css" rel="stylesheet">
+    <!--Jquery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!--Adobe typekit-->
+    <script src="https://use.typekit.net/usk7nvk.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!--End of Adobe typekit-->    
+    <meta charset="utf-8">
+    <title>De Charles LLP</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
      <div class="container">
@@ -26,7 +28,7 @@
             <div class="site-logo">
                 <img src="images/NavLogo.png" alt="De Charles Logo">
             </div>    
-            <div class="nav-links">
+            <div class="nav-links" id="scrollnav">
                 <nav class="nav-links">
                     <ul class="nav-list nopadding">
                         <li class="nav-list">
@@ -50,10 +52,87 @@
         </div> <!-- end of Nav menu -->
          <div class="row">
             <div class="col-lg-12 nopadding">
-             <img class="propscale" src="images/WhoWeAre_Banner.png" alt="Tech + Africa">
+             <img id="propscale" src="images/WhoWeAre_Banner.png" alt="Tech + Africa">
              </div>
          </div>
-         
+         <div class="row">
+            <div class="col-lg-7 nopadding">
+                <img src="images/EntreBlock.png">
+                <p class="aboutText entreText">We are the founders of Africa-focused companies and 
+                non-profits that have ben recognised and lauded by 
+                some of the most prestigious academic and 
+                professional bodies in the world. </p>
+            </div>
+            <div class="col-lg-5 nopadding">
+                <img src="images/EngineersBlock.png">
+                <p class="aboutText engrText">We hold degrees and PhDs in science 
+                and engineering, who have researched 
+                and published papers on topics at the 
+                cutting-edge of science and technology.</p>
+             </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-9 nopadding">
+                <img src="images/MultiBlock.png">
+                <div class="multiText">
+                    <p class="aboutText">We distinctly blend commercial and 
+                    engineering expertise with profound 
+                    Africa insights to help clients overcome 
+                    their challenges innovating, growing 
+                    and increasing their relevance in Africa.</p>
+                    
+                    <p class="aboutText" style="padding-top:10px">Africa&#8217;s use of technology has 
+                    mushroomed and it is gaining a 
+                    reputation as a region to deploy 
+                    game-changing, impactful ideas. 
+                    Lateral thinking and pro-activity is 
+                    turning deficits into opportunities, and 
+                    it is in this context that we aim to add 
+                    the most value.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 nopadding">
+                <img src="images/RedFiller.png">
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-5 nopadding">
+                <img src="images/StoryBlock.png">
+                <p class="aboutText storyText">We are enthusiastic about Africa, its 
+                opportunities and the bettering of its 
+                economies and perceptions.</p>
+            </div>
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-lg-12 nopadding">
+                        <img src="images/BlueSkyBlock.png">
+                        <p class="aboutText blueText">We believe in the power of ideas, and have witnessed 
+                        &#8211; through our own ventures and others &#8211; how large 
+                        problems can be overcome by unique insights and 
+                        technologies.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 nopadding">
+                        <img src="images/BlueFiller.png">
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-3 nopadding">
+                <img src="images/OurPerspectiveSq.png">
+            </div>
+            <div class="col-lg-3 nopadding">
+                <img src="images/OurPerceptionsSq.png">
+            </div>
+            <div class="col-lg-3 nopadding">
+                <img src="images/Orange-Filler.png">
+            </div>
+            <div class="col-lg-3 nopadding">
+                <img src="images/GetinTouchSq.png">
+            </div>
+         </div>
     </div> <!--Close Container-->
      <!--End of Container-->
     <!--Start of Footer-->
@@ -115,5 +194,19 @@ grow influential ventures in Africa's technology sectors.
             </div>
         </footer>
      <!--End of Content-->
+    <script>
+        $(document).ready(function(){
+            $("#scrollnav").on("click", function(){
+                                   $(this).hide(1000);
+                                   });
+            
+            $(window).scroll(function(){
+                if($(this).scrollTop()<10){
+                    $("#scrollnav").show(1000);
+                    //alert($(window).scrollTop() + " px");
+                }
+            });
+        });
+    </script>
 </body>
 </html>
