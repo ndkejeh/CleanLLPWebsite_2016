@@ -19,6 +19,14 @@ body {
     background-color: #ebebeb;
     margin-bottom: 300px;
 }
+/*
+
+@media (max-width: 991px){ unnecessary due to Jquery!
+    body{
+        margin-bottom: 500px;
+    }
+}
+*/
 
 .footer{
     position: absolute;
@@ -26,10 +34,24 @@ body {
     width: 1200px;
     transform: translateX(-50%);
     bottom: 0;
-    /** may have to have different footer heights at different media queries**/
-    height: 300px;
+    /** may have to have different footer heights at different media queries**
+    height: 300px; unnecessary due to jquery!!**/ 
     background-color: #252525;
 }
+
+@media (max-width: 1199px){
+    .footer{
+        width: 100%;
+    }
+}
+
+/* unnecessary due to Jquery
+@media (max-width: 991x){
+    .footer{
+        height: 500px;
+    }
+}
+*/
 
 .container {
     position: relative;
@@ -114,60 +136,14 @@ img#propscale{ /**For banner imaag and others that you want to scale**/
 }
 
 
-/*beginning of row coloumn definitions, Width and float is reset in a row*******
-.row {
-    width: auto;
-}*/
-/*
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  position: relative;
-  min-height: 1px;
-  float: left;    
-}
-
-.col-lg-12 {
-    width: 100%;
-}
-
-.col-lg-3 {
-    width: 25%;
-}
-
-.col-lg-6 {
-    width: 50%;
-}
-
-.col-lg-4{
-    width: 33.33333333%;
-}
-
-.col-lg-8{
-     width: 66.66666667%;
-}
-
-.col-lg-pull-8 {
-    right: 66.66666667%;
-  }
-*/
-
-/*.col-lg-9 {
-    width: 75%;
-}
-
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
-}*/
-
-
 .footerl-padding {
-    padding-left: 43px;
+    padding-left: 9%;
 }
 
 .footertext {
     color: #ffffff;
     font-size: 1.05em;
-    font-family: 'Lora', serif;
+    font-family: Georgia, serif;
 }
 
 .copytext {
@@ -202,9 +178,9 @@ img.footerl-padding {
 }
 
 .FooterInput {
-    padding-left: 20px;
+    padding-left: 5%;
     height: 48px;
-    width: 247px;
+    width: 247px; /**@media queries to control height and width**/
     color: #b24026;
     font: 300 1.1em Lato;
 }
@@ -452,3 +428,53 @@ img.footerl-padding {
 }
 
 
+
+
+
+#footerblurbpad {
+    padding-top: 31px;
+}
+
+input:nth-child(2) { 
+    /**input that is the second child of its parent**/
+    margin-top: 11px;
+}
+
+#footerlogo { /**media queries to amend**/
+    padding-top: 50px; 
+    width: 141px;
+}
+
+#footerloc {
+    padding-top: 41px;
+}
+
+p {
+    margin: 0px;
+}
+
+#Fbfooter_xs {
+    padding-top: 51px;
+}
+
+.footertext_2 {
+    font: 400 1.5em Lato;
+    color: #ffffff;
+}
+
+.socialfootertext_xs {
+    display: inline-block
+}
+
+.footersocial_sm {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.socialpadding_sm {
+    padding-top: 20px;
+}
+
+.btmrow_pad {
+    padding-top: 107px;
+}
