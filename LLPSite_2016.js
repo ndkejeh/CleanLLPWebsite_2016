@@ -3,7 +3,7 @@ $(document).ready(function(){
     var footerSmoother = 0;
     var navSmoother = 0;
     var timerVar; 
-
+    
     /////////footer script/////////
     var chgFooter = function (){
         $('body').css('margin-bottom',$('.footer').height());
@@ -16,6 +16,7 @@ $(document).ready(function(){
             chgFooter(); //and call the change footer method
         }
     });
+    ///////////Maybe re-write setInterval code for footer to see if initial extra height issue is solved///////
 
     /////////Navbar script/////////
     $(".nav-wrapper").on("click", function(){
