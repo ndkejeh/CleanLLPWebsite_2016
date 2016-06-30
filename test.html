@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -18,44 +18,43 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
-<!--Adobe typekit-->
-<script src="https://use.typekit.net/usk7nvk.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-<!--End of Adobe typekit-->    
-<meta charset="utf-8">
 <title>De Charles LLP</title>
 <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Start of reponsive Nav bar -->
     <div class="container">
-        <div class="fixed-menu">
-            <div class="site-logo">
+        <div class="fixed-navbar">
+            <div class="logo-big">
                 <img src="images/NavLogo.png" alt="De Charles Logo">
-            </div>    
-            <div class="nav-links">
-                <nav class="nav-links">
-                    <ul class="nav-list nopadding">
-                        <li class="nav-list">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Work</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Services</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Thinking</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
-        </div> <!-- end of Nav menu -->
+            <div class="logo-small">
+                <img src="images/NavLogo-768.png" alt="De Charles Logo">
+            </div>
+            <div class="nav-wrapper">
+                <nav>
+                <ul class="nav-content">
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Service">Services</a>
+                    </li>
+                    <li>
+                        <a href="#Thinking">Thinking</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
     </div><!-- end of Nav menu container -->
-    <div class="container"> <!--use hidden and visible to show and hide the mobile view, but use the same images to prevent data expense-->
+    <div class="container"> <!--Start of main body of content-->
         <div class="row">
             <div class="col-md-3 hidden-sm hidden-xs">
                 <div class="row">
@@ -145,39 +144,8 @@
                 <img class="img-responsive" src="images/GetinTouchSq.png" alt="Get in touch">
             </div>
         </div>
-    <!--<div class="row">
-            <div class="col-xs-4" style="background-color: #000; height: 200px; color: #fff"> Column One</div>
-            <div class="col-xs-3 col-md-offset-1" style="background-color: #000; height: 200px; color: #fff"> Column Two</div>
-            <div class="col-xs-4 nopadding" style="background-color: #000; height: 200px; color: #fff"> Column Three</div>
-        </div>-->
     </div>
     <!--End of Container-->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <!--Start of Footer-->
     <footer class="footer">
         <div class="row">
@@ -214,93 +182,10 @@
                 <p class="footertext_2">Get In Touch</p>
             </div>
         </div>
-        
-        
- <script>
-        $(document).ready(function(){
-            var smoother = 0;
-            var chgFooter = function (){
-                $('body').css('margin-bottom',$('.footer').height());
-                smoother = 0;
-            }
-            //window resize trigger event
-            $(window).resize(function(){
-                smoother = 1; //this var and the interval function smooth the resize event
-            });
-            //Interval event that works with smoother to smooth resize event
-            setInterval(function(){
-                if(smoother){ //equals true
-                    smoother = 0; //set smoother to false
-                    chgFooter(); //and call the change footer method
-                }
-            },250); //interval is this milliseconds
-            
-        });
-    </script>        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-<!--        <div class="row">
-            <div class="col-md-5 col-xs-6 col-xs-offset-4 nopadding">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <img class="img-responsive footerl-padding" src="images/De-Charles--Footer.png" alt="De Charles">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p class="footerl-padding footertext" id="footerblurbpad">
-                        We are an Africa-focused strategy and product development firm.
-                            We help forward-thinking companies build effective products and 
-                            grow influential ventures in Africa's technology sectors.
-                        </p>
-                        <p class="footertext footerl-padding">
-                        London + Lagos
-                        </p>
-                        <p class="copytext footerl-padding">
-                        &copy; 2016 De-Charles LLP
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!--the next col after col-5--
-            <div class="col-sm-3 hidden-sm hidden-xs nopadding">
-                <div class="row"> 
-                    <div class="col-xs-12">
-                        <p class="FooterMidText FooterMidPad" style="padding-top: 82px">Get In Touch</p>
-                        <p class="FooterMidText FooterMidPad">Media Enquiries</p>
-                        <p class="FooterMidText FooterMidPad">Legal Information</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <img src="images/Icon_Fb_Warm.png" class="FooterMidPad FooterIcon">
-                        <img src="images/Icon_Twit_Warm.png" class="FooterIcon" style="padding-left: 12px">
-                        <img src="images/Icon_In_Warm.png" class="FooterIcon" style="padding-left: 12px">                                
-                    </div>
-                </div>
-            </div>
-            <!--the next col after col-3-- 
-            <div class="col-xs-4 nopadding">
-                <div class="row">
-                    <div class="col-xs-12 hidden-sm hidden-xs">
-                        <form>
-                            <p><input class="FooterLeftPad FooterInput" type="text" placeholder="Full Name">
-                            <input class="FooterInput" type="email" placeholder="Email Address"></p>
-                            <input class="subButton" type="button" value="Subscribe">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </footer>
-     <!--End of Content-->
+    <!--------------------Start of Scripts--------------->
+    <script src="LLPSite_2016.js"></script>
+    <!--------------------End of Scripts--------------->
+    <!--End of Content-->
 </body>
 </html>

@@ -60,25 +60,116 @@ body {
     margin: auto;
 }
 
-.fixed-menu {
+.fixed-navbar {
     position: fixed;
+    left: 0;
     top: 0;
-    left: 50%;
-    width: 626px;
-    height: 72px;
-    transform: translateX(-95.9%);
-    background-color: #ffffff;
+    width: 591px;
     z-index: 10;
 }
 
+@media (min-width: 1200px){
+    .fixed-navbar{
+        left: 50%;
+        transform: translateX(-101.5%);
+    }
+}
 
+.logo-big {
+    float: left;
+}
+
+.nav-content {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /**start off clearing the ini padding and margins**/
+    overflow: hidden;
+    background-color: #fff;
+    padding-top: 25px;
+    height: 72px; 
+/*    margin: auto;*/
+    
+}
+
+.nav-wrapper {
+    float: left;
+    
+}
+
+.nav-content li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.nav-content li:first-child {
+    padding-left: 12px;
+    
+}
+
+.nav-content li a {
+    font-family: Lato, sans-serif;
+    color: #000000;
+    font-size: 1.2em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.logo-small {
+    float: left;
+    display: none;
+}
+
+@media (max-width: 992px){
+    .logo-small {display: inline;}
+    .logo-big {display: none;}
+    
+    ul.nav-content {
+        height: auto;
+        padding-top: 0px;
+    }
+    
+    ul.nav-content li {
+        display: block;
+        float: none;
+        padding: 5px 30px 5px 20px;
+    }
+    
+    ul.nav-content li a {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+    
+    .nav-content li:not(:first-child){
+        padding-left: 15px;
+    }
+}
+
+
+/** Old footer CSS (defunct)**
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 626px;
+    height: 72px;
+    z-index: 10;
+}
+
+@media (min-width: 1200px){
+    .fixed-menu{
+        /***These two lines keep the top left positioning when content is not 100% of screen**
+        left: 50%;
+        transform: translateX(-95.9%);
+    }
+}
 
 .nav-list li{
     display: inline;
     padding-right: 5px;
     padding-left: 5px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.3em;
     font-family: AdelleSans, sans-serif;
 }
 
@@ -92,42 +183,65 @@ body {
 }
 
 .nav-list {
-    margin: auto;
+    overflow: hidden;
+    
 }
 
 .site-logo {
-    width:188px;
-    height: auto;
     float: left;
 }
 
-.site-logo img {
-    width: 188px;
-    height: 72px;
+@media (max-width: 992px){
+    .site-logo {display: none;}
+}
+
+.small-site-logo {
+    display: none;
+    float: left;
+}
+
+@media (max-width: 992px) {
+    .small-site-logo {display: inline;}
 }
 
 .nav-links {
-    width:auto;
-    height: auto;
-    float: left;
+    height: 72px;
+    text-align: center;
+    background: #fff;
+/*    display: block;*
+}
+
+@media (max-width: 992px){
+/*    .nav-links {display: none;}*
+    
+    .nav-links.jresponse {position: relative;}
+    
+    .nav-links.jresponse li {
+        float: left;
+        display: inline-block;
+    }
+    
+    .nav-links.jresponse li a {
+        display: block;
+        text-align: left;
+    }
 }
 
 .nav-links nav {
     padding-top: 25px;
     padding-left: 33px;
 }
-
+End of Old footer CSS (Defunct) **/
+    
+    
+    
+    
 img#corner {
     width: 34px; 
     height: 34px; 
     position: absolute; 
     top: 0; 
     right: 0;
-}
-
-img#propscale{ /**For banner imaag and others that you want to scale**/
-    width: 100%;
-    height: auto;
 }
 
 .nopadding { /***important for proper grid layout!!**/
@@ -478,3 +592,4 @@ p {
 .btmrow_pad {
     padding-top: 107px;
 }
+
