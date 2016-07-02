@@ -18,6 +18,7 @@ html {
 body {
     background-color: #ebebeb;
     margin-bottom: 300px;
+    font-size: 100%;
 }
 /*
 
@@ -110,7 +111,7 @@ body {
 .nav-content li a {
     font-family: Lato, sans-serif;
     color: #000000;
-    font-size: 1.2em;
+    font-size: 1.7em;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -136,7 +137,7 @@ body {
     }
     
     ul.nav-content li a {
-        font-size: 2.5em;
+        font-size: 3.4em;
         font-weight: 700;
     }
     
@@ -611,13 +612,15 @@ p {
     left: 811px;
 }
 
-.show_text {
-    font-family: Georgia, serif;
+.show-text {
+    font-family: Lato, serif;
     font-size: 1.5em;
+    font-size: 1.5vw;
+    font-weight: 300;
     color: #ffffff;
 }
 
-.serv-lvl-one p.show_text {
+.serv-lvl-one p.show-text {
     position: absolute;
     margin-left: 75px;
     margin-right: 604px;
@@ -645,10 +648,10 @@ p {
     left: 811px;
 }
 
-.serv-lvl-two p.show_text {
+.serv-lvl-two p.show-text {
     position: absolute;
-    margin-left: 75px;
-    margin-right: 555px;
+    margin-left: 80px;
+    margin-right: 604px;
     top: 375px;
 }
 
@@ -668,9 +671,290 @@ p {
     left: 823px;
 }
 
-.serv-lvl-three p.show_text {
+.serv-lvl-three p.show-text {
     position: absolute;
-    margin-left: 75px;
-    margin-right: 533px;
+    margin-left: 90px;
+    margin-right: 604px;
     top: 381px;
+}
+
+#strategy-body {
+    background-color: #fff;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 56px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 56px; /* Firefox */
+    column-gap: 56px;
+}
+
+p.body {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Georgia", serif;
+    font-size: 1.12em;
+    font-size: 1.6vw;
+    color: #000;
+    letter-spacing: 0.8px;
+    line-height: 150%;
+    
+}
+
+@media (min-width: 1200px) {
+    p.body {
+        font-size: 1.6em;
+    }
+}
+
+@media (max-width: 992px) {
+    p.body {
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+    
+}
+@media (max-width: 768px) {
+    p.body {
+        font-size: 2vw;
+        
+    }
+    
+    @media (max-width: 600px) {
+        p.body {
+            font-size: 1.2em;
+            padding-left: 20px;
+            padding-right: 20px
+        }
+    }
+    #strategy-body {
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+    }
+}
+
+.service-descr {
+    position: relative;
+    height: 400px;
+    background-color: #b24026;;
+}
+
+#ventures-title {
+    position: absolute;
+    top: 27.8%;
+    left: 50.6%;
+}
+
+#ventures-img {
+    position: absolute;
+    left: 31.4%;
+    top: 18.5%;
+}
+
+#ventures p.show-text {
+    position: absolute;
+    top: 57.5%;
+    margin-left: 50.2%;
+    
+    
+}
+
+#impact-img {
+    position: absolute;
+    left: 12.5%;
+    top: 18.5%;
+}
+
+#impact-title {
+    position: absolute;
+    top: 27.3%;
+    left: 43.8%;
+}
+
+#impact p.show-text {
+    position: absolute;
+    top: 57.5%;
+    margin-left: 42.6%;
+    margin-right: 19.3%;
+    
+}
+
+#narrative-img {
+    position: absolute;
+    top: 20%;
+    left: 31.3%;
+}
+
+#narrative-title {
+    position: absolute;
+    top: 25%;
+    left: 56.7%;
+}
+
+#narrative p.show-text {
+    position: absolute;
+    top: 40.8%;
+    margin-left: 55.5%;    
+}
+
+#market-img {
+    position: absolute;
+    top: 12.8%;
+    left: 23.7%;
+}
+
+#market-title {
+    position: absolute;
+    top: 25.3%;
+    left:  43.7%;
+}
+
+#market p.show-text {
+    position: absolute;
+    top: 55.2%;
+    margin-left: 42.7%;
+    margin-right: 11.5%;
+}
+
+@media (max-width: 1170px) {
+    #ventures-img {left: 29%;}
+    #impact-img {left: 8%;}
+    #narrative-img {left: 26%;}
+    #market-img {left: 21%}
+    #impact p.show-text {margin-right: 14%}
+    
+}
+
+@media (max-width: 992px) { /*limit container size at a point to not ruin format with @media & fixed container width*/
+    .service-descr {
+        height: 250px; 
+    }
+    #impact {background-color: #016542;}
+    #narrative {background-color: #3a7585;}
+    #market {background-color: #db7833;}
+    
+    #market-img { 
+        left: 12%;  
+        width: 10vw;
+        top: 15%;
+        /***Rocket rotate tranform code***/
+        -ms-transform: rotate(40deg); /* IE 9 */
+        -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+        transform: rotate(40deg);
+        
+    }
+    #market-title {
+        left: 26%;
+        top: 34%;
+        width: 19vw;
+    }
+    
+    #market p.show-text {
+        top: 30.2%;
+        margin-left: 57%;
+        margin-right: 7%;
+        font-size: 2.8vw;
+    }
+    
+    #ventures-img {
+        left: 7.2%;
+        top: 20%;
+        width: 16vw;
+    }
+    #ventures-title {
+        left: 26%;
+        top: 34%;
+        width: 19vw;
+    }
+    #ventures p.show-text{
+        top: 30.2%;
+        margin-left: 57%;
+        margin-right: 7%;
+        font-size: 2.8vw;
+    }
+    
+    #impact-img { /** after certain view size remove descr text, then past that leave only images in the banners **/
+        left: 7.2%;
+        top: 20%;
+        width: 16vw;
+    }
+    #impact-title{
+        left: 26%;
+        top: 39.2%;
+        width: 19vw;
+    }
+    #impact p.show-text {
+        top: 25%;
+        margin-left: 57%;
+        margin-right: 7%;
+        font-size: 2.8vw;
+    }
+    
+    #narrative-img {
+        left: 7.2%;
+        top: 25.6%;
+        width: 16vw;
+    }
+    #narrative-title {
+        top: 36%;
+        left: 26%;
+        width: 19vw;
+    }
+    #narrative p.show-text {
+        top: 23%;
+        margin-left: 57%;
+        margin-right: 7%;
+        font-size: 2.8vw;
+    }
+
+}
+
+@media (max-width: 700px){ /* Img and title only*/
+    #ventures p.show-text {display: none;}
+    #impact p.show-text {display: none;}
+    #narrative p.show-text {display: none;}
+    #market p.show-text {display: none;}
+    
+    #ventures-img {
+        width: 30vw;
+        top: 15%;
+        left: 12%;
+    }
+    #ventures-title {
+        width: 40vw;
+        left: 50%;
+        top: 27%;
+    }
+    #impact-img {
+        width: 30vw;
+        top: 12%;
+        left: 12%;
+    }
+    #impact-title {
+        width: 40vw;
+        left: 50%;
+        top: 27%;
+    }
+    #narrative-img {
+        width: 30vw;
+        top: 18%;
+        left: 12%;
+    }
+    #narrative-title {
+        width: 40vw;
+        left: 50%;
+        top: 29%;
+    }
+    #market-img {
+        width: 16vw;
+        top: 12%;
+        left: 20%;
+    }
+    #market-title {
+        width: 35vw;
+        left: 50%;
+        top: 29%;
+    }
 }

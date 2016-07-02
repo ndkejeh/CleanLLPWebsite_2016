@@ -25,7 +25,11 @@ $(document).ready(function(){
 
     $(".logo-small, .logo-big").mouseover(function() {
                            $(".nav-wrapper").show(250);
-                           timerVar=setTimeout(function(){$(".nav-wrapper").hide(500)},4000);
+                           if($(window).scrollTop() > 10){//then we'll hide the menu 4 seconds after mouseover
+                                timerVar=setTimeout(function(){$(".nav-wrapper").hide(500)},4000);   
+                           }
+                            alert(window.innerWidth + " px");
+                          //  alert($(window).scrollTop()+ "px");
                            });
     //need to do an if(open) on scroll hide//
     //nav-content SHOW on the mouseover; HIDE after a few seconds or on scroll//
@@ -34,7 +38,9 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if($(this).scrollTop()<10){
             clearTimeout(timerVar);
-            $(".nav-wrapper").show(500);
+            if(window.innerWidth > 992){
+                $(".nav-wrapper").show(500);   
+            }//else on smaller screens don't show the menu automatically
            // alert($(".fixed-navbar").width() + " px");
         } else {
             clearTimeout(timerVar);
