@@ -678,7 +678,7 @@ p {
     top: 381px;
 }
 
-#strategy-body {
+.body-frame {
     background-color: #fff;
     padding-top: 75px;
     padding-bottom: 75px;
@@ -728,7 +728,7 @@ p.body {
             padding-right: 20px
         }
     }
-    #strategy-body {
+    .body-frame {
         -webkit-column-count: 1; /* Chrome, Safari, Opera */
         -moz-column-count: 1; /* Firefox */
         column-count: 1;
@@ -957,4 +957,16 @@ p.body {
         left: 50%;
         top: 29%;
     }
+}
+#percep-blurb {
+    position: absolute;
+    font-weight: 400;
+    
+}
+
+#percep-banner {
+    background-image: url(images/ABoutPagesBanner.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
 }
