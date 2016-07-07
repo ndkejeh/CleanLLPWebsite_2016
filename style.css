@@ -613,10 +613,10 @@ p {
 }
 
 .show-text {
-    font-family: Lato, serif;
-    font-size: 1.5em;
-    font-size: 1.5vw;
-    font-weight: 300;
+    font-family: Lato, sans-serif;
+    font-size: 180%;
+    line-height: 130%;
+    font-weight: 300;/*need to use line-height and font % here*/
     color: #ffffff;
 }
 
@@ -682,6 +682,8 @@ p {
     background-color: #fff;
     padding-top: 75px;
     padding-bottom: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -691,15 +693,16 @@ p {
 }
 
 p.body {
-    padding-left: 100px;
-    padding-right: 100px;
     font-family: "Georgia", serif;
     font-size: 1.12em;
     font-size: 1.6vw;
     color: #000;
     letter-spacing: 0.8px;
     line-height: 150%;
-    
+}
+
+p.body:not(:first-child) {
+    padding-top: 15px;
 }
 
 @media (min-width: 1200px) {
@@ -709,7 +712,7 @@ p.body {
 }
 
 @media (max-width: 992px) {
-    p.body {
+    .body-frame {
         padding-left: 60px;
         padding-right: 40px;
     }
@@ -722,8 +725,9 @@ p.body {
     }
     
     @media (max-width: 600px) {
-        p.body {
-            font-size: 1.2em;
+        p.body {font-size: 1.2em;}
+            
+        .body-frame {
             padding-left: 20px;
             padding-right: 20px
         }
@@ -958,9 +962,21 @@ p.body {
         top: 29%;
     }
 }
-#percep-blurb {
+#about-blurb {
     position: absolute;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: "adelle-sans";
+    width: 60%;
+    margin-left: 35%;
+    padding-right: 30px;
+/*
+    margin-left: 545px;
+    margin-right: 96px;
+*/
+    bottom: 28%;
+    font-size: 450%;
+    line-height: 140%
+/*    font-size: 2.4vw;*/
     
 }
 
@@ -969,4 +985,98 @@ p.body {
     background-repeat: no-repeat;
     height: 700px;
     position: relative;
+}
+
+.quote-block {
+    background-color: #fff;
+    padding: 81px 20px 81px 61px;
+    
+}
+
+.quote-text {
+    font: 700 550% Georgia;
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 992px) {
+    .quote-text {
+        font-size: 480%;
+    }
+}
+    
+
+@media (max-width: 768px) {
+    .quote-text {
+        font-size: 350%;
+        font-size: 4.5vw;
+        line-height: 140%;
+    }
+    .quote-block {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+#thinking-quote-block {
+    background-color: #252525;
+}
+
+#thinking-quote {
+    color: rgba(177, 177, 177, 0.8);
+}
+
+#TINA-quote-block {
+    background-color: #f2e505;
+}
+
+#TINA-quote {
+    color: #14113c;
+}
+
+.persp-info {
+    background-color: #455565;
+/*    height: 600px;*/
+/*    position: relative;*/
+}
+
+.headline-text {
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 700;
+    color: #bfbfbf;
+    font-size: 10em;
+    font-size: 8vw;
+}
+
+#Power-map {
+    padding-top: 71px;
+}
+
+@media(max-width: 768px) {
+    #power-map {
+        padding-top: 0px;
+    }
+    .headline-text {
+        font-size: 1000%;
+        font-size: 10vw;
+    }
+}
+#tech-over {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.second-row {
+    height: 300px;
+}
+
+
+
+#power-info {
+    padding-top: 15px;
+    padding-left: 61px;
+}
+
+#power-info-text {
+    padding: 75px 20px 10px 57px
 }

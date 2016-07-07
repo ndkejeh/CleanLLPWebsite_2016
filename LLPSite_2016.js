@@ -3,11 +3,19 @@ $(document).ready(function(){
     var footerSmoother = 0;
     var navSmoother = 0;
     var timerVar; 
+    var timerFooter;
     
     /////////footer script/////////
     var chgFooter = function (){
-        $('body').css('margin-bottom',$('.footer').height());
+        var footerCorrection = 4;
         footerSmoother = 0; //reset footerSmoother function
+        timerFooter = setInterval(function(){
+            $('body').css('margin-bottom',$('.footer').height());
+            if (!footerCorrection) {
+                clearInterval(timerFooter);
+                footerCorrection --;
+            }
+        }, 300)
     }
     //window resize trigger event
     $(window).resize(function(){

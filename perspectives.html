@@ -1,64 +1,75 @@
 <!doctype html>
 <html>
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+    <!--- Adobe Typekit for Adelle Sans reg & Bold -->
+    <script src="https://use.typekit.net/usk7nvk.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!--Jquery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    
-    <!--Jquery CDN-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <!--Adobe typekit-->
-    <script src="https://use.typekit.net/usk7nvk.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-    <!--End of Adobe typekit-->    
-    <meta charset="utf-8">
-    <title>Perspectives</title>
+
+    <title>De Charles LLP</title>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-     <div class="container">
-        <div class="fixed-menu">
-            <div class="site-logo">
+<!-- Start of reponsive Nav bar -->
+    <div class="container">
+        <div class="fixed-navbar">
+            <div class="logo-big">
                 <img src="images/NavLogo.png" alt="De Charles Logo">
-            </div>    
-            <div class="nav-links" id="scrollnav">
-                <nav class="nav-links">
-                    <ul class="nav-list nopadding">
-                        <li class="nav-list">
-                            <a href="#">About</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Work</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Services</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Thinking</a>
-                        </li>
-                        <li class="nav-list">
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
-        </div> <!-- end of Nav menu -->
+            <div class="logo-small">
+                <img src="images/NavLogo-768.png" alt="De Charles Logo">
+            </div>
+            <div class="nav-wrapper">
+                <nav>
+                <ul class="nav-content">
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Service">Services</a>
+                    </li>
+                    <li>
+                        <a href="#Thinking">Thinking</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </div><!-- end of Nav menu container -->
+    <div class="container">
         <div class="row">
-            <div class="col-lg-12 nopadding">
-             <img id="propscale" src="images/Perspectives_Banner.png" alt="Tech + Africa">
+            <div class="col-xs-12 nopadding">
+                <div id="percep-banner">
+                    <p class="show-text" id="about-blurb">We see Africa as a place ripe for game-changing ideas and innovation. We work with entities holding similar   <span style="color: #DB7833">perspectives</span>.</p>
+                </div>
              </div>
          </div>
          <div class="row">
-            <div class="col-lg-12 nopadding" id="perspTextBG">
-                <div class="perspTextBlk">
-                    <p id="perspText">Lorem ipsum dolor sit amet, consectetur 
+            <div class="col-xs-12 nopadding" id="perspTextBG">
+                <div class="body-frame">
+                    <p class="body">Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit. Nulla non nisl justo. 
                     Aenean molestie molestie nunc. Morbi sed 
                     dolor mollis, condimentum ligula pharetra, 
@@ -85,18 +96,35 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-lg-12 nopadding">
-                <img src="images/BarriersBlue.png">
-                <img id="infoMap" src="images/PowerProblem_Map_SansHeading.png">
-                <img id="infoPics" src="images/PowerInfograph.png">
-                <p class="infoText infoTextStyle">Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit. Nulla non nisl justo. 
-                Aenean molestie molestie nunc. Morbi 
-                sed dolor mollis, condimentum ligula 
-                pharetra, posuere felis. Morbi id ex 
-                hendrerit, commodo lacus.</p>
+            <div class="col-sm-6 nopadding" style="overflow: hidden; margin-bottom: -99999px; padding-bottom: -99999px;">
+                <div class="persp-info">
+                    <p class="headline-text" id="tech-over">Technology over Barriers</p>
+                </div>
+            </div>
+            <div class="col-sm-6 nopadding" style="overflow: hidden; margin-bottom: -99999px; padding-bottom: -99999px;">
+                <div class="persp-info">
+                    <img class="img-responsive" id="Power-map" src="images/PowerProblem_Map_SansHeading.png" alt="Africa Power Map">
+                </div>
             </div>
          </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-8 nopadding">
+                <div class="persp-info second-row">
+                    <p class="show-text" id="power-info-text">Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Nulla non nisl justo. 
+                    Aenean molestie molestie nunc. Morbi 
+                    sed dolor mollis, condimentum ligula 
+                    pharetra, posuere felis. Morbi id ex 
+                    hendrerit, commodo lacus.</p>
+                </div>
+            </div>
+            <div class="col-sm-8 col-sm-pull-4 nopadding">
+                <div class="persp-info second-row">
+                    <img class="img-responsive" id="power-info" src="images/PowerInfograph.png" alt="power density infographic">
+                </div>
+            </div>
+        </div>
+<!--
          <div class="row">
             <div class="col-lg-3 nopadding">
                 <img src="images/Tech+Africa_300.png">
@@ -111,80 +139,49 @@
                 <img src="images/GetinTouchSq.png">
             </div>
          </div>
+-->
     </div>
     <!--End of Container-->
     <!--Start of Footer-->
     <footer class="footer">
-            <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-1">
+                <img class="img-responsive" id="footerlogo" src="images/De-Charles--footer.png" alt="De Charles">
+                <p class="footertext" id="footerblurbpad">We are an Africa-focused strategy and product development firm.
+                    We help forward-thinking companies build effective products and 
+                    grow influential ventures in Africa's technology sectors.</p>
+                <p class="footertext" id="footerloc">London + Lagos</p>
+            </div>
+            <div class="col-xs-3 col-xs-offset-1">
                 <div class="row">
-                    <div class="col-md-5 nopadding">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img class="footerl-padding" src="images/De-Charles--Footer.png" alt="De Charles">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <p class="footerl-padding footertext" style="padding-top:29px">
-                                We are an Africa-focused strategy and product development firm.
-                                We help forward-thinking companies build effective products and 
-                                grow influential ventures in Africa's technology sectors.
-                                </p>
-                                <p class="footertext footerl-padding" style="padding-left: 42px">
-                                London + Lagos
-                                </p>
-                                <p class="copytext footerl-padding">
-                                &copy; 2016 De-Charles LLP
-                                </p>
-                            </div>
-                        </div>
+                    <div id="Fbfooter_xs" class="col-xs-12">
+                        <img class="img-responsive footersocial_sm" src="images/Icon_Fb_Warm.png" alt="Facebook">
+                        <p class="footertext_2 socialfootertext_xs">Like us</p>
                     </div>
-                    <!--the next col after col-5-->
-                    <div class="col-md-3 nopadding">
-                        <div class="row"> 
-                            <div class="col-md-12">
-                                <p class="FooterMidText FooterMidPad" style="padding-top: 82px">Get In Touch</p>
-                                <p class="FooterMidText FooterMidPad">Media Enquiries</p>
-                                <p class="FooterMidText FooterMidPad">Legal Information</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img src="images/Icon_Fb_Warm.png" class="FooterMidPad FooterIcon">
-                                <img src="images/Icon_Twit_Warm.png" class="FooterIcon" style="padding-left: 12px">
-                                <img src="images/Icon_In_Warm.png" class="FooterIcon" style="padding-left: 12px">                                
-                            </div>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 socialpadding_sm">
+                        <img class="img-responsive footersocial_sm" src="images/Icon_Twit_Warm.png" alt="twitter">
+                        <p class="footertext_2 socialfootertext_xs">Follow us</p>
                     </div>
-                    <!--the next col after col-3--> 
-                    <div class="col-md-4 no padding">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <form>
-                                    <p><input class="FooterLeftPad FooterInput" type="text" placeholder="Full Name">
-                                    <input class="FooterInput" type="email" placeholder="Email Address" style="margin-top: 11px"></p>
-                                    <input class="subButton" type="button" value="Subscribe">
-                                </form>
-                            </div>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 socialpadding_sm">
+                        <img class="img-responsive footersocial_sm" src="images/Icon_In_Warm.png" alt="LinkedIn">
+                        <p class="footertext_2 socialfootertext_xs">Connect us</p>
                     </div>
                 </div>
             </div>
-        </footer>
-     <!--End of Content-->
-    <script>
-        $(document).ready(function(){
-            $("#scrollnav").on("click", function(){
-                                   $(this).hide(1000);
-                                   });
-            
-            $(window).scroll(function(){
-                if($(this).scrollTop()<10){
-                    $("#scrollnav").show(1000);
-                    //alert($(window).scrollTop() + " px");
-                }
-            });
-        });
-    </script>
+        </div>
+        <div class="row">
+            <div class="col-xs-3 col-xs-offset-1 btmrow_pad">
+                <p class="footertext_2">Get In Touch</p>
+            </div>
+        </div>
+    </footer>
+    <!--------------------Start of Scripts--------------->
+    <script src="LLPSite_2016.js"></script>
+    <!--------------------End of Scripts--------------->
+    <!--End of Content-->
 </body>
 </html>
