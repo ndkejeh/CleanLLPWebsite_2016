@@ -309,36 +309,38 @@ img.footerl-padding {
     border: none;
 }
 
+/*
 #engr {
     background: url(images/EngineersBlock.png);
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
+*/
 
+/*
 .aboutText {
     font-family: Lora;
     font-size: 1.59em;
     color: #ffffff;
 }
+*/
 
-#entre {
-    background: url(images/EntreBlock.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+.tech-pad {
+    padding-left: 21px;
+    padding-top: 34px;
+    padding-right: 10px
 }
 
-.entreText {
+#entre-text {
     position: absolute;
-    top: 314px;
-    left: 21px;
-    right: 78px;
+    bottom: 25px;
+    padding-right: 78px;
 }
 
-.engrText {
+#engr-text {
     position: absolute;
-    top: 314px;
-    left: 16px;
-    right: 37px;
+    bottom: 25px;
+    padding-right: 37px;
 }
 
 #multi {
@@ -347,25 +349,23 @@ img.footerl-padding {
     background-size: 100% auto;
 }
 
-.multiText {
+.multi-text {
     position: absolute;
-    top: 34px;
+    bottom: 25px;
     left: 444px;
     right: 15px;
 }
 
-.blueText {
+#blue-text {
     position: absolute;
-    top: 324px;
-    left: 26px;
-    right: 84px;
+    bottom: 8px;
+    padding-right: 84px;
 }
 
-.storyText {
+#story-text {
     position: absolute;
-    top: 509px;
-    left: 17px;
-    right: 68px;
+    bottom: 29px;
+    padding-right: 68px;
 }
 
 #perspText {
@@ -1114,4 +1114,68 @@ p.body:not(:first-child) {
         padding-left: 60px;
         padding-right: 20px;
     }
+}
+.tech-page-blk {
+    background-color: #3a7585;
+    height: 450px;
+    position: relative;
+}
+
+
+
+.tech-text {
+/*    position: absolute;*/
+    font-size: 240%;
+/*    font-size: 1.9vw;*/
+    padding-left: 21px;
+}
+
+#emgr-blk {
+    background-color: #db7833;
+}
+
+#multi-blk {
+    background-color: #018255;
+}
+
+#story-blk {
+    height: 620px;
+    background-color: #4fa1b7
+}
+
+#blue-blk {
+    background-color: #b24026;
+}
+
+@media (max-width: 1190px) {
+    .tech-text {
+        font-size: 240%;
+        line-height: 120%
+    }
+}
+
+@media (max-width: 1128px) {
+     .tech-text {
+        font-size: 230%;
+        line-height: 120%
+    }
+    .multi-text {
+        left: 410px
+    }
+}
+
+@media (max-width: 1060px) {
+    .tech-text {font-size: 210%;}
+}
+#red-fill {
+    background-color: #b24026;
+}
+
+#blue-fill {
+    background-color: #4fa1b6;
+}
+
+@media (max-width: 992px) {
+    #red-fill {display: none;}
+    #blue-fill {display: none;}
 }
