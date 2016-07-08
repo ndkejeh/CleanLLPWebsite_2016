@@ -1045,25 +1045,17 @@ p.body:not(:first-child) {
     font-weight: 700;
     color: #bfbfbf;
     font-size: 10em;
-    font-size: 8vw;
+    font-size: 6.5vw;
 }
 
 #Power-map {
     padding-top: 71px;
 }
 
-@media(max-width: 768px) {
-    #power-map {
-        padding-top: 0px;
-    }
-    .headline-text {
-        font-size: 1000%;
-        font-size: 10vw;
-    }
-}
 #tech-over {
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 50px;
+    padding-right: 5px;
 }
 
 .second-row {
@@ -1079,4 +1071,47 @@ p.body:not(:first-child) {
 
 #power-info-text {
     padding: 75px 20px 10px 57px
+}
+
+@media(max-width: 992px) {
+    #power-info-text {
+        padding-right: 10px;
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+    #density-info {
+        padding-top: 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    #power-map {
+        padding-top: 0px;
+    }
+    .headline-text {
+        font-size: 1000%;
+        font-size: 10vw;
+    }
+    #tech-over-text{
+        background-color: #172f42;
+    }
+    #density-info {background-color: #506a72;}
+    #power-info-text {
+        padding: 50px 50px 50px 80px;
+    }
+    #density-info {
+        padding: 50px 30px 50px 0px;
+    }
+    #tech-over {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    #power-info-text{
+        font-size: 5vw;
+        padding-left: 60px;
+        padding-right: 20px;
+    }
 }

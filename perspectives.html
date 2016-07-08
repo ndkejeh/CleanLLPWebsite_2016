@@ -96,13 +96,13 @@
             </div>
          </div>
          <div class="row">
-            <div class="col-sm-6 nopadding" style="overflow: hidden; margin-bottom: -99999px; padding-bottom: -99999px;">
-                <div class="persp-info">
+            <div class="col-sm-6 nopadding">
+                <div class="persp-info" id="tech-over-text">
                     <p class="headline-text" id="tech-over">Technology over Barriers</p>
                 </div>
             </div>
-            <div class="col-sm-6 nopadding" style="overflow: hidden; margin-bottom: -99999px; padding-bottom: -99999px;">
-                <div class="persp-info">
+            <div class="col-sm-6 nopadding">
+                <div class="persp-info" id="power-map-box">
                     <img class="img-responsive" id="Power-map" src="images/PowerProblem_Map_SansHeading.png" alt="Africa Power Map">
                 </div>
             </div>
@@ -119,7 +119,7 @@
                 </div>
             </div>
             <div class="col-sm-8 col-sm-pull-4 nopadding">
-                <div class="persp-info second-row">
+                <div class="persp-info second-row" id="density-info">
                     <img class="img-responsive" id="power-info" src="images/PowerInfograph.png" alt="power density infographic">
                 </div>
             </div>
@@ -181,6 +181,30 @@
     </footer>
     <!--------------------Start of Scripts--------------->
     <script src="LLPSite_2016.js"></script>
+    <script>
+        $(document).ready(function(){
+            //initialise #tech-over-text height - run the resize event//
+          if(window.innerWidth > 768){ //then we're not in xs/mobile view so run i
+                     $("#tech-over-text").css('height', $("#power-map-box").height());    
+                }
+                else { //we're in the small view were we'd like auto height
+                    $("#tech-over-text").css('height', "auto"); 
+                    $(".second-row").css('height', "auto"); 
+                }
+            
+            //Run the resize event whenever the window is resized//
+            $(window).resize(function(){
+                if(window.innerWidth > 768){ //then we're not in xs/mobile view so run i
+                    $("#tech-over-text").css('height', $("#power-map-box").height());  
+                    $(".second-row").css('height', "300px"); 
+                }
+                else { //we're in the small view were we'd like auto height
+                     $("#tech-over-text").css('height', "auto"); 
+                     $(".second-row").css('height', "auto"); 
+                }
+            });
+        })
+    </script>
     <!--------------------End of Scripts--------------->
     <!--End of Content-->
 </body>
