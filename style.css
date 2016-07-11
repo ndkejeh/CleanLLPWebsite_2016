@@ -1115,3 +1115,9 @@ p.body:not(:first-child) {
         padding-right: 20px;
     }
 }
+#africa50-banner {
+    background: url(images/Banner.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+}
