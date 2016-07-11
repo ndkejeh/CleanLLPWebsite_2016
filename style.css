@@ -1121,7 +1121,9 @@ p.body:not(:first-child) {
     position: relative;
 }
 
-
+@media (max-width: 992px) {
+    .tech-page-blk {display: none;}
+}
 
 .tech-text {
 /*    position: absolute;*/
