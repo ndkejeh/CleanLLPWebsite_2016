@@ -331,6 +331,14 @@ img.footerl-padding {
     padding-right: 10px
 }
 
+@media (max-width: 992px) {
+    .tech-pad {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 34px;
+    }
+}
+
 #entre-text {
     position: absolute;
     bottom: 25px;
@@ -996,7 +1004,7 @@ p.body:not(:first-child) {
 .quote-text {
     font: 700 550% Georgia;
     line-height: 130%;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 992px) {
@@ -1117,14 +1125,15 @@ p.body:not(:first-child) {
 }
 
 #africa50-banner {
-    background: url(images/Banner.png);
-    background-repeat: no-repeat;
-    height: 700px;
-    position: relative;
+    background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(images/Banner.png);
 }
 
 .tech-page-blk {
-    background-color: #3a7585;
+/*    background-color: #3a7585;*/
     height: 450px;
     position: relative;
 }
@@ -1135,12 +1144,12 @@ p.body:not(:first-child) {
 
 .tech-text {
 /*    position: absolute;*/
-    font-size: 240%;
+    font-size: 230%;
 /*    font-size: 1.9vw;*/
     padding-left: 21px;
 }
 
-#emgr-blk {
+#engr-blk {
     background-color: #db7833;
 }
 
@@ -1188,5 +1197,154 @@ p.body:not(:first-child) {
 @media (max-width: 992px) {
     #red-fill {display: none;}
     #blue-fill {display: none;}
+    .tech-text {
+        padding-top: 20%;
+        padding-bottom: 10px;
+    }
+    
+    #story-blk .tech-text {padding-top: 60%;}
+    #story-blk {height: auto;}
+    #engr-blk .tech-text {padding-top: 25%;}
 }
 
+@media (max-width: 768px) {
+    #multi-blk .tech-text {padding-top: 5%;}
+    #engr-blk .tech-text {padding-top: 25%;}
+    #entre-blk .tech-text {padding-top: 30%;}
+    #story-blk .tech-text {padding-top: 60%;}
+    
+}
+
+@media (max-width: 795px) {
+    .tech-text {
+        font-size: 2.7vw;
+    }
+}
+
+#entre-blk {
+    background-color: #3a7585;
+}
+
+.work-headline {
+    position: absolute;
+    font-weight: 700;
+    font-family: "adelle-sans";
+    font-size: 720%;
+    line-height: 120%;
+    width: 39%;
+    color: #ffffff;
+    bottom: 20px;
+}
+
+@media (max-width: 992px) {
+    .work-headline {font-size: 8vw;}
+}
+
+@media (max-width: 768px){
+    .work-headline {font-size: 600%; padding-bottom: 20px;}
+}
+.work-banner {
+    background-repeat: no-repeat;
+    position: relative;
+/*    background-size: contain;*/
+/*    max-width: 100%;*/
+    min-height: 700px;
+}
+
+.africa50-headline {
+    bottom: 56%;
+    margin-left: 59%;
+}
+
+.blue-height {
+/*    Dummy class for JQuery calcs*/
+}
+
+.story-height {
+/*    Dummy class for JQuery calcs*/
+}
+
+.multi-height {
+    /*    Dummy class for JQuery calcs*/
+}
+
+.work-title {
+    font: 700 720% "adelle-sans";
+    color: #ffffff;
+    padding-top: 44px;
+}
+
+.client-text {
+    font: 400 300% "Lato";
+    color: #be897d;
+}
+.client-text:first-child {
+    padding-top: 50px;
+}
+.service-text {
+    font: 400 240% Lato;
+    color: #db7833;
+    padding-top: 20px;
+}
+
+.work-social-icons {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 13px;
+    padding-bottom: 18px;
+}
+
+.work-blurb-blk {
+    width: 80%;
+    margin: auto;
+    padding-top: 55px;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.red-bg {
+    background-color: #b24026;
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+.centre-blk {
+    margin: auto;
+}
+
+.grey-bg {
+    background-color: #252525;
+}
+
+.git-btn {
+    position: absolute;
+    width: 153px;
+    
+}
+
+#about-red {
+/*    Dummy ID for JQuery purposes */
+}
+
+.banner-container {
+    position: relative;
+}
+
+
+
+.banner-overlay {
+    position: absolute;
+/*
+    width: 100%;
+    height: 100%;
+*/
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(3,3,3,0.6);
+}
