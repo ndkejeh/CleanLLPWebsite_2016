@@ -705,7 +705,6 @@ p.body {
     font-size: 1.12em;
     font-size: 1.6vw;
     color: #000;
-    letter-spacing: 0.8px;
     line-height: 150%;
 }
 
@@ -741,7 +740,7 @@ p.body:not(:first-child) {
         }
     }
     .body-frame {
-        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -webkit-column-count: 1; /* Chrome, Safari, Opera 
         -moz-column-count: 1; /* Firefox */
         column-count: 1;
     }
@@ -996,8 +995,8 @@ p.body:not(:first-child) {
 }
 
 .quote-block {
-    background-color: #fff;
-    padding: 81px 20px 81px 61px;
+/*    background-color: #fff;*/
+    padding: 100px 20px 100px 61px;
     
 }
 
@@ -1230,9 +1229,9 @@ p.body:not(:first-child) {
     font-weight: 700;
     font-family: "adelle-sans";
     font-size: 720%;
-    font-size: 6vw;
+/*    font-size: 6vw;*/
     line-height: 120%;
-    width: 39%;
+    width: 40.5%;
     color: #ffffff;
     bottom: 20px;
 }
@@ -1259,8 +1258,8 @@ p.body:not(:first-child) {
 }
 
 .africa50-headline {
-    bottom: 56%;
-    margin-left: 59%;
+    bottom: 59%;
+    margin-left: 56%;
 }
 
 .blue-height {
@@ -1283,10 +1282,12 @@ p.body:not(:first-child) {
 
 .client-text {
     font: 400 300% "Lato";
+    line-height: 120%;
+    font-size: 2vw;
     color: #be897d;
 }
 .client-text:first-child {
-    padding-top: 50px;
+    padding-top: 13%;
 }
 .service-text {
     font: 400 240% Lato;
@@ -1301,36 +1302,6 @@ p.body:not(:first-child) {
     padding-bottom: 18px;
 }
 
-@media (max-width: 992px) {
-    .work-title#a50-title {
-        padding-top: 60px;
-        font-size: 1000%;
-        font-size: 10.4vw;
-    }
-    .client-text {
-        font-size: 250%;
-        font-size: 2.6vw;
-    }
-    .service-text {
-        font-size: 230%;
-        font-size: 2.3vw;
-    }
-    .work-social-icons {
-        width: 8vw;
-        height: auto;
-    }
-}
-
-@media (max-width: 768px) {
-    .client-text {
-        font-size: 250%;
-        font-size: 3.3vw;
-    }
-     .service-text {
-        font-size: 180%;
-         font-size: 3.3vw;
-    }
-}
 .work-blurb-blk {
     width: 80%;
     margin: auto;
@@ -1358,9 +1329,9 @@ p.body:not(:first-child) {
 }
 
 .git-btn {
-    position: absolute;
     width: 153px;
-    
+    height: 47px;
+    float: right;
 }
 
 #about-red {
@@ -1380,4 +1351,102 @@ p.body:not(:first-child) {
     left: 0;
     bottom: 0;
     background: rgba(0,0,0,0.4);
+}
+
+.get-in-touch {
+    color: #fff; 
+    font-size: 20px; 
+    font-family: 'adelle-sans'; 
+    margin: auto;
+    width: 112px;
+    padding-top: 10px;
+}
+
+@media (max-width: 992px) {
+    .work-title#a50-page {
+        padding-top: 60px;
+        font-size: 1000%;
+        font-size: 10.4vw;
+    }
+    .client-text {
+        font-size: 250%;
+        font-size: 2.6vw;
+    }
+    .service-text {
+        font-size: 230%;
+        font-size: 2.3vw;
+    }
+    .work-social-icons {
+        width: 8vw;
+        height: auto;
+    }
+    
+    .work-blurb {
+        background-color: #B24026;
+    }
+    
+    .work-blurb-blk {
+        padding-bottom: 50px;
+        width: auto;
+        margin-left: 57px;
+        margin-right: 20px;
+    }
+    .work-blurb-blk p.body {
+        color: #fff;
+        font-size: 223%;
+        font-size: 2.8vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .client-text {
+        font-size: 230%;
+        font-size: 3vw;
+    }
+     .service-text {
+        font-size: 180%;
+         font-size: 3.3vw;
+    }
+     .work-blurb-blk {
+         padding-top: 7.8%;
+         padding-bottom: 7.8%
+    }
+     .work-social-icons {
+        padding-top: 10%;
+        padding-right: 3%;
+    }
+}
+
+@media (max-width: 550px) {
+    .client-text {
+        font-size: 160%;
+        font-size: 3.2vw;
+    }
+    .client-text:first-child {
+    padding-top: 15%;
+    }
+     .work-social-icons {
+        width: 10vw;
+        padding-bottom: 5%;
+    }
+    .service-text {
+        padding-top: 10%;
+    }
+    .work-title#a50-page {
+        padding-top: 28%;
+    }
+    .git-btn {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .work-blurb-blk p.body {
+        font-size: 140%;
+        font-size: 3.5vw;
+    }
+    .client-text {
+        font-size: 160%;
+        font-size: 3.2vw;
+    }
 }
