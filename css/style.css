@@ -31,9 +31,9 @@ body {
 
 .footer{
     position: absolute;
-    left: 50%;
     width: 1200px;
-    transform: translateX(-50%);
+    left: 50%;
+    transform: translatex(-50%);
     bottom: 0;
     /** may have to have different footer heights at different media queries**
     height: 300px; unnecessary due to jquery!!**/ 
@@ -256,9 +256,8 @@ img#corner {
 }
 
 .footertext {
-    color: #ffffff;
-    font-size: 1.05em;
-    font-family: Georgia, serif;
+    color: #b1b1b1;
+    font: 1.5em/1.35em Georgia;
 }
 
 .copytext {
@@ -560,7 +559,7 @@ img.footerl-padding {
 
 input:nth-child(2) { 
     /**input that is the second child of its parent**/
-    margin-top: 11px;
+/*    margin-top: 11px;*/
 }
 
 #footerlogo { /**media queries to amend**/
@@ -569,7 +568,7 @@ input:nth-child(2) {
 }
 
 #footerloc {
-    padding-top: 41px;
+    padding-top: 22px;
 }
 
 p {
@@ -592,6 +591,8 @@ p {
 .footersocial_sm {
     display: inline-block;
     padding-right: 20px;
+    width: 6em;
+    height: auto;
 }
 
 .socialpadding_sm {
@@ -995,15 +996,15 @@ p.body:not(:first-child) {
 }
 
 .quote-block {
-/*    background-color: #fff;*/
     padding: 100px 20px 100px 61px;
+    margin-right: 20%;
     
 }
 
 .quote-text {
     font: 700 550% Georgia;
     line-height: 130%;
-    color: rgba(0, 0, 0, 0.7);
+    color: black;
 }
 
 @media (max-width: 992px) {
@@ -1022,6 +1023,7 @@ p.body:not(:first-child) {
     .quote-block {
         padding-top: 30px;
         padding-bottom: 30px;
+        margin-right: 0%;
     }
 }
 
@@ -1362,6 +1364,21 @@ p.body:not(:first-child) {
     padding-top: 10px;
 }
 
+.cite-author {
+    padding-top: 20px;
+    font-family: "adelle-sans";
+    color: black;
+    font-size: 250%;
+}
+
+.cite-position {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #000; 
+    padding-top: 7px; 
+    font-size: 200%;
+}
+
 @media (max-width: 992px) {
     .work-title#a50-page {
         padding-top: 60px;
@@ -1395,6 +1412,12 @@ p.body:not(:first-child) {
         color: #fff;
         font-size: 223%;
         font-size: 2.8vw;
+    }
+    .cite-author {
+        font-size: 2.6vw;
+    }
+    .cite-position {
+        font-size: 2.1vw;
     }
 }
 
@@ -1438,6 +1461,13 @@ p.body:not(:first-child) {
     .git-btn {
         display: none;
     }
+    .cite-position {
+        font-size: 2.7vw;
+    }
+    .cite-author {
+        font-size: 150%;
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1448,5 +1478,107 @@ p.body:not(:first-child) {
     .client-text {
         font-size: 160%;
         font-size: 3.2vw;
+    }
+}
+
+
+
+.footer-logo-blk {
+    padding-left: 40px;
+    padding-bottom: 54px;
+}
+
+.f-text-links .show-text {
+    padding-bottom: .6em;
+    color: #b1b1b1;
+    font-weight: 400;
+    font-size: 1.91em;
+}
+
+.f-text-links {
+    padding-top: 82px;
+    padding-left: 68px;
+}
+
+.f-social-lg {
+    padding-left: 68px;
+    padding-top: 15px;
+}
+
+@media (min-width: 992px) {
+    .footersocial_sm {
+        padding-right: 12px;
+    }
+}
+.signup-area {
+    width: 247px;
+    margin: auto;
+    padding-top: 71px;
+}
+
+.signup-area > input {
+    width: 100%;
+    height: 48px;
+    font: 400 1.5em Lato;
+    padding-left: 8%;
+    margin-top: 11px;
+}
+
+.signup-btn {
+    float: right;
+    width: 102px;
+    height: 28px;
+    background-color: #db7833;
+    font: 300 1.8em Lato;
+    color: #ffffff;
+    border: none;
+    margin-top: 13px;
+    text-align: center;
+}
+
+#footercopy {
+    color: #717171;
+    font: 400 1.2em Lato;
+    padding-top: 20px;
+}
+
+@media (max-width: 1160px) {
+    .footersocial_sm {width: 4.6em;
+}
+
+@media (max-width: 992px) {
+    .footer-logo-blk {
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+    .footertext {margin-right: 60px;}
+    .f-text-links {padding-left: 0px;}
+    .footersocial_sm {width: 6em;
+}
+@media (max-width: 768px) {
+    #footerlogo {margin: auto;}
+    #footerblurbpad {margin: auto;}
+    #footerloc {margin: auto;}
+    #footercopy {margin: auto;}
+    .footertext {text-align: center;}
+    .f-text-links {
+        width: 150px;
+        margin: auto;
+        text-align: center;
+        padding-top: 30px
+    }
+    .f-social-lg {
+        width: 126px;
+        margin: auto;
+        padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .footersocial_sm {
+        width: 4em;
+        padding-right: 2px
+    }
+    .signup-area {
+        padding-top: 0px;
+        width: 200px;
     }
 }
