@@ -85,8 +85,8 @@ body {
     padding: 0;
     list-style-type: none;
     /**start off clearing the ini padding and margins**/
-    overflow: hidden;
-    background-color: #fff;
+/*    overflow: hidden;*/
+/*    background-color: #fff;*/
     padding-top: 25px;
     height: 72px; 
 /*    margin: auto;*/
@@ -95,17 +95,14 @@ body {
 
 .nav-wrapper {
     float: left;
+    padding-left: 12px;
     
 }
 
 .nav-content li {
     display: inline;
     padding-right: 20px;
-}
-
-.nav-content li:first-child {
-    padding-left: 12px;
-    
+    position: relative;
 }
 
 .nav-content li a {
@@ -114,6 +111,22 @@ body {
     font-size: 1.7em;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.nav-content ul {
+    background: #ffffff;
+    list-style: none;
+    position: absolute;
+    top: 39px;
+    padding:  0;
+    left: 0px;
+}
+
+.nav-content ul li {
+    padding-left: 20px; 
+    padding-top: 20px;
+    display: block;
+    
 }
 
 .logo-small {
@@ -145,97 +158,6 @@ body {
         padding-left: 15px;
     }
 }
-
-
-/** Old footer CSS (defunct)**
-.fixed-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 626px;
-    height: 72px;
-    z-index: 10;
-}
-
-@media (min-width: 1200px){
-    .fixed-menu{
-        /***These two lines keep the top left positioning when content is not 100% of screen**
-        left: 50%;
-        transform: translateX(-95.9%);
-    }
-}
-
-.nav-list li{
-    display: inline;
-    padding-right: 5px;
-    padding-left: 5px;
-    text-decoration: none;
-    font-size: 1.3em;
-    font-family: AdelleSans, sans-serif;
-}
-
-.nav-list a {
-    text-decoration: none;
-    color: black;
-}
-
-.nav-list a:hover {
-    color: #b24026;
-}
-
-.nav-list {
-    overflow: hidden;
-    
-}
-
-.site-logo {
-    float: left;
-}
-
-@media (max-width: 992px){
-    .site-logo {display: none;}
-}
-
-.small-site-logo {
-    display: none;
-    float: left;
-}
-
-@media (max-width: 992px) {
-    .small-site-logo {display: inline;}
-}
-
-.nav-links {
-    height: 72px;
-    text-align: center;
-    background: #fff;
-/*    display: block;*
-}
-
-@media (max-width: 992px){
-/*    .nav-links {display: none;}*
-    
-    .nav-links.jresponse {position: relative;}
-    
-    .nav-links.jresponse li {
-        float: left;
-        display: inline-block;
-    }
-    
-    .nav-links.jresponse li a {
-        display: block;
-        text-align: left;
-    }
-}
-
-.nav-links nav {
-    padding-top: 25px;
-    padding-left: 33px;
-}
-End of Old footer CSS (Defunct) **/
-    
-    
-    
     
 img#corner {
     width: 34px; 
@@ -1581,4 +1503,12 @@ p.body:not(:first-child) {
         padding-top: 0px;
         width: 200px;
     }
+    .footer-logo-blk {
+        border-bottom: 1px solid #b1b1b1;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
