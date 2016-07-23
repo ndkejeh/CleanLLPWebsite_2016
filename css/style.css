@@ -65,13 +65,14 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    width: 591px;
+    width: 592px;
     z-index: 10;
 }
 
 @media (min-width: 1200px){
     .fixed-navbar{
         left: 50%;
+/*        transform: translateX(-150%);*/
         transform: translateX(-101.5%);
     }
 }
@@ -87,34 +88,41 @@ body {
     /**start off clearing the ini padding and margins**/
 /*    overflow: hidden;*/
 /*    background-color: #fff;*/
-    padding-top: 25px;
-    height: 72px; 
+/*    padding-top: 25px;*/
+/*    height: 72px; */
 /*    margin: auto;*/
     
 }
 
+ul {
+    background: #fff;
+}   
+
+}
 .nav-wrapper {
-    float: left;
-    padding-left: 12px;
+/*    float: left;*/
+/*    padding-left: 12px;*/
+    display: inline-block;
     
 }
 
 .nav-content li {
     display: inline;
-    padding-right: 20px;
+/*    padding-right: 20px;*/
     position: relative;
 }
 
 .nav-content li a {
     font-family: Lato, sans-serif;
     color: #000000;
+    display: inline-block;
     font-size: 1.7em;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 24px 11px;
+/*    padding-right: 0px;*/
 }
 
 .nav-content ul {
-    background: #ffffff;
+    background: #333333;
     list-style: none;
     position: absolute;
     top: 39px;
@@ -124,9 +132,23 @@ body {
 
 .nav-content ul li {
     padding-left: 20px; 
-    padding-top: 20px;
+/*    padding-top: 10px;*/
     display: block;
-    
+}
+
+.nav-content ul li a {
+    color: #fff;
+    padding: 10px 30px 10px 10px;
+}
+
+.nav-content li a:hover {
+    background: #333333;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-content li i {
+    display: none;
 }
 
 .logo-small {
@@ -138,24 +160,47 @@ body {
     .logo-small {display: inline;}
     .logo-big {display: none;}
     
-    ul.nav-content {
-        height: auto;
-        padding-top: 0px;
+    
+    .nav-wrapper {
+        display: inline-block;
     }
     
-    ul.nav-content li {
+    .nav-content li {
         display: block;
-        float: none;
-        padding: 5px 30px 5px 20px;
+        
+/*        width: 100%;*/
     }
-    
-    ul.nav-content li a {
+    .nav-content li span {
+/*        Relies on relative position for li*/
+        position: absolute;
+        font-size: 24px;
+        top: 0px;
+        right: 0px; /* important */
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-right: 10px
+    }
+    img.nav-expand {
+        width: 1em;
+        height: auto;
+    }
+    .nav-content li a {
+        display: inline-block;
         font-size: 3.4em;
         font-weight: 700;
+        width: 100%;
+        padding: 5px 70px 5px 20px;
+        
+    }
+    
+    .nav-content ul {
+        position: static;
+        display: block;
+        font-size: 0.7em;
     }
     
     .nav-content li:not(:first-child){
-        padding-left: 15px;
+/*        padding-left: 15px;*/
     }
 }
     

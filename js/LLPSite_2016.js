@@ -36,7 +36,7 @@ $(document).ready(function(){
                            if($(window).scrollTop() > 10){//then we'll hide the menu 4 seconds after mouseover
                                 timerVar=setTimeout(function(){$(".nav-wrapper").hide(500)},4000);   
                            }
-                            alert(window.innerWidth + " px");
+                           // alert(window.innerWidth + " px");
                           //  alert($(window).scrollTop()+ "px");
                            });
     //need to do an if(open) on scroll hide//
