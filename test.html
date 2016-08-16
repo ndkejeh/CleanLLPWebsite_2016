@@ -27,7 +27,7 @@
     <div class="container">
         <div class="fixed-navbar">
             <div class="logo-big">
-                <img src="images/NavLogo.png" alt="De Charles Logo">
+                <a href="#home"><img src="images/NavLogo.png" alt="De Charles Logo"></a>
             </div>
             <div class="logo-small">
                 <img src="images/NavLogo-768.png" alt="De Charles Logo">
@@ -35,15 +35,18 @@
             <div class="nav-wrapper">
                 <nav>
                 <ul class="nav-content">
+                    <li id="home-link">
+                        <a href="#home">Home</a>
+                    </li>
                     <li>
                         <a href="#About">About</a>
                     </li>
                     <li>
                         <a href="#Work">Work</a>
                     </li>
-                    <li>
-                        <a href="#Service">Services</a><span class="material-icons">add</span>
-                        <ul>
+                    <li id="testing">
+                        <a class="change-icon" href="#Service">Services</a><span class="material-icons">add</span>
+                        <ul class="sub-menu">
                             <li><a href="#productstrategy">Strategy</a></li>
                             <li><a href="#productdesign">Design</a></li>
                             <li><a href="#productdelivery">Delivery</a></li>
