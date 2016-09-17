@@ -6,7 +6,7 @@ $(document).ready(function(){
     var timerFooter;
     var closeEventTimer; //the timer for the navbar close function
     
-    /////////footer script/////////
+    /////////////////////////////////////Footer Script//////////////////////////////////////////////////
     var chgFooter = function (){
         var footerCorrection = 4;
         footerSmoother = 0; //reset footerSmoother function
@@ -20,14 +20,20 @@ $(document).ready(function(){
     }
     //window resize trigger event
     $(window).resize(function(){
+        /////////////////Important height adjustment event for footer///////////////////
         footerSmoother ++; //increment smoother variable make sure resize event is needed
         if(footerSmoother == 1){
             chgFooter(); //and call the change footer method
         }
+        ////////Important close event for Navbar///////////////////
+        if (window.innerWidth > 992){
+             $("span.material-icons").text("add");
+             $("span.material-icons").next().removeAttr("style");
+        }
     });
     ///////////Maybe re-write setInterval code for footer to see if initial extra height issue is solved///////
 
-    /////////Navbar script/////////
+    //////////////////////////////////////Navbar Script/////////////////////////////////////////////////////////////
     $(".nav-wrapper").on("click", function(){
                     //       $(this).hide(500);
                            });
@@ -47,14 +53,18 @@ $(document).ready(function(){
         $(".nav-wrapper").toggle(250);
     });
     $("a.change-icon").mouseenter(function() {
-                              $(".material-icons").css("color", "#fff");
+                              $(this).next().css("color", "#fff");
                             });      
     $("a.change-icon").mouseleave(function() {
 //                            $(".material-icons").css("color", "#000");
-                            $(".material-icons").removeAttr("style");
+                            $(this).next().removeAttr("style"); //takes away the style attribute it built on mouseenter
                             });
     $("span.material-icons").click(function () {
-                        if($(this).text() == "add") {                    
+                        if($(this).text() == "add") {
+                            //first rest any other open dropdowns
+                            $("span.material-icons").text("add");
+                            $("ul.sub-menu").slideUp("500");
+                            //then open this particular dropdown
                             $(this).next().slideDown("500");
                             $(this).text("clear");                                                
                         } else {
@@ -62,6 +72,12 @@ $(document).ready(function(){
                             $(this).text("add");
                         }                    
                     });
+    $("ul.sub-menu").mouseenter(function() {
+        $(this).prevAll().css({"background": "#333333", "color": "#fff"});
+    });
+    $("ul.sub-menu").mouseleave(function() {
+        $(this).prevAll().removeAttr("style");
+    });
 
     $(window).scroll(function(){
         if($(this).scrollTop()<10){

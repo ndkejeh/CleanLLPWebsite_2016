@@ -102,7 +102,7 @@ ul {
 .nav-wrapper {
 /*    float: left;*/
 /*    padding-left: 12px;*/
-    display: inline-block;
+/*    display: inline-block; commented this as test and wrapper was fine!*/
     
 }
 
@@ -119,6 +119,12 @@ ul {
     font-size: 1.7em;
     padding: 24px 11px;
 /*    padding-right: 0px;*/
+}
+
+.nav-content li a:hover {
+    background: #333333;
+    color: #fff;
+    text-decoration: none;
 }
 
 .nav-content ul.sub-menu {
@@ -140,12 +146,6 @@ ul {
     padding: 10px 30px 10px 30px;
 }
 
-.nav-content li a:hover {
-    background: #333333;
-    color: #fff;
-    text-decoration: none;
-}
-
 span.material-icons {display: none;}
 
 #home-link {
@@ -158,7 +158,7 @@ span.material-icons {display: none;}
 }
 
 @media (min-width: 993px) {
-    #testing:hover .sub-menu {
+    #dropdown:hover .sub-menu { /*Important - this is the dropdown feature*/
         display: inline-block;
         background: #333333;
     }
@@ -173,7 +173,7 @@ span.material-icons {display: none;}
     
     
     .nav-wrapper {
-        display: inline-block;
+        display: inline-block; /*Important*/
     }
     
     .nav-content li {
@@ -196,9 +196,8 @@ span.material-icons {display: none;}
         cursor: pointer;
     }
     
-    img.nav-expand {
-        width: 1em;
-        height: auto;
+    .nav-content ul li a:hover {
+        background: #b24026;
     }
     .nav-content li a {
         display: inline-block;
