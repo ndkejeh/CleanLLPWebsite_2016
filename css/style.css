@@ -29,6 +29,18 @@ body {
 }
 */
 
+p.img-info {
+    display: none;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    background: #b24036; 
+    font-family: "adelle-sans";
+    font-size: 2.5em;
+    color: #fff;
+}
+
 .footer{
     position: absolute;
     width: 1200px;

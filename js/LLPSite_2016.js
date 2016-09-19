@@ -98,4 +98,11 @@ $(document).ready(function(){
                             alert("It's true!!");
                         };    
     }, 300);
+    /////////////////////////////////////////Image Overlays//////////////////////////////////////////
+    $("img.img-responsive").mouseenter(function() {
+        $(this).next().slideDown("100");
+    })
+    $("img.img-responsive").mouseleave(function() {
+        $(this).next().slideUp("100");
+    })
 });
