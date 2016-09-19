@@ -100,9 +100,13 @@ $(document).ready(function(){
     }, 300);
     /////////////////////////////////////////Image Overlays//////////////////////////////////////////
     $("img.img-responsive").mouseenter(function() {
-        $(this).next().slideDown("100");
+        if (window.innerWidth > 992) {
+            $(this).next().slideDown("100");   
+        }
     })
     $("img.img-responsive").mouseleave(function() {
-        $(this).next().slideUp("100");
+        if (window.innerWidth > 992) {
+            $(this).next().slideUp("100");   
+        }
     })
 });
