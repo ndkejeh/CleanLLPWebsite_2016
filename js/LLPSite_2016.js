@@ -40,7 +40,7 @@ $(document).ready(function(){
 
     $(".logo-big").mouseover(function() {
                            $(".nav-wrapper").show(250);
-                           if($(window).scrollTop() > 10){//then we'll hide the menu 4 seconds after mouseover
+                           if($(window).scrollTop() > 10 && !($("ul").is(":hover"))){//then we'll hide the menu 4 seconds after mouseover
                                 timerVar=setTimeout(function(){$(".nav-wrapper").hide(500)},4000);   
                            }
                            // alert(window.innerWidth + " px");
@@ -99,12 +99,12 @@ $(document).ready(function(){
                         };    
     }, 300);
     /////////////////////////////////////////Image Overlays//////////////////////////////////////////
-    $("img.img-responsive").mouseenter(function() {
+    $("img.slide-over").mouseenter(function() { //make another class in order to differentiate!!
         if (window.innerWidth > 992) {
             $(this).next().slideDown("100");   
         }
     })
-    $("img.img-responsive").mouseleave(function() {
+    $("img.slide-over").mouseleave(function() {
         if (window.innerWidth > 992) {
             $(this).next().slideUp("100");   
         }

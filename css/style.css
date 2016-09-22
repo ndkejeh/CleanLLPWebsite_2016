@@ -147,7 +147,7 @@ ul {
     background: #333333;
     list-style: none;
     position: absolute;
-    top: 40px;
+    top: 39px;
     padding:  0;
     left: 0px;
 }
@@ -179,7 +179,7 @@ span.material-icons {display: none;}
         background: #333333;
     }
     .sub-menu li a:hover {
-        background: #b24026;
+        background: #424242;
     }
 }
 
@@ -213,7 +213,7 @@ span.material-icons {display: none;}
     }
     
     .nav-content ul li a:hover {
-        background: #b24026;
+        background: #424242;
     }
     .nav-content li a {
         display: inline-block;
@@ -248,6 +248,7 @@ img#corner {
     margin: 0px !important;
 }
 
+.slide-over {} /*dummy variable for jquery img hover*/
 
 .footerl-padding {
     padding-left: 9%;
@@ -987,7 +988,7 @@ p.body:not(:first-child) {
 }
 
 #percep-banner {
-    background-image: url(images/ABoutPagesBanner.png);
+    background-image: url(../images/ABoutPagesBanner.png);
     background-repeat: no-repeat;
     height: 700px;
     position: relative;

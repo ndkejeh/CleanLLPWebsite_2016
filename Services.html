@@ -1,32 +1,34 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<!--Jquery CDN-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!--Jquery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
-<title>De Charles LLP</title>
-<link href="style.css" rel="stylesheet">
+    <title>De Charles LLP</title>
+    <link rel="icon" href="../images/BlockFavicon_Large.jpg"> 
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icons-->
 </head>
 <body>
-   <!-- Start of reponsive Nav bar -->
+ <!-- Start of reponsive Nav bar -->
     <div class="container">
         <div class="fixed-navbar">
             <div class="logo-big">
-                <img src="images/NavLogo.png" alt="De Charles Logo">
+                <a href="#home"><img src="images/NavLogo.png" alt="De Charles Logo"></a>
             </div>
             <div class="logo-small">
                 <img src="images/NavLogo-768.png" alt="De Charles Logo">
@@ -34,20 +36,33 @@
             <div class="nav-wrapper">
                 <nav>
                 <ul class="nav-content">
-                    <li>
-                        <a href="#About">About</a>
+                    <li id="home-link">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li id="dropdown">
+                        <a class="change-icon" href="#About">About</a><span class="material-icons">add</span>
+                        <ul class="sub-menu">
+                            <li><a href="#Africa+Tech">Africa+Tech</a></li>
+                            <li><a href="#perspectives">Perspectives</a></li>
+                            <li><a href="#perceptions">Perceptions</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#Work">Work</a>
                     </li>
-                    <li>
-                        <a href="#Service">Services</a>
+                    <li id="dropdown">
+                        <a class="change-icon" href="#Service">Services</a><span class="material-icons">add</span>
+                        <ul class="sub-menu">
+                            <li><a href="#productstrategy">Strategy</a></li>
+                            <li><a href="#productdesign">Design</a></li>
+                            <li><a href="#productdelivery">Delivery</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#Thinking">Thinking</a>
                     </li>
                     <li>
-                        <a href="#Contact">Contact</a>
+                        <a href="#Contact" >Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -98,38 +113,85 @@
     <!--End of Container-->
     <!--Start of Footer-->
     <footer class="footer">
-        <div class="row">
-            <div class="col-xs-6 col-xs-offset-1">
-                <img class="img-responsive" id="footerlogo" src="images/De-Charles--footer.png" alt="De Charles">
-                <p class="footertext" id="footerblurbpad">We are an Africa-focused strategy and product development firm.
-                    We help forward-thinking companies build effective products and 
-                    grow influential ventures in Africa's technology sectors.</p>
-                <p class="footertext" id="footerloc">London + Lagos</p>
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-5 col-sm-7 col-xs-offset-1 col-md-offset-0">
+                        <div class="footer-logo-blk">
+                            <img class="img-responsive" id="footerlogo" src="../images/De-Charles--footer.png" alt="De Charles">
+                            <p class="footertext hidden-xs" id="footerblurbpad">We build products and strategies for forward-thinking entities in Africa's
+                            tech sectors. We're committed to fusing impact and profit, and bettering global perceptions of Africa.</p>
+                            
+                            <p class="footertext visible-xs-block" id="footerblurbpad">We are an Africa-focused strategy and product development firm.
+                            We help forward-thinking companies build effective products and 
+                            grow influential ventures in Africa's technology sectors. We're committed to fusing impact and profit and bettering global perceptions of Africa.</p>
+                            <p class="footertext" id="footerloc">London + Lagos</p>
+                            <p class="footertext hidden-sm" id="footercopy">&copy 2016 Decharles LLP</p>
+                        </div>
+                    </div>  
+                    <div class="col-xs-4 hidden-lg hidden-md hidden-xs">
+                    <div class="row">
+                        <div id="Fbfooter_xs" class="col-xs-12">
+                            <img class="img-responsive footersocial_sm" src="../images/Icon_Fb_Warm.png" alt="Facebook">
+                            <p class="footertext_2 socialfootertext_xs">Like us</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 socialpadding_sm">
+                            <img class="img-responsive footersocial_sm" src="../images/Icon_Twit_Warm.png" alt="twitter">
+                            <p class="footertext_2 socialfootertext_xs">Follow us</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 socialpadding_sm">
+                            <img class="img-responsive footersocial_sm" src="../images/Icon_In_Warm.png" alt="LinkedIn">
+                            <p class="footertext_2 socialfootertext_xs">Connect us</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-11 col-xs-offset-1 col-md-offset-0 hidden-sm">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="f-text-links">
+                                <p class="show-text">Get in Touch</p>
+                                <p class="show-text">Media Enquiries</p>
+                                <p class="show-text">Legal Information</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="f-social-lg">
+                                <img class="img-responsive footersocial_sm" src="../images/Icon_Fb_Warm.png" alt="Facebook">
+                                <img class="img-responsive footersocial_sm" src="../images/Icon_Twit_Warm.png" alt="twitter">
+                                <img class="img-responsive footersocial_sm" src="../images/Icon_In_Warm.png" alt="LinkedIn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-11 col-xs-offset-1 col-md-offset-0 hidden-sm">
+                    <div class="signup-area">
+                        <input type="text" name="signup-fullname" placeholder="Full Name">
+                        <input type="text" name="signup-email" placeholder="Email">
+                        <button class="signup-btn" type="submit">Subscribe</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-3 col-xs-offset-1">
-                <div class="row">
-                    <div id="Fbfooter_xs" class="col-xs-12">
-                        <img class="img-responsive footersocial_sm" src="images/Icon_Fb_Warm.png" alt="Facebook">
-                        <p class="footertext_2 socialfootertext_xs">Like us</p>
+            <div class="row hidden-lg hidden-md hidden-xs">
+                <div class="col-xs-5 col-xs-offset-1">
+                    <div class="f-text-links">
+                        <p class="show-text">Get in Touch</p>
+                        <p class="show-text">Media Enquiries</p>
+                        <p class="show-text">Legal Information</p>
+                        <p class="footertext" id="footercopy">&copy 2016 Decharles LLP</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 socialpadding_sm">
-                        <img class="img-responsive footersocial_sm" src="images/Icon_Twit_Warm.png" alt="twitter">
-                        <p class="footertext_2 socialfootertext_xs">Follow us</p>
+                <div class="col-xs-6 nopadding">
+                    <div class="signup-area">
+                        <input type="text" name="signup-fullname" placeholder="Full Name">
+                        <input type="text" name="signup-email" placeholder="Email">
+                        <button class="signup-btn" type="submit">Subscribe</button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 socialpadding_sm">
-                        <img class="img-responsive footersocial_sm" src="images/Icon_In_Warm.png" alt="LinkedIn">
-                        <p class="footertext_2 socialfootertext_xs">Connect us</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-3 col-xs-offset-1 btmrow_pad">
-                <p class="footertext_2">Get In Touch</p>
             </div>
         </div>
     </footer>

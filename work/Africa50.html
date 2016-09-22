@@ -23,8 +23,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
     <link rel="icon" href="../images/BlockFavicon_Large.jpg">
-    <title>De Charles LLP</title> <!-- give a pertinent title to each page -->
+    <title>Work | Africa 50</title> <!-- give a pertinent title to each page -->
     <link href="../css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icons-->
     <!---- Carousel plugins on portfolio docs only! -->
     <link href="../css/owl.carousel.css" rel="stylesheet">
     <link href="../css/owl.theme.css" rel="stylesheet">
@@ -34,7 +35,7 @@
     <div class="container">
         <div class="fixed-navbar">
             <div class="logo-big">
-                <img src="../images/NavLogo.png" alt="De Charles Logo">
+                <a href="#home"><img src="../images/NavLogo.png" alt="De Charles Logo"></a>
             </div>
             <div class="logo-small">
                 <img src="../images/NavLogo-768.png" alt="De Charles Logo">
@@ -42,20 +43,33 @@
             <div class="nav-wrapper">
                 <nav>
                 <ul class="nav-content">
-                    <li>
-                        <a href="#About">About</a>
+                    <li id="home-link">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li id="dropdown">
+                        <a class="change-icon" href="#About">About</a><span class="material-icons">add</span>
+                        <ul class="sub-menu">
+                            <li><a href="#Africa+Tech">Africa+Tech</a></li>
+                            <li><a href="#perspectives">Perspectives</a></li>
+                            <li><a href="#perceptions">Perceptions</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#Work">Work</a>
                     </li>
-                    <li>
-                        <a href="#Service">Services</a>
+                    <li id="dropdown">
+                        <a class="change-icon" href="#Service">Services</a><span class="material-icons">add</span>
+                        <ul class="sub-menu">
+                            <li><a href="#productstrategy">Strategy</a></li>
+                            <li><a href="#productdesign">Design</a></li>
+                            <li><a href="#productdelivery">Delivery</a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#Thinking">Thinking</a>
                     </li>
                     <li>
-                        <a href="#Contact">Contact</a>
+                        <a href="#Contact" >Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -66,7 +80,7 @@
         <div class="row">
             <div class="col-lg-12 nopadding">
                 <div class="banner-container">
-                    <img class="img-responsive" src="images/Africa50_Banner.png">
+                    <img class="img-responsive" src="images/Africa50/Africa50_Banner.png">
                     <div class="banner-overlay">
                         <p class="work-headline africa50-headline">For the next 
                         50 years</p>
@@ -129,26 +143,26 @@
         </div>
         <div class="row hidden-sm hidden-xs">
             <div class="col-md-5 nopadding">
-                <img class="img-responsive" src="images/Fox_500.png">
+                <img class="img-responsive" src="images/Africa50/Fox_500.png">
             </div>
             <div class="col-md-7 nopadding">
-                <img class="img-responsive" src="images/RowOne_700.png">
+                <img class="img-responsive" src="images/Africa50/RowOne_700.png">
             </div>
         </div>
         <div class="row hidden-sm hidden-xs">
             <div class="col-md-7 nopadding">
-                <img class="img-responsive" src="images/RowTwo_700.png">
+                <img class="img-responsive" src="images/Africa50/RowTwo_700.png">
             </div>
             <div class="col-md-5 nopadding">
-                <img class="img-responsive" src="images/RowTwo_500.png">
+                <img class="img-responsive" src="images/Africa50/RowTwo_500.png">
             </div>
         </div>
         <div class="row white-bg hidden-lg hidden-md">
             <div id="a50-carousel" class="owl-carousel owl-theme" style="cursor: e-resize;">
-                <div class="item"><img src="images/Fox_500.png"></div>
-                <div class="item"><img src="images/RowOne_700.png"></div>
-                <div class="item"><img src="images/RowTwo_700.png"></div>
-                <div class="item"><img src="images/RowTwo_500.png"></div>
+                <div class="item"><img src="images/Africa50/Fox_500.png"></div>
+                <div class="item"><img src="images/Africa50/RowOne_700.png"></div>
+                <div class="item"><img src="images/Africa50/RowTwo_700.png"></div>
+                <div class="item"><img src="images/Africa50/RowTwo_500.png"></div>
             </div>
         </div>
         <div class="row">
@@ -162,7 +176,7 @@
         </div>
         <div class="row">
             <div class="col-xs-12 nopadding black-bg">
-                <img class="img-responsive centre-blk" src="images/Africa50Sessions_960.png" alt="The Africa Sessions">
+                <img class="img-responsive centre-blk" src="images/Africa50/Africa50Sessions_960.png" alt="The Africa Sessions">
             </div>
         </div>
         <div class="row white-bg" style="padding-bottom: 30px;">
@@ -183,13 +197,13 @@
         </div>
         <div class="row">
             <div class="col-xs-4 nopadding">
-                <img class="img-responsive" src="images/Africa50_Read.jpg">
+                <img class="img-responsive" src="images/Preview/Africa50_Read.jpg">
             </div>
             <div class="col-xs-4 nopadding">
-                <img class="img-responsive" src="images/TINA_Img.jpg">
+                <img class="img-responsive" src="images/Preview/TINA_Img.jpg">
             </div>
             <div class="col-xs-4 nopadding">
-                <img class="img-responsive" src="images/Solis_Img.jpg">
+                <img class="img-responsive" src="images/Preview/Solis_Img.jpg">
             </div>
         </div>
     </div>
@@ -281,6 +295,7 @@
     <!--------------------Start of Scripts--------------->
     <script src="../js/LLPSite_2016.js"></script>
     <script src="../js/plugins/owl.carousel.min.js"></script>
+    <!----------------------Page Specific Scripts---------------->
     <script>
         $(document).ready(function(){
             //initialise #work-blurb-height run the resize event//
