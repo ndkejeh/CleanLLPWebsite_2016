@@ -1542,7 +1542,7 @@ p.body:not(:first-child) {
 }
 
 @media (max-width: 1160px) {
-    .footersocial_sm {width: 4.6em;
+    .footersocial_sm {width: 4.6em;}
 }
 
 @media (max-width: 992px) {
@@ -1552,8 +1552,9 @@ p.body:not(:first-child) {
     }
     .footertext {margin-right: 60px;}
     .f-text-links {padding-left: 0px;}
-    .footersocial_sm {width: 6em;
+    .footersocial_sm {width: 6em;}
 }
+    
 @media (max-width: 768px) {
     #footerlogo {margin: auto;}
     #footerblurbpad {margin: auto;}
@@ -1588,4 +1589,17 @@ p.body:not(:first-child) {
 .dropdown {
     position: relative;
     display: inline-block;
+}
+
+.portfolio-headline {
+    position: absolute;
+    font-weight: 700;
+    font-family: "adelle-sans";
+    font-size: 4.5em;
+/*    font-size: 6vw;*/
+    line-height: 120%;
+    width: 48%;
+    color: #ffffff;
+    bottom: 40px;
+    left: 605px
 }
