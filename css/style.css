@@ -1603,3 +1603,16 @@ p.body:not(:first-child) {
     bottom: 40px;
     left: 605px
 }
+
+.divider {
+    padding: 10px 10px;
+    background-color: #016542;
+}
+
+.divider-text {
+    color: #fff;
+    font-family: "adelle-sans";
+    font-weight: 700;
+    font-size: 3em;
+    padding-left: 40px;
+}

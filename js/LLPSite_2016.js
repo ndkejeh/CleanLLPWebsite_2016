@@ -99,7 +99,7 @@ $(document).ready(function(){
                         };    
     }, 300);
     /////////////////////////////////////////Image Overlays//////////////////////////////////////////
-    $("img.slide-over").mouseenter(function() { //make another class in order to differentiate!!
+   /* $("img.slide-over").mouseenter(function() { //make another class in order to differentiate!!
         if (window.innerWidth > 992) {
             $(this).next().slideDown("100");   
         }
@@ -107,6 +107,18 @@ $(document).ready(function(){
     $("img.slide-over").mouseleave(function() {
         if (window.innerWidth > 992) {
             $(this).next().slideUp("100");   
+        }
+    })*/
+    
+    ////////////////////////////Experiment Image Overlay for a tag /////////////////////////////
+     $("img.slide-over").mouseenter(function() { //make another class in order to differentiate!!
+        if (window.innerWidth > 992) {
+            $(this).parent().next().slideDown("100");   
+        }
+    })
+     $("img.slide-over").mouseleave(function() {
+        if (window.innerWidth > 992) {
+            $(this).parent().next().slideUp("100");   
         }
     })
 });
