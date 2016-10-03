@@ -1604,6 +1604,28 @@ p.body:not(:first-child) {
     left: 605px
 }
 
+@media (max-width: 1100px){
+    .portfolio-headline{
+        font-size: 4em;
+        left: 52%;
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 900px){
+    .portfolio-headline{
+        font-size: 3em;
+        left: 50%;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 650px){
+    .portfolio-headline{
+        font-size: 2em;
+    }
+}
+
 .divider {
     padding: 10px 10px;
     background-color: #016542;

@@ -43,7 +43,6 @@ $(document).ready(function(){
                            if($(window).scrollTop() > 10 && !($("ul").is(":hover"))){//then we'll hide the menu 4 seconds after mouseover
                                 timerVar=setTimeout(function(){$(".nav-wrapper").hide(500)},4000);   
                            }
-                           // alert(window.innerWidth + " px");
                           //  alert($(window).scrollTop()+ "px");
                            });
     //need to do an if(open) on scroll hide//
@@ -121,4 +120,14 @@ $(document).ready(function(){
             $(this).parent().next().slideUp("100");   
         }
     })
+     
+     
+     /////////////////////////////Test Functions////////////////////////////////////////////
+     $(".logo-big").mouseover(function() {
+        alert(window.innerWidth + " px");    
+     });
+     
+    $(".logo-small").mouseover(function() {
+        alert(window.innerWidth + " px");    
+     });
 });
