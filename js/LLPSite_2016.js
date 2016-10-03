@@ -5,6 +5,7 @@ $(document).ready(function(){
     var timerVar; 
     var timerFooter;
     var closeEventTimer; //the timer for the navbar close function
+    var scrollAdjust = 1; //sets the variable to call chgFooter proc on first scroll
     
     /////////////////////////////////////Footer Script//////////////////////////////////////////////////
     var chgFooter = function (){
@@ -14,15 +15,15 @@ $(document).ready(function(){
             $('body').css('margin-bottom',$('.footer').height());
             if (!footerCorrection) {
                 clearInterval(timerFooter);
-                footerCorrection --;
             }
+            footerCorrection --;
         }, 300)
     }
     //window resize trigger event
     $(window).resize(function(){
         /////////////////Important height adjustment event for footer///////////////////
         footerSmoother ++; //increment smoother variable make sure resize event is needed
-        if(footerSmoother == 1){
+        if(footerSmoother == 3){
             chgFooter(); //and call the change footer method
         }
         ////////Important close event for Navbar///////////////////
@@ -88,6 +89,11 @@ $(document).ready(function(){
         } else {
             clearTimeout(timerVar);
             $(".nav-wrapper").hide(500);
+        }
+        if(scrollAdjust == 1){
+            chgFooter(); //call chgFooter proc to allow it initialise
+            scrollAdjust = 0; //reset scrollAdjust variable
+//            alert("it was called! yay");
         }
     });
     

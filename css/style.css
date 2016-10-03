@@ -45,6 +45,10 @@ p.img-info {
     p.img-info{display: inline;}
 }
 
+@media (max-width: 480px){
+    p.img-info{font-size: 3vw;}
+}
+
 .footer{
     position: absolute;
     width: 1200px;
@@ -1284,7 +1288,7 @@ p.body:not(:first-child) {
 .client-text {
     font: 400 300% "Lato";
     line-height: 120%;
-    font-size: 2vw;
+    font-size: 2.3em;
     color: #be897d;
 }
 .client-text:first-child {
@@ -1300,7 +1304,7 @@ p.body:not(:first-child) {
     display: inline-block;
     padding-top: 20px;
     padding-right: 13px;
-    padding-bottom: 18px;
+    padding-bottom: 30px;
 }
 
 .work-blurb-blk {
@@ -1409,8 +1413,8 @@ p.body:not(:first-child) {
     }
     .work-blurb-blk p.body {
         color: #fff;
-        font-size: 223%;
-        font-size: 2.8vw;
+        font-size: 2.2em;
+/*        font-size: 2.8vw;*/
     }
     .cite-author {
         font-size: 2.6vw;
@@ -1604,6 +1608,19 @@ p.body:not(:first-child) {
     left: 605px
 }
 
+.divider {
+    padding: 10px 10px;
+    background-color: #016542;
+}
+
+.divider-text {
+    color: #fff;
+    font-family: "adelle-sans";
+    font-weight: 700;
+    font-size: 3em;
+    padding-left: 40px;
+}
+
 @media (max-width: 1100px){
     .portfolio-headline{
         font-size: 4em;
@@ -1621,20 +1638,23 @@ p.body:not(:first-child) {
 }
 
 @media (max-width: 650px){
-    .portfolio-headline{
+    .portfolio-headline{font-size: 2em;}
+    .divider-text{
         font-size: 2em;
+        padding-left: 72px
     }
 }
 
-.divider {
-    padding: 10px 10px;
-    background-color: #016542;
+@media (max-width: 450px){
+    .portfolio-headline{font-size: 4vw;}
+    .divider-text{
+        font-size: 2em;
+        padding-left: 72px
+    }
 }
-
-.divider-text {
-    color: #fff;
-    font-family: "adelle-sans";
-    font-weight: 700;
-    font-size: 3em;
-    padding-left: 40px;
+.feb-headline {
+    color: #717171;
+    width: 266px;
+    left: 883px;
+    bottom: 375px;
 }
