@@ -706,10 +706,9 @@ p {
 
 p.body {
     font-family: "Georgia", serif;
-    font-size: 1.12em;
-    font-size: 1.6vw;
+    font-size: 1.6em;
     color: #000;
-    line-height: 150%;
+    line-height: 160%;
 }
 
 p.body:not(:first-child) {
@@ -731,7 +730,8 @@ p.body:not(:first-child) {
 }
 @media (max-width: 768px) {
     p.body {
-        font-size: 2vw;
+        font-size: 1.3em;
+        line-height: 180%;
         
     }
     
@@ -1233,7 +1233,7 @@ p.body:not(:first-child) {
     position: absolute;
     font-weight: 700;
     font-family: "adelle-sans";
-    font-size: 720%;
+    font-size: 8em;
 /*    font-size: 6vw;*/
     line-height: 120%;
     width: 40.5%;
@@ -1280,7 +1280,7 @@ p.body:not(:first-child) {
 }
 
 .work-title {
-    font: 700 720% "adelle-sans";
+    font: 700 8em "adelle-sans";
     color: #ffffff;
     padding-top: 44px;
 }
@@ -1411,7 +1411,7 @@ p.body:not(:first-child) {
         margin-left: 57px;
         margin-right: 20px;
     }
-    .work-blurb-blk p.body {
+    .work-blurb-blk p.blurb-text {
         color: #fff;
         font-size: 2.2em;
 /*        font-size: 2.8vw;*/
@@ -1474,7 +1474,7 @@ p.body:not(:first-child) {
 }
 
 @media (max-width: 400px) {
-    .work-blurb-blk p.body {
+    .work-blurb-blk p.blurb-text {
         font-size: 140%;
         font-size: 3.5vw;
     }
@@ -1657,4 +1657,103 @@ p.body:not(:first-child) {
     width: 266px;
     left: 883px;
     bottom: 375px;
+}
+
+.CC-headline {
+    bottom: 26px;
+    left: 599px;
+    width: 30%;
+}
+
+#cc-page {
+    font-size: 6.7em;
+}
+
+.eq-headline {
+    bottom: 30px;
+    left: 704px;
+}
+
+
+
+p.blurb-text {
+    font-family: "Georgia", serif;
+    font-size: 2em;
+    color: #000;
+    line-height: 160%;
+}
+
+p.blurb-text:not(:first-child) {
+    padding-top: 20px;
+}
+.MIAF-headline {
+    bottom: 43px;
+    left: 866px;
+    width: 20%;
+}
+
+#JHF-headline {
+    color: #717171;
+    bottom: 314px;
+    left: 186px;
+}
+
+#okiki-headline {
+    bottom: 75px;
+    left: 760px;
+}
+
+.js-video {
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+/*    margin-bottom: 10px;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.js-video.vimeo {
+    padding-top: 0;
+}
+
+.js-video iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#quip-headline {
+/*    font-size: 9.5em;*/
+    color: #b1b1b1;
+    width: 25%;
+    bottom: 50px;
+    left: 791px;
+}
+
+#quip-title {
+    
+}
+
+#RAE-headline {
+    bottom: 44px;
+    left: 739px;
+}
+
+#solis-headline {
+    bottom: 75px;
+    left: 824px;
+}
+
+
+
+#Solis-title {
+    font-size: 7em;
+}
+
+#TINA-headline {
+    bottom: 77px;
+    left: 760px;
+    font-size: 7em;
 }
