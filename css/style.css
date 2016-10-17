@@ -1280,9 +1280,14 @@ p.body:not(:first-child) {
 }
 
 .work-title {
-    font: 700 8em "adelle-sans";
+    font: 700 8em/1.25em "adelle-sans";
     color: #ffffff;
-    padding-top: 44px;
+/*    padding-top: 44px;*/
+    padding-top: 11%;
+}
+
+.work-title-small {
+    font-size: 6em;
 }
 
 .client-text {
@@ -1290,9 +1295,10 @@ p.body:not(:first-child) {
     line-height: 120%;
     font-size: 2.3em;
     color: #be897d;
+    padding-right: 10px;
 }
 .client-text:first-child {
-    padding-top: 13%;
+    padding-top: 10%;
 }
 .service-text {
     font: 400 240% Lato;
@@ -1303,7 +1309,9 @@ p.body:not(:first-child) {
 .work-social-icons {
     display: inline-block;
     padding-top: 20px;
+    padding-top: 5%;
     padding-right: 13px;
+    padding-right: 3%;
     padding-bottom: 30px;
 }
 
@@ -1383,18 +1391,28 @@ p.body:not(:first-child) {
 }
 
 @media (max-width: 992px) {
-    .work-title#a50-page {
-        padding-top: 60px;
+    .work-title {
         font-size: 1000%;
         font-size: 10.4vw;
     }
+    
+    .work-title-small {
+        font-size: 600%;
+        font-size: 9vw;
+    }
+    
     .client-text {
         font-size: 250%;
         font-size: 2.6vw;
     }
+    
+    .client-text:first-child {
+    padding-top: 20%; /* Important as it lines up title and client text below 992px*/
+    }   
     .service-text {
         font-size: 230%;
         font-size: 2.3vw;
+        padding-top: 5%
     }
     .work-social-icons {
         width: 8vw;
@@ -1431,7 +1449,7 @@ p.body:not(:first-child) {
     }
      .service-text {
         font-size: 180%;
-         font-size: 3.3vw;
+         font-size: 2.8vw;
     }
      .work-blurb-blk {
          padding-top: 7.8%;
@@ -1449,17 +1467,16 @@ p.body:not(:first-child) {
         font-size: 3.2vw;
     }
     .client-text:first-child {
-    padding-top: 15%;
+/*    padding-top: 15%;*/
     }
      .work-social-icons {
-        width: 10vw;
         padding-bottom: 5%;
     }
     .service-text {
-        padding-top: 10%;
+/*        padding-top: 10%;*/
     }
     .work-title#a50-page {
-        padding-top: 28%;
+/*        padding-top: 28%;*/
     }
     .git-btn {
         display: none;
@@ -1768,3 +1785,4 @@ p.blurb-text:not(:first-child) {
         left: 60%;
     }
 }
+
