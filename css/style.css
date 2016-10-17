@@ -1652,16 +1652,19 @@ p.body:not(:first-child) {
         padding-left: 72px
     }
 }
-.feb-headline {
+#feb-headline {
     color: #717171;
-    width: 266px;
-    left: 883px;
-    bottom: 375px;
+/*    width: 266px;*/
+    width: 20%;
+    left: 74%;
+/*    left: 883px;*/
+    bottom: 62.5%;
+/*    bottom: 375px;*/
 }
 
-.CC-headline {
-    bottom: 26px;
-    left: 599px;
+#CC-headline {
+    bottom: 4.3%;
+    left: 50%;
     width: 30%;
 }
 
@@ -1669,12 +1672,14 @@ p.body:not(:first-child) {
     font-size: 6.7em;
 }
 
-.eq-headline {
-    bottom: 30px;
-    left: 704px;
+#eq-headline {
+    bottom: 5%;
+    left: 59%;
 }
 
-
+@meda (max-width: 768px){
+    width: 
+}
 
 p.blurb-text {
     font-family: "Georgia", serif;
@@ -1686,21 +1691,21 @@ p.blurb-text {
 p.blurb-text:not(:first-child) {
     padding-top: 20px;
 }
-.MIAF-headline {
-    bottom: 43px;
-    left: 866px;
+#MIAF-headline {
+    bottom: 7.2%;
+    left: 72.2%;
     width: 20%;
 }
 
 #JHF-headline {
     color: #717171;
-    bottom: 314px;
-    left: 186px;
+    bottom: 40%;
+    left: 22.5%;
 }
 
 #okiki-headline {
-    bottom: 75px;
-    left: 760px;
+    bottom: 12.5%;
+    left: 63%;
 }
 
 .js-video {
@@ -1727,9 +1732,9 @@ p.blurb-text:not(:first-child) {
 #quip-headline {
 /*    font-size: 9.5em;*/
     color: #b1b1b1;
-    width: 25%;
-    bottom: 50px;
-    left: 791px;
+    width: 28%;
+    bottom: 8.3%;
+    left: 66%;
 }
 
 #quip-title {
@@ -1737,13 +1742,13 @@ p.blurb-text:not(:first-child) {
 }
 
 #RAE-headline {
-    bottom: 44px;
-    left: 739px;
+    bottom: 7.3%;
+    left: 62%;
 }
 
 #solis-headline {
-    bottom: 75px;
-    left: 824px;
+    bottom: 12.5%;
+    left: 65.6%;
 }
 
 
@@ -1753,7 +1758,13 @@ p.blurb-text:not(:first-child) {
 }
 
 #TINA-headline {
-    bottom: 77px;
-    left: 760px;
-    font-size: 7em;
+    bottom: 12.8%;
+    left: 53%;
+/*    font-size: 7em;*/
+}
+
+@media (max-width: 1170px){
+    #RAE-headline{
+        left: 60%;
+    }
 }
