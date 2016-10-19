@@ -1923,3 +1923,29 @@ p.blurb-text:not(:first-child) {
 }
 
 
+
+#services-row-small-4 {
+    background-color: #db7833;
+}
+
+.main-services-row {
+    height: 500px;
+}
+
+#main-services-row-1 {
+    background-color: #3a7585;
+}
+
+.services-main-title {
+    font: 700 10em "adelle-sans";
+    line-height: 120%;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.services-main-body {
+    font: 300 2.4em Lato;
+    color: #ffffff;
+    padding-top: 58px;
+    
+}
