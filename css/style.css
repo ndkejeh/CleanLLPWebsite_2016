@@ -1940,12 +1940,63 @@ p.blurb-text:not(:first-child) {
     font: 700 10em "adelle-sans";
     line-height: 120%;
     color: #ffffff;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .services-main-body {
     font: 300 2.4em Lato;
     color: #ffffff;
-    padding-top: 58px;
+    padding-top: 30px;
+    width: 100%;
     
+}
+
+.services-main-icon {
+    padding-top: 95px;
+}
+
+#main-services-row-2 {
+    background-color: #018255;
+}
+
+#main-services-row-3 {
+    background-color: #b24026;
+}
+
+.services-headline {
+    position: absolute;
+    font: 700 3.6em/1.3em "adelle-sans";
+    color: #ffffff;
+}
+
+#services-main-headline {
+    bottom: 28.5%;
+    left: 16.6%;
+    width: 40%;
+}
+
+@media (max-width: 1120px){
+    .services-headline{
+        font-size: 3.2vw;
+    }
+    #services-main-headline {left: 19%}
+    .services-main-title{font-size: 9.3vw;}
+    .services-main-body {font-size: 2.2vw;}
+    .main-services-row {height: 47vw;}
+}
+
+@media (max-width: 992px) {
+    .services-main-title {padding-top: 20%;}
+    .services-main-body {padding-top: 7.5%}
+    .services-main-icon {padding-top: 33%}
+}
+
+@media (max-width: 768px) {
+    .services-main-title {padding-top: 33%;}
+    .services-main-icon {padding-top: 55%}
+}
+
+p.services-main-title a:hover {
+    text-decoration: none;
+    color: #fff;
 }
