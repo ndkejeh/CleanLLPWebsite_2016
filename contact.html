@@ -113,13 +113,45 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-7 col-xs-offset-2">
-                <form class="contact-form" action="contactllp.php" method="post">
-                    <label>First Name
-                        <input type="text" name="fname">
-                    </label>
-                    
+        <div class="row white-bg">
+            <div class="col-xs-8 col-xs-offset-2">
+                <form class="contact-form" action="contactllp.php" method="post" id="llp-contact">
+                    <div class="row contact-row">
+                        <div class="col-xs-6 nopadding">
+                            <label class="label-contact" for="fname">First Name<span style="color: #b24026">*</span></label><br>
+                            <input class="input-contact" type="text" name="fname" id="fname" maxlength="30">
+                        </div>
+                        <div class="col-xs-6 nopadding">
+                            <label class="label-contact" for="lname">Last Name<span style="color: #b24026">*</span></label><br>
+                            <input class="input-contact" type="text" name="lname" id="lname" maxlength="30">
+                        </div>
+                    </div>
+                    <div class="row contact-row">
+                        <div class="col-xs-6 nopadding">
+                            <label class="label-contact" for="company">Company<span style="color: #b24026">*</span></label><br>
+                            <input class="input-contact" type="text" name="company" id="company" maxlength="30">
+                        </div>
+                        <div class="col-xs-6 nopadding">
+                            <label class="label-contact" for="position">Position<span style="color: #b24026">*</span></label><br>
+                            <input class="input-contact" type="text" name="position" id="position" maxlength="30">
+                        </div>
+                    </div>
+                    <div class="row contact-row">
+                        <div class="col-xs-6 nopadding">
+                            <label class="label-contact" for="sector">Sector</label><br>
+                            <input class="input-contact" type="text" name="sector" id="sector" maxlength="30">
+                        </div>
+                        <div class="col-xs-6 nopadding">
+                            <label class="label-contact" for="country">Country<span style="color: #b24026">*</span></label><br>
+                            <input class="input-contact" type="text" name="country" id="country" maxlength="30">
+                        </div>
+                    </div>
+                    <div class="row contact-row">
+                        <div class="col-xs-6 nopadding">
+                            <label class="label-contact">Message<span style="color: #b24026">*</span></label><br>
+                            <textarea class="message-contact" name="message" form="llp-contact" style="resize: none" maxlength="1000"></textarea>
+                        </div>
+                    </div>
                 </form>
             </div>            
         </div>
