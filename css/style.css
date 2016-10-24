@@ -566,8 +566,9 @@ input:nth-child(2) {
 }
 
 #footerlogo { /**media queries to amend**/
-    padding-top: 50px; 
+/*    padding-top: 50px; */
     width: 141px;
+/*    padding-bottom: 30px;*/
 }
 
 #footerloc {
@@ -592,9 +593,9 @@ p {
 }
 
 .footersocial_sm {
-    display: inline-block;
-    padding-right: 20px;
-    width: 6em;
+    display: inline;
+    padding-right: 3px;
+    width: 4.3em;
     height: auto;
 }
 
@@ -1560,7 +1561,7 @@ p.body:not(:first-child) {
 
 @media (min-width: 992px) {
     .footersocial_sm {
-        padding-right: 12px;
+/*        padding-right: 10px;*/
     }
 }
 .signup-area {
@@ -1591,7 +1592,7 @@ p.body:not(:first-child) {
 
 #footercopy {
     color: #717171;
-    font: 400 1.2em Lato;
+    font: 400 1.4em georgia;
     padding-top: 20px;
 }
 
@@ -2036,7 +2037,7 @@ p.services-main-title a:hover {
 }
 
 .label-contact {
-    font: 700 1.8em "adelle-sans";
+    font: 700 1.5em "adelle-sans";
     padding-bottom: 5px;
 }
 
@@ -2045,7 +2046,6 @@ p.services-main-title a:hover {
     height: 32px;
     background-color: #f4f2f3;
     border: #f4f2f3;
-    font: 400 1.5em "lato";
 }
 
 .input-contact:focus {
@@ -2062,10 +2062,68 @@ p.services-main-title a:hover {
     height: 232px;
     background-color: #f4f2f3;
     border: #f4f2f3;
-    font: 400 1.5em "lato";
 }
 
 .message-contact:focus {
     background-color: #4fa1b6;
     color: #fff;
+}
+.contact-btn {
+    width: 100%;
+    font: 700 1.6em "adelle-sans";
+    background-color: #fff;
+    border: 3px solid #424242;
+    color: #424242;
+}
+
+.footer-text {
+    font: 400 1.6em/1.2 Georgia;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.footer-text:first-child {padding-top: 30px;}
+
+.first-footer {
+    padding-top: 3%;
+    padding-bottom: 4%
+}
+
+.second-footer {
+    padding-top: 7.5%;
+}
+
+.footer-links {
+    color: #ffffff;
+    font: 400 1.5em Lato;
+    display: block;
+    padding-bottom: 23px;
+}
+
+.input-footer {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 17px;
+}
+
+.input-footer:focus {
+    background-color: #b1b1b1;
+    color: #fff;
+}
+
+.third-footer {
+    padding-top: 7.9%;
+}
+
+.input-font {
+    font: 400 1.35em "lato";
+}
+
+.subscribe-btn {
+    float: right;
+    width: 100px;
+    border: 2px solid #db7833;
+    background-color: #252525;
+    color: #db7833;
+    font: 300 1.8em Lato;
 }
