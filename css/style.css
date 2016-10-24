@@ -2000,3 +2000,37 @@ p.services-main-title a:hover {
     text-decoration: none;
     color: #fff;
 }
+
+.contact-headline {
+    position: absolute;
+    font: 700 7em "adelle-sans";
+    color: #ffffff;
+    bottom: 33.7%;
+    left: 16.8%;
+}
+
+#contact-orange {
+    background-color: #db7833;
+    height: 400px;
+}
+
+.contact-city {
+    font: 700 4.9em "adelle-sans";
+    color: #9B5524;
+    padding-top: 25%;
+}
+
+.contact-address {
+    font: 700 2.5em "adelle-sans";
+    color: #9B5524;
+    padding-top: 2.6%;
+}
+#contact-yellow {
+    background-color: #f9a43a;
+    height: 400px;
+}
+
+.contact-form {
+    padding-top: 20%;
+    /*padding-bottom: 100px; % equivalent please*/
+}
