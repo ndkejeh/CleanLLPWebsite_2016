@@ -189,16 +189,16 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-md-offset-1 first-footer">
+                <div class="col-lg-4 col-xs-offset-1 col-xs-5 first-footer">
                     <div class="row">
-                        <div class="col-xs-6 nopadding">
-                            <img class="img-responsive" id="footerlogo" src="../images/De-Charles--footer.png" alt="De Charles">
+                        <div class="col-md-6 col-xs-12 nopadding">
+                            <img class="img-responsive" id="footerlogo" src="images/De-Charles--footer.png" alt="De Charles">
                         </div>
                         <div class="row">
-                            <div class="col-xs-12">
+                            <div class=" col-lg-12 col-md-10 col-xs-12">
                                 <p class="footer-text">We build products, strategies and ideas for 
                                     forward-thinking entities in Africa's tech sectors.</p>
-                                <p class="footer-text">We&#8217;re committed to fusing impact and profit and 
+                                <p class="footer-text hidden-xs">We&#8217;re committed to fusing impact and profit and 
                                     bettering global perceptions of Africa.</p>
                             </div>
                         </div>
@@ -209,24 +209,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 second-footer">
-                    <div class="row">
-                        <div class="col-xs-10 col-md-offset-2">
+                <div class="col-md-2 col-md-offset-0 col-xs-3 col-xs-offset-1 second-footer">
+                    <div class="row hidden-sm hidden-xs">
+                        <div class="col-lg-12 col-lg-offset-2 col-xs-12">
                             <p class="footer-links">Get In Touch</p>
                             <p class="footer-links">London + Lagos</p>
                             <p class="footer-links">Legal Information</p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-10 col-md-offset-2">
-                            <img class="img-responsive footersocial_sm" src="../images/Icon_Fb_Warm.png" alt="Facebook">
+                        <div class="col-lg-12 col-lg-offset-2 hidden-sm hidden-xs">
+                            <img class="img-responsive footersocial_sm" src="images/Icon_Fb_Warm.png" alt="Facebook">
                             <img class="img-responsive footersocial_sm" src="images/Icon_Twit_Warm.png" alt="Twitter">
+                            <img class="img-responsive footersocial_sm" src="images/Icon_In_Warm.png" alt="LinkedIn">
+                            <img class="img-responsive footersocial_sm" src="images/Icon_Vimeo_Warm.png" alt="Vimeo">
+                        </div>
+                        <div class="col-sm-9 col-sm-offset-3 col-xs-12 hidden-lg hidden-md">
+                            <img class="img-responsive footersocial_sm" src="images/Icon_Fb_Warm.png" alt="Facebook">
+                            <img class="img-responsive footersocial_sm" src="images/Icon_Twit_Warm.png" alt="Twitter">
+                        </div>
+                    </div>
+                    <div class="row hidden-lg hidden-md">
+                        <div class="col-sm-9 col-sm-offset-3 col-xs-12">
                             <img class="img-responsive footersocial_sm" src="images/Icon_In_Warm.png" alt="LinkedIn">
                             <img class="img-responsive footersocial_sm" src="images/Icon_Vimeo_Warm.png" alt="Vimeo">
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-3 third-footer">
+                <div class="col-lg-3 col-lg-offset-1 col-md-4 hidden-sm hidden-xs third-footer">
                     <form action="list-sub.php" method="post">
                         <input class="input-footer input-font" type="text" name="fullname" placeholder="Full Name" maxlength="30"> <!--separate first and last name by finding space-->
                         <input class="input-footer input-font" type="text" name="email" placeholder="Email" maxlength="40">
@@ -234,10 +244,24 @@
                     </form>
                 </div>
             </div>
+            <div class="row hidden-md hidden-lg" style="padding-bottom: 30px; padding-top: 30px">
+                <div class="col-xs-4 col-xs-offset-1" style="padding-left: 0px">
+                    <p class="footer-links">Get In Touch</p>
+                    <p class="footer-links">London + Lagos</p>
+                    <p class="footer-links">Legal Information</p>
+                </div>
+                <div class="col-xs-4 col-xs-offset-1">
+                    <form action="list-sub.php" method="post">
+                    <input class="input-footer input-font" type="text" name="fullname" placeholder="Full Name" maxlength="30"> <!--separate first and last name by finding space-->
+                    <input class="input-footer input-font" type="text" name="email" placeholder="Email" maxlength="40">
+                    <input type="submit" value="Subscribe" class="subscribe-btn">
+                </form>
+                </div>
+            </div>
         </div>
     </footer>
     <!--------------------Start of Scripts--------------->
-    <script src="../js/LLPSite_2016.js"></script>
+    <script src="js/LLPSite_2016.js"></script>
     <!--------------------End of Scripts--------------->
     <!--End of Content-->
 </body>

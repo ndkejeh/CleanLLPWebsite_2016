@@ -78,6 +78,7 @@ p.img-info {
     position: relative;
     width: auto !important;
     max-width: 1200px;
+/*    min-width: 500px;*/
     margin: auto;
 }
 
@@ -567,7 +568,7 @@ input:nth-child(2) {
 
 #footerlogo { /**media queries to amend**/
 /*    padding-top: 50px; */
-    width: 141px;
+/*    width: 141px;*/
 /*    padding-bottom: 30px;*/
 }
 
@@ -595,8 +596,24 @@ p {
 .footersocial_sm {
     display: inline;
     padding-right: 3px;
-    width: 4.3em;
+    width: 3rem;
     height: auto;
+}
+
+@media (max-width: 992px){
+    .footersocial_sm {
+        width: 7vw;
+/*        padding-right: 8%;*/
+        padding-bottom: 8%;
+    }
+}
+
+@media (max-width: 768px){
+    .footersocial_sm {
+        width: 8vw;
+/*        padding-right: 3%;*/
+        padding-bottom: 3%;
+    }
 }
 
 .socialpadding_sm {
@@ -1559,11 +1576,6 @@ p.body:not(:first-child) {
     padding-top: 15px;
 }
 
-@media (min-width: 992px) {
-    .footersocial_sm {
-/*        padding-right: 10px;*/
-    }
-}
 .signup-area {
     width: 247px;
     margin: auto;
@@ -1596,10 +1608,6 @@ p.body:not(:first-child) {
     padding-top: 20px;
 }
 
-@media (max-width: 1160px) {
-    .footersocial_sm {width: 4.6em;}
-}
-
 @media (max-width: 992px) {
     .footer-logo-blk {
         padding-left: 0px;
@@ -1607,11 +1615,10 @@ p.body:not(:first-child) {
     }
     .footertext {margin-right: 60px;}
     .f-text-links {padding-left: 0px;}
-    .footersocial_sm {width: 6em;}
 }
     
 @media (max-width: 768px) {
-    #footerlogo {margin: auto;}
+/*    #footerlogo {margin: auto;}*/
     #footerblurbpad {margin: auto;}
     #footerloc {margin: auto;}
     #footercopy {margin: auto;}
@@ -1627,10 +1634,6 @@ p.body:not(:first-child) {
         margin: auto;
         padding-left: 0px;
         padding-bottom: 30px;
-    }
-    .footersocial_sm {
-        width: 4em;
-        padding-right: 2px
     }
     .signup-area {
         padding-top: 0px;
@@ -2093,17 +2096,22 @@ p.services-main-title a:hover {
     padding-top: 7.5%;
 }
 
+.third-footer {
+    padding-top: 7.9%;
+}
+
 .footer-links {
     color: #ffffff;
     font: 400 1.5em Lato;
     display: block;
-    padding-bottom: 23px;
+    padding-bottom: 15px;
 }
 
 .input-footer {
     width: 100%;
     height: 30px;
     margin-bottom: 17px;
+    padding-left: 5px;
 }
 
 .input-footer:focus {
@@ -2111,9 +2119,6 @@ p.services-main-title a:hover {
     color: #fff;
 }
 
-.third-footer {
-    padding-top: 7.9%;
-}
 
 .input-font {
     font: 400 1.35em "lato";
