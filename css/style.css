@@ -1197,6 +1197,7 @@ p.body:not(:first-child) {
 
 #engr-blk {
     background-color: #db7833;
+    height: 450px;
 }
 
 #multi-blk {
@@ -1269,6 +1270,7 @@ p.body:not(:first-child) {
 
 #entre-blk {
     background-color: #3a7585;
+    height: 450px;
 }
 
 .work-headline {
@@ -2200,3 +2202,5 @@ p.services-main-title a:hover {
     color: #db7833;
     font: 300 1.125rem Lato;
 }
+
+
