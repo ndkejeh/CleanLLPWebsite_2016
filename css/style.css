@@ -46,7 +46,7 @@ p.img-info {
 }
 
 @media (max-width: 480px){
-    p.img-info{font-size: 0.8rem;}
+    p.img-info{font-size: 0.55rem;}
 }
 
 .footer{
@@ -1294,14 +1294,9 @@ p.body:not(:first-child) {
 
 .work-headline {
     position: absolute;
-    font-weight: 700;
-    font-family: "adelle-sans";
-    font-size: 8em;
-/*    font-size: 6vw;*/
-    line-height: 120%;
-    width: 40.5%;
+    font: 700 5rem/1.3125 "adelle-sans";
+/*    width: 40.5%;*/
     color: #ffffff;
-    bottom: 20px;
 }
 
 #home-headline{
@@ -1313,15 +1308,17 @@ p.body:not(:first-child) {
 }
 
 @media (max-width: 1120px){
-    #home-headline{
+    #home-headline {
         font-size: 3.1rem;
+    }
+    .work-headline {
+        font-size: 4.5rem;
     }
 }
 
 @media (max-width: 992px) {
     .work-headline {
-        font-size: 700%;
-        font-size: 7vw;
+        font-size: 4.3rem;
     }
     #home-headline {
         font-size: 2.8rem;
@@ -1330,11 +1327,16 @@ p.body:not(:first-child) {
     }
 }
 
+@media (max-width: 900px) {
+    .work-headline {
+        font-size: 3.7rem;
+    }
+}
+
 @media (max-width: 768px){
     .work-headline {
-        font-size: 500%; 
-        font-size: 6vw;
-        padding-bottom: 20px;
+        font-size: 3.15rem;
+        line-height: 1.4;
     }
     #home-headline{
         font-size: 2.2rem;
@@ -1345,6 +1347,7 @@ p.body:not(:first-child) {
 }
 
 @media (max-width: 660px){
+    .work-headline {font-size: 2.45rem}
     #home-headline {
         font-size: 1.6rem;
         line-height: 1.4;   
@@ -1359,12 +1362,14 @@ p.body:not(:first-child) {
         font-size: 1.2rem;
         
     }
+    .work-headline {font-size: 1.88rem}
 }
 
 @media (max-width: 400px) {
     #home-headline {
         display: none;
     }
+    .work-headline {display: none}
 }
 
 .work-banner {
@@ -1378,6 +1383,15 @@ p.body:not(:first-child) {
 #africa50-headline {
     bottom: 59%;
     margin-left: 56%;
+    width: 42%
+}
+
+@media (max-width: 992px) {
+    #africa50-headline {width: 43%}
+}
+
+@media (max-width: 400px) {
+    #africa50-headline {width: 100%; margin-left: 25%}
 }
 
 .blue-height {
@@ -1393,20 +1407,18 @@ p.body:not(:first-child) {
 }
 
 .work-title {
-    font: 700 8em/1.25em "adelle-sans";
+    font: 700 4.5rem/1.4 "adelle-sans";
     color: #ffffff;
 /*    padding-top: 44px;*/
     padding-top: 11%;
 }
 
 .work-title-small {
-    font-size: 6em;
+    font-size: 4rem;
 }
 
 .client-text {
-    font: 400 300% "Lato";
-    line-height: 120%;
-    font-size: 2.3em;
+    font: 400 1.6rem "Lato";
     color: #be897d;
     padding-right: 10px;
 }
@@ -1414,7 +1426,7 @@ p.body:not(:first-child) {
     padding-top: 10%;
 }
 .service-text {
-    font: 400 240% Lato;
+    font: 400 1.5rem "Lato";
     color: #db7833;
     padding-top: 20px;
 }
@@ -1481,7 +1493,7 @@ p.body:not(:first-child) {
 
 .get-in-touch {
     color: #fff; 
-    font-size: 20px; 
+    font-size: 1.25rem; 
     font-family: 'adelle-sans'; 
     margin: auto;
     width: 112px;
@@ -1503,32 +1515,45 @@ p.body:not(:first-child) {
     font-size: 1.75rem;
 }
 
+p.blurb-text {
+    font-family: "Georgia", serif;
+    font-size: 1.25rem;
+    color: #000;
+    line-height: 1.45;
+}
+
+p.blurb-text:not(:first-child) {
+    padding-top: 20px;
+}
+
+@media (max-width: 1110px) {
+    .work-title-small {
+        font-size: 3.5rem;
+    }
+}
+
 @media (max-width: 992px) {
     .work-title {
-        font-size: 1000%;
-        font-size: 10.4vw;
+        font-size: 5.5rem;
     }
     
     .work-title-small {
-        font-size: 600%;
-        font-size: 9vw;
+        font-size: 4rem;
     }
     
     .client-text {
-        font-size: 250%;
-        font-size: 2.6vw;
+        font-size: 1.5rem
     }
     
     .client-text:first-child {
     padding-top: 20%; /* Important as it lines up title and client text below 992px*/
     }   
     .service-text {
-        font-size: 230%;
-        font-size: 2.3vw;
+        font-size: 1.3rem;
         padding-top: 5%
     }
     .work-social-icons {
-        width: 8vw;
+        width: 4rem;
         height: auto;
     }
     
@@ -1544,7 +1569,8 @@ p.body:not(:first-child) {
     }
     .work-blurb-blk p.blurb-text {
         color: #fff;
-        font-size: 2.2em;
+        font-size: 2.44rem;
+        line-height: 1.38;
 /*        font-size: 2.8vw;*/
     }
     .cite-author {
@@ -1557,19 +1583,17 @@ p.body:not(:first-child) {
 
 @media (max-width: 768px) {
     .client-text {
-        font-size: 230%;
-        font-size: 3vw;
+        font-size: 1.25rem;
     }
      .service-text {
-        font-size: 180%;
-         font-size: 2.8vw;
+        font-size: 1.1rem;
     }
      .work-blurb-blk {
          padding-top: 7.8%;
          padding-bottom: 7.8%
     }
      .work-social-icons {
-        padding-top: 10%;
+        width: 3rem;
         padding-right: 3%;
     }
     .cite-author {
@@ -1578,12 +1602,33 @@ p.body:not(:first-child) {
     .cite-position {
         font-size: 1.1rem;
     }
+    .work-title {
+        font-size: 3.8rem;
+    }
+    .work-title-small {
+        font-size:  3.3rem;
+    }
+    .work-blurb-blk p.blurb-text {
+        font-size: 1.875rem;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 620px) {
+    .work-title-small {
+        font-size: 2.9rem;
+    }
+    .client-text {font-size: 1.05rem}
 }
 
 @media (max-width: 550px) {
+     .service-text {font-size: 0.8rem;}
+    .work-social-icons { width: 2.5rem}
     .client-text {
-        font-size: 160%;
-        font-size: 3.2vw;
+      font-size: 0.8rem;
+    }
+    .client-text-lg {
+        font-size: 1.2rem;
     }
     .client-text:first-child {
 /*    padding-top: 15%;*/
@@ -1591,21 +1636,25 @@ p.body:not(:first-child) {
      .work-social-icons {
         padding-bottom: 5%;
     }
-    .service-text {
-/*        padding-top: 10%;*/
-    }
-    .work-title#a50-page {
-/*        padding-top: 28%;*/
-    }
     .git-btn {
         display: none;
+    }
+    .work-title {
+        font-size: 3rem;
+    }
+    .work-title-small {
+        font-size: 2.1rem;
+    }
+    .work-blurb-blk p.blurb-text {
+        font-size: 1.3125rem;
+        line-height: 1.43;
     }
 }
 
 @media (max-width: 400px) {
     .work-blurb-blk p.blurb-text {
-        font-size: 140%;
-        font-size: 3.5vw;
+        font-size: 0.8125rem;
+        line-height: 1.46;
     }
     .client-text {
         font-size: 160%;
@@ -1617,6 +1666,10 @@ p.body:not(:first-child) {
     .cite-author {
         font-size: 0.9rem;
     }
+    .client-text {display: none}
+    .service-text {display: none}
+    .work-social-icons {display: none}
+    .work-title {padding-left: 28px; font-size: 2.5rem}
 }
 
 
@@ -1795,23 +1848,9 @@ p.body:not(:first-child) {
 
 #eq-headline {
     bottom: 5%;
-    left: 59%;
+    left: 50%;
 }
 
-@meda (max-width: 768px){
-    width: 
-}
-
-p.blurb-text {
-    font-family: "Georgia", serif;
-    font-size: 2em;
-    color: #000;
-    line-height: 160%;
-}
-
-p.blurb-text:not(:first-child) {
-    padding-top: 20px;
-}
 #MIAF-headline {
     bottom: 7.2%;
     left: 72.2%;
