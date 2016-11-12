@@ -129,11 +129,11 @@ $(document).ready(function(){
      
      
      /////////////////////////////Test Functions////////////////////////////////////////////
-     $(".logo-big").mouseover(function() {
+    /*  $(".logo-big").mouseover(function() {
         alert(window.innerWidth + " px");    
      });
      
     $(".logo-small").mouseover(function() {
         alert(window.innerWidth + " px");    
-     });
+     }); */
 });

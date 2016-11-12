@@ -86,7 +86,7 @@ p.img-info {
     position: fixed;
     left: 0;
     top: 0;
-    width: 605.5px;
+    width: 606px;
     z-index: 10;
 }
 
@@ -2298,6 +2298,8 @@ p.services-main-title a:hover {
     display: block;
     padding-bottom: 15px;
 }
+
+a.simple:hover {text-decoration: none;}
 
 .input-footer {
     width: 100%;

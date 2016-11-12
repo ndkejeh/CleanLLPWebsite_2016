@@ -32,50 +32,8 @@
 </head>
 <body>
 <!-- Start of reponsive Nav bar -->
-    <div class="container">
-        <div class="fixed-navbar">
-            <div class="logo-big">
-                <a href="../index.html"><img src="../images/NavLogo.png" alt="De Charles Logo"></a>
-            </div>
-            <div class="logo-small">
-                <img src="../images/NavLogo-768.png" alt="De Charles Logo">
-            </div>
-            <div class="nav-wrapper">
-                <nav>
-                <ul class="nav-content">
-                    <li id="home-link">
-                        <a href="../index.html">Home</a>
-                    </li>
-                    <li id="dropdown">
-                        <a class="change-icon" href="../attributes.html">About</a><span class="material-icons">add</span>
-                        <ul class="sub-menu">
-                            <li><a href="../attributes.html">Attributes</a></li>
-                            <li><a href="../perspectives.html">Perspectives</a></li>
-                            <li><a href="../perceptions.html">Perceptions</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">Work</a>
-                    </li>
-                    <li id="dropdown">
-                        <a class="change-icon" href="../services.html">Services</a><span class="material-icons">add</span>
-                        <ul class="sub-menu">
-                            <li><a href="../strategy.html">Strategy</a></li>
-                            <li><a href="../design.html">Design</a></li>
-                            <li><a href="../delivery.html">Delivery</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#Thinking">Thinking</a>
-                    </li>
-                    <li>
-                        <a href="../contact.html" >Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            </div>
-        </div>
-    </div><!-- end of Nav menu container -->
+	<?php include 'navbar.php'; ?>
+<!-- end of Nav menu container -->
     <div class="container">
         <div class="row">
             <div class="col-lg-12 nopadding">
@@ -221,104 +179,22 @@
         </div>
         <div class="row">
             <div class="col-xs-4 nopadding">
-                <a href="CaribConnect#"><img class="img-responsive slide-over" src="images/Preview/Africa50_Img.png"></a>
+                <a href="africa50.php"><img class="img-responsive slide-over" src="images/Preview/Africa50_Img.png"></a>
                 <p class="img-info">Africa 50</p>
             </div>
             <div class="col-xs-4 nopadding">
-                <a href="Quip#"><img class="img-responsive slide-over" src="images/Preview/RAE_Img_400.png"></a>
+                <a href="africaprize.php"><img class="img-responsive slide-over" src="images/Preview/RAE_Img_400.png"></a>
                 <p class="img-info">The Africa Prize</p>
             </div>
             <div class="col-xs-4 nopadding">
-                <a href="equinox#"><img class="img-responsive slide-over" src="images/Preview/JHF_Img_400.png"></a>
+                <a href="flemmings.php"><img class="img-responsive slide-over" src="images/Preview/JHF_Img_400.png"></a>
                 <p class="img-info">J.H. Flemmings</p>
             </div>
         </div>
     </div>
     <!--End of Container-->
     <!--Start of Footer-->
-    <footer class="footer">
-        <div class="container">
-                <div class="row">
-                    <div class="col-md-5 col-sm-7 col-xs-offset-1 col-md-offset-0">
-                        <div class="footer-logo-blk">
-                            <img class="img-responsive" id="footerlogo" src="../images/De-Charles--footer.png" alt="De Charles">
-                            <p class="footertext hidden-xs" id="footerblurbpad">We build products and strategies for forward-thinking entities in Africa's
-                            tech sectors. We're committed to fusing impact and profit, and bettering global perceptions of Africa.</p>
-                            
-                            <p class="footertext visible-xs-block" id="footerblurbpad">We are an Africa-focused strategy and product development firm.
-                            We help forward-thinking companies build effective products and 
-                            grow influential ventures in Africa's technology sectors. We're committed to fusing impact and profit and bettering global perceptions of Africa.</p>
-                            <p class="footertext" id="footerloc">London + Lagos</p>
-                            <p class="footertext hidden-sm" id="footercopy">&copy 2016 Decharles LLP</p>
-                        </div>
-                    </div>  
-                    <div class="col-xs-4 hidden-lg hidden-md hidden-xs">
-                    <div class="row">
-                        <div id="Fbfooter_xs" class="col-xs-12">
-                            <img class="img-responsive footersocial_sm" src="../images/Icon_Fb_Warm.png" alt="Facebook">
-                            <p class="footertext_2 socialfootertext_xs">Like us</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 socialpadding_sm">
-                            <img class="img-responsive footersocial_sm" src="../images/Icon_Twit_Warm.png" alt="twitter">
-                            <p class="footertext_2 socialfootertext_xs">Follow us</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 socialpadding_sm">
-                            <img class="img-responsive footersocial_sm" src="../images/Icon_In_Warm.png" alt="LinkedIn">
-                            <p class="footertext_2 socialfootertext_xs">Connect us</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-11 col-xs-offset-1 col-md-offset-0 hidden-sm">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="f-text-links">
-                                <p class="show-text">Get in Touch</p>
-                                <p class="show-text">Media Enquiries</p>
-                                <p class="show-text">Legal Information</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="f-social-lg">
-                                <img class="img-responsive footersocial_sm" src="../images/Icon_Fb_Warm.png" alt="Facebook">
-                                <img class="img-responsive footersocial_sm" src="../images/Icon_Twit_Warm.png" alt="twitter">
-                                <img class="img-responsive footersocial_sm" src="../images/Icon_In_Warm.png" alt="LinkedIn">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-11 col-xs-offset-1 col-md-offset-0 hidden-sm">
-                    <div class="signup-area">
-                        <input type="text" name="signup-fullname" placeholder="Full Name">
-                        <input type="text" name="signup-email" placeholder="Email">
-                        <button class="signup-btn" type="submit">Subscribe</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row hidden-lg hidden-md hidden-xs">
-                <div class="col-xs-5 col-xs-offset-1">
-                    <div class="f-text-links">
-                        <p class="show-text">Get in Touch</p>
-                        <p class="show-text">Media Enquiries</p>
-                        <p class="show-text">Legal Information</p>
-                        <p class="footertext" id="footercopy">&copy 2016 Decharles LLP</p>
-                    </div>
-                </div>
-                <div class="col-xs-6 nopadding">
-                    <div class="signup-area">
-                        <input type="text" name="signup-fullname" placeholder="Full Name">
-                        <input type="text" name="signup-email" placeholder="Email">
-                        <button class="signup-btn" type="submit">Subscribe</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+	<?php include 'footer.php'; ?>
     <!--------------------Start of Scripts--------------->
     <script src="../js/LLPSite_2016.js"></script>
     <script src="../js/plugins/owl.carousel.min.js"></script>
