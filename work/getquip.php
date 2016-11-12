@@ -1,3 +1,4 @@
+<?php include '../subscribe-session.php'; ?> <!-- Very Important place above everything else!!-->
 <!doctype html>
 <html>
 <head>
@@ -156,7 +157,7 @@
                     it into a lifestyle product.</p>
                 </div>
                 <div class="grey-bg git-btn">
-                   <p class="get-in-touch"> Get in touch</p>
+                   <a style="text-decoration: none" href="../contact.php"><p class="get-in-touch"> Get in touch</p></a>
                 </div>
             </div>
         </div>

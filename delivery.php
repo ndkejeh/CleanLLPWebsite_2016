@@ -1,3 +1,4 @@
+<?php include 'subscribe-session.php'; ?> <!-- Very Important place above everything else!!-->
 <!doctype html>
 <html>
 <head>
@@ -182,6 +183,28 @@
                 <p class="services-blurb">We can assist with sourcing 
                 logistics partners, and current
                 and future delivery strategies.</p>
+            </div>
+        </div>
+        <div class="row hidden-xs">
+            <div class="col-xs-12 nopadding">
+                <p class="divider divider-text">Related Projects</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3 nopadding">
+                <a href="okiki.php"><img class="img-responsive slide-over" src="work/images/Preview/FeB_Img_400.png"></a>
+                <p class="img-info">Fly Eye Ball</p>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="tina.php"><img class="img-responsive slide-over" src="work/images/Preview/RAE_Img_400.png"></a>
+                <p class="img-info">The Africa Prize</p>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="flemmings.php"><img class="img-responsive slide-over" src="work/images/Preview/MIAF_Img_400.png"></a>
+                <p class="img-info">Made in Africa</p>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="contact.php"><img class="img-responsive" src="images/GetinTouchSq.png"></a>
             </div>
         </div>
     </div>

@@ -1,3 +1,4 @@
+<?php include 'subscribe-session.php'; ?> <!-- Very Important place above everything else!!-->
 <!doctype html>
 <html>
 <head>
@@ -135,6 +136,21 @@
                 </div>
             </div>
             <div class="col-xs-7 att-row4" id="story-blk"></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3 nopadding">
+                <a href="perceptions.php"><img class="img-responsive" src="images/OurPerceptionsSq.jpg" alt="attributes"></a>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="work/flyeyeball.php"><img class="img-responsive slide-over" src="work/images/Preview/FeB_Img_400.png" alt="Fly-eye Ball"></a>
+                <p class="img-info">Fly-eye Ball</p>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="perspectives.php"><img class="img-responsive" src="images/OurPerspectiveSq.png" alt="Our Perspectives"></a>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <img class="img-responsive" src="images/GetinTouchSq.png" alt="Get in Touch!">
+            </div>
         </div>
     </div> <!--Close Container-->
      <!--End of Container-->

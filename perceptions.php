@@ -1,3 +1,4 @@
+<?php include 'subscribe-session.php'; ?> <!-- Very Important place above everything else!!-->
 <!doctype html>
 <html>
 <head>
@@ -130,7 +131,7 @@
         </div>
         <div class="row">
             <div class="col-sm-3 col-xs-6 nopadding">
-                <a href="attributes.php"><img class="img-responsive" src="images/Tech+Africa_600.png" alt="attributes"></a>
+                <a href="attributes.php"><img class="img-responsive" src="images/Attributessq.png" alt="attributes"></a>
             </div>
             <div class="col-sm-3 col-xs-6 nopadding">
                 <a href="work/futureafrica.php"><img class="img-responsive slide-over" src="work/images/Preview/MIAF_Img_400.png" alt="My Future Africa"></a>

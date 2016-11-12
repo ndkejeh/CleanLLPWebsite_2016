@@ -1,3 +1,4 @@
+<?php include 'subscribe-session.php'; ?> <!-- Very Important place above everything else!!-->
 <!doctype html>
 <html>
 <head>
@@ -185,6 +186,28 @@
                 products for their new 
                 African consumer and 
                 environment.</p>
+            </div>
+        </div>
+        <div class="row hidden-xs">
+            <div class="col-xs-12 nopadding">
+                <p class="divider divider-text">Related Projects</p>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-xs-3 nopadding">
+                <a href="okiki.php"><img class="img-responsive slide-over" src="work/images/Preview/Quip_Img_400.png"></a>
+                <p class="img-info">Quip</p>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="tina.php"><img class="img-responsive slide-over" src="work/images/Preview/Carib_Img_400.png"></a>
+                <p class="img-info">Carib Connect</p>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="flemmings.php"><img class="img-responsive slide-over" src="work/images/Preview/Solis_Img.jpg"></a>
+                <p class="img-info">Solis</p>
+            </div>
+            <div class="col-xs-3 nopadding">
+                <a href="contact.php"><img class="img-responsive" src="images/GetinTouchSq.png"></a>
             </div>
         </div>
     </div>

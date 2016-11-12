@@ -49,7 +49,8 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-lg-offset-1 col-md-4 hidden-sm hidden-xs third-footer">
-                    <form action="#phpform" method="post">
+                    <?php include '../subscribe-msg.php'?> <!-- Important php message inclusion-->
+                        <form action="../subscribe-action.php" method="post">
                         <input class="input-footer input-font" type="text" name="fullname" placeholder="Full Name" maxlength="30"> <!--separate first and last name by finding space-->
                         <input class="input-footer input-font" type="text" name="email" placeholder="Email" maxlength="40">
                         <input type="submit" value="Subscribe" class="subscribe-btn">
@@ -63,7 +64,8 @@
                     <a href="legal#"><p class="footer-links">Legal Information</p></a>
                 </div>
                 <div class="col-xs-4 col-xs-offset-1" id="footer-xs-btm-row">
-                    <form action="#phpform" method="post">
+                    <?php include '../subscribe-msg.php'?> <!-- Important php message inclusion-->
+                    <form action="../subscribe-action.php" method="post">
                     <input class="input-footer input-font" type="text" name="fullname" placeholder="Full Name" maxlength="30"> <!--separate first and last name by finding space-->
                     <input class="input-footer input-font" type="text" name="email" placeholder="Email" maxlength="40">
                     <input type="submit" value="Subscribe" class="subscribe-btn">

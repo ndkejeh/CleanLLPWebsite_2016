@@ -1,3 +1,4 @@
+<?php include 'subscribe-session.php'; ?> <!-- Very Important place above everything else!!-->
 <!doctype html>
 <html>
 <head>
