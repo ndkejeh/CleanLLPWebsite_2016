@@ -4,7 +4,7 @@
                 <div class="col-lg-4 col-xs-offset-1 col-xs-5 first-footer">
                     <div class="row">
                         <div class="col-md-6 col-xs-12 nopadding">
-                            <img class="img-responsive" id="footerlogo" src="images/De-Charles--footer.png" alt="De Charles">
+                            <img class="img-responsive" id="footerlogo" src="images/De-Charles--Footer.png" alt="De Charles">
                         </div>
                         <div class="row">
                             <div class=" col-lg-12 col-md-10 col-xs-12">
