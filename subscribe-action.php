@@ -18,19 +18,13 @@ if(isset($_POST['subscribe']) && isset($_POST['fullname'])) {
         $url = 'https://' . $dataCenter . '.api.mailchimp.com/3.0/lists/' . $listID . '/members/' . $memberID;
         
         // member information
-        $json = json_encode([
-            'email_address' => $email,
-            'status'        => 'pending', //change to pending so that users can confirm via email
-            'merge_fields'  => [
-                'FNAME'     => $fname,
-                'LNAME'     => $lname
-            ]
-        ]);
+        $fields_array = array('email_address' => $email,'status' => 'pending','merge_fields' => array('FNAME' => $fname,'LNAME' => $lname));
+        $json = json_encode($fields_array);
         
         // send a HTTP POST request with curl
         $ch = curl_init($url);
         curl_setopt($ch, CURLOPT_USERPWD, 'user:' . $apiKey);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, 10);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'PUT');
@@ -52,10 +46,10 @@ if(isset($_POST['subscribe']) && isset($_POST['fullname'])) {
                     $msg = 'Some problem occurred, please try again.';
                     break;
             }
-            $_SESSION['msg'] = '<p class="body" style="color: #b1b1b1">'.$msg.'</p>';
+            $_SESSION['footer-msg'] = '<p class="body" style="color: #b1b1b1">'.$msg.'</p>';
         }
     }else{
-        $_SESSION['msg'] = '<p class="body" style="color: #b1b1b1">Please enter valid email address.</p>';
+        $_SESSION['footer-msg'] = '<p class="body" style="color: #b1b1b1">Please enter valid email address.</p>';
     }
 }
 // redirect to homepage

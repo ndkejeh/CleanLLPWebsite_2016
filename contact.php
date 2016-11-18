@@ -80,39 +80,40 @@
             <div class="col-xs-8 col-xs-offset-2">
                 <form class="contact-form" action="contactllp.php" method="post" id="llp-contact">
                     <div class="row contact-row">
-                        <div class="col-xs-6 nopadding">
-                            <label class="label-contact" for="fname">First Name<span style="color: #b24026">*</span></label><br>
-                            <input class="input-contact input-font" type="text" name="fname" id="fname" maxlength="30">
+                        <div class="col-sm-6 nopadding">
+                            <label class="label-contact" for="fullname">Full Name<span style="color: #b24026">*</span></label><br>
+                            <input class="input-contact input-font" type="text" name="fullname" id="fullname" maxlength="30" required>
                         </div>
-                        <div class="col-xs-6 nopadding">
-                            <label class="label-contact" for="lname">Last Name<span style="color: #b24026">*</span></label><br>
-                            <input class="input-contact input-font" type="text" name="lname" id="lname" maxlength="30">
+                        <div class="col-sm-6 nopadding">
+                            <label class="label-contact" for="email">Email<span style="color: #b24026">*</span></label><br>
+                            <input class="input-contact input-font" type="text" name="email" id="email" maxlength="30" required>
                         </div>
                     </div>
                     <div class="row contact-row">
-                        <div class="col-xs-6 nopadding">
+                        <div class="col-sm-6 nopadding">
                             <label class="label-contact" for="company">Company<span style="color: #b24026">*</span></label><br>
-                            <input class="input-contact input-font" type="text" name="company" id="company" maxlength="30">
+                            <input class="input-contact input-font" type="text" name="company" id="company" maxlength="30" required>
                         </div>
-                        <div class="col-xs-6 nopadding">
+                        <div class="col-sm-6 nopadding">
                             <label class="label-contact" for="position">Position<span style="color: #b24026">*</span></label><br>
-                            <input class="input-contact input-font" type="text" name="position" id="position" maxlength="30">
+                            <input class="input-contact input-font" type="text" name="position" id="position" maxlength="30" required>
                         </div>
                     </div>
                     <div class="row contact-row">
-                        <div class="col-xs-6 nopadding">
+                        <div class="col-sm-6 nopadding">
                             <label class="label-contact" for="sector">Sector</label><br>
                             <input class="input-contact input-font" type="text" name="sector" id="sector" maxlength="30">
                         </div>
-                        <div class="col-xs-6 nopadding">
+                        <div class="col-sm-6 nopadding">
                             <label class="label-contact" for="country">Country<span style="color: #b24026">*</span></label><br>
-                            <input class="input-contact input-font" type="text" name="country" id="country" maxlength="30">
+                            <input class="input-contact input-font" type="text" name="country" id="country" maxlength="30" required>
                         </div>
                     </div>
                     <div class="row contact-row">
-                        <div class="col-xs-6 nopadding">
+                        <div class="col-sm-6 nopadding">
+                            <?php include 'status-msg-body.php'?> <!-- Important php message inclusion-->
                             <label class="label-contact">Message<span style="color: #b24026">*</span></label><br>
-                            <textarea class="message-contact input-font" name="message" form="llp-contact" style="resize: none" maxlength="1000"></textarea>
+                            <textarea class="message-contact input-font" name="message" form="llp-contact" style="resize: none" maxlength="1000" required></textarea>
                         </div>
                     </div>
                     <div class="row contact-row">

@@ -48,30 +48,13 @@
         <div class="row">
             <div class="col-xs-12 nopadding">
                 <div class="body-frame">
-                    <p class="body">Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nulla non nisl justo. 
-                    Aenean molestie molestie nunc. Morbi sed 
-                    dolor mollis, condimentum ligula pharetra, 
-                    posuere felis. Morbi id ex hendrerit, 
-                    commodo lacus eu, venenatis lectus. 
-                    Nullam felis lectus, molestie et velit sed, 
-                    molestie posuere elit. Sed at nulla sit amet 
-                    ipsum tincidunt tempor vel vitae sapien. 
-                    Curabitur nibh libero, pulvinar ac leo sit amet, 
-                    commodo ultrices velit. Proin odio nisi, 
-                    tincidunt eu nunc non, vulputate dictum velit.Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nulla non nisl justo. 
-                        Aenean molestie molestie nunc. Morbi sed</p>
+                    <p class="body">It’s sixteen years since the Economist published the article describing Africa as "the hopeless continent". Their opinion changed in 2011 to "Africa rising", but the story was still about Africa following in Asia’s footsteps.</p>
                     
-                    <p class="body">dolor mollis, condimentum ligula pharetra, 
-                    posuere felis. Morbi id ex hendrerit, 
-                    commodo lacus eu, venenatis lectus. 
-                    Nullam felis lectus, molestie et velit sed, 
-                    molestie posuere elit. Sed at nulla sit amet 
-                    ipsum tincidunt tempor vel vitae sapien. 
-                    Curabitur nibh libero, pulvinar ac leo sit amet, 
-                    commodo ultrices velit. Proin odio nisi, 
-                    tincidunt eu nunc non, vulputate dictum velit.</p>
+                    <p class="body">In consulting firm EY’s 2012 and 2013 client survey, the data gathered showed them that similar thinking was held by their clients. Africa was perceived as the second-best investment location by EY clients already invested in the continent, and the worst by those who were not. The thoughts behind these perceptions stem at least in part from a media industry addicted to portraying sensationalist news and stereotypes of regions. After decades of negative impressions and connotations surrounding Africa, many – including those in diaspora and on the continent – are finding the effects difficult to overcome.</p>
+                    
+                    <p class="body">Regardless, a ‘New Africa’ is charting its own course in this new century Africa, and where once its infrastructural limitations provoked despair they are now seen as opportunities to leapfrog or diverge from the status quo. Evidence of its rising above negative perceptions are illustrated by its growing export of art and culture. Figures including Chimamanda Ngozi Adichie, Touria El Glaoui, and Fuse ODG to name a few, have shared once shrouded glimpses of Africa with the rest of the world through literature, art and music respectively. We think through their work and successes they are having positive indirect effects on investment levels and diversification, and how Africa will be viewed on the global stage by the next generation.</p>
+                    
+                    <p class="body">With this belief and these thoughts in mind, the premise behind our work and initiatives such as Thinking, is to work with others to produce high-impact and profoundly different platforms, products and stories, that can help to shape and build one of the most exciting regions at this time in our history.</p>
                 </div>
             </div>
         </div>

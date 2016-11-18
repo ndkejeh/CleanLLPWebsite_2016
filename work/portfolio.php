@@ -136,7 +136,7 @@
                     </div>
                     <div class="col-xs-6 nopadding">
                         <img class="img-responsive hidden-sm hidden-xs" src="images/Portfolio/Rectangle-d-grey.jpg">
-                        <a class="hidden-md hidden-lg" href="Getintouch#"><img class="img-responsive" src="../images/GetinTouchSq.png"></a>
+                        <a class="hidden-md hidden-lg" href="../contact.php"><img class="img-responsive" src="../images/GetinTouchSq.png"></a>
                     </div>
                 </div>
                 <div class="row">
@@ -159,7 +159,7 @@
                 <img class="img-responsive" src="images/Portfolio/Rectangle-grey.png">
             </div>
             <div class="col-md-3 nopadding">
-                <a href="Getintouch#"><img class="img-responsive" src="../images/GetinTouchSq.png"></a>
+                <a href="../contact.php"><img class="img-responsive" src="../images/GetinTouchSq.png"></a>
             </div>
             <div class="col-md-3 nopadding">
             </div>

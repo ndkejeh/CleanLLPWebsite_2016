@@ -46,29 +46,11 @@
          <div class="row">
             <div class="col-xs-12 nopadding" id="perspTextBG">
                 <div class="body-frame">
-                    <p class="body">Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nulla non nisl justo. 
-                    Aenean molestie molestie nunc. Morbi sed 
-                    dolor mollis, condimentum ligula pharetra, 
-                    posuere felis. Morbi id ex hendrerit, 
-                    commodo lacus eu, venenatis lectus. 
-                    Nullam felis lectus, molestie et velit sed, 
-                    molestie posuere elit. Sed at nulla sit amet 
-                    ipsum tincidunt tempor vel vitae sapien. 
-                    Curabitur nibh libero, pulvinar ac leo sit amet, 
-                    commodo ultrices velit. Proin odio nisi, 
-                    tincidunt eu nunc non, vulputate dictum velit.Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Nulla non nisl justo. 
-                    Aenean molestie molestie nunc. Morbi sed 
-                    dolor mollis, condimentum ligula pharetra, 
-                    posuere felis. Morbi id ex hendrerit, 
-                    commodo lacus eu, venenatis lectus. 
-                    Nullam felis lectus, molestie et velit sed, 
-                    molestie posuere elit. Sed at nulla sit amet 
-                    ipsum tincidunt tempor vel vitae sapien. 
-                    Curabitur nibh libero, pulvinar ac leo sit amet, 
-                    commodo ultrices velit. Proin odio nisi, 
-                    tincidunt eu nunc non, vulputate dictum velit.</p>
+                    <p class="body">Since the start of the 21st century Africa has been experiencing fewer conflicts and rapidly diversifying its overall economy to include areas other than the banal and historically contentious extractive industries. Additionally, its population – that is the youngest on earth with a median age of 19 years in 2011 – has shown a technological vibrancy and desire to solve problems, which was largely missing in previous decades.</p>
+                    
+                    <p class="body">The continent has its infrastructural and institutional deficiencies that will continue to stifle growth until addressed, but it has found a more powerful fuel in its young. With most those on the continent having been born or raised in the late and early period of the 20th and 21st century – the period of increasing positivity – Africa is blessed with a large group who, regardless of their socioeconomic condition, anticipate change and are ambitious and passionate about effecting it.</p>
+                    
+                    <p class="body">Due to this, the mood among indigenes, the diaspora and many millennials in the global community, has over the last 20 years transitioned from pessimism to not just optimism, but expectation, all of which powering Africa against its once fundamental odds.</p>
                 </div>
             </div>
          </div>
