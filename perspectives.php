@@ -50,7 +50,7 @@
                     
                     <p class="body">The continent has its infrastructural and institutional deficiencies that will continue to stifle growth until addressed, but it has found a more powerful fuel in its young. With most those on the continent having been born or raised in the late and early period of the 20th and 21st century – the period of increasing positivity – Africa is blessed with a large group who, regardless of their socioeconomic condition, anticipate change and are ambitious and passionate about effecting it.</p>
                     
-                    <p class="body">Due to this, the mood among indigenes, the diaspora and many millennials in the global community, has over the last 20 years transitioned from pessimism to not just optimism, but expectation, all of which powering Africa against its once fundamental odds.</p>
+                    <p class="body">Due to this, the mood among indigenes, the diaspora and many millennials in the global community, has over the last 20 years transitioned from pessimism - to not just optimism - but expectation, all of which are powering Africa against its once fundamental odds.</p>
                 </div>
             </div>
          </div>
