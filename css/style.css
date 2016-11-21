@@ -2433,3 +2433,32 @@ div .att-blurb:not(:first-child) {
         line-height: 1.47;
     }
 }
+
+.services-body {
+    font-family: "Georgia", serif;
+    font-size: 1.3125rem;
+    line-height: 1.43;
+    color: #000;
+}
+
+.services-body:not(:first-child) {
+    padding-top: 20px;
+}
+
+@media (max-width: 1000px) {
+    .services-body{
+        font-size: 1.125rem;
+        line-height: 1.44;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-body{
+        font-size: 1.125rem;
+        line-height: 1.7;
+    }
+}
+        
+@media (max-width: 600px) {
+    .services-body {font-size: 0.93rem; line-height: 1.5}
+}

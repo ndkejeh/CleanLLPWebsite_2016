@@ -129,7 +129,7 @@ $(document).ready(function(){
      
      
      /////////////////////////////Test Functions////////////////////////////////////////////
-   /*   $(".logo-big").mouseover(function() {
+    /*  $(".logo-big").mouseover(function() {
         alert(window.innerWidth + " px");    
      });
      
