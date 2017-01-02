@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <?php include_once("../metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -29,6 +30,9 @@
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Start of Google Analytics Code -->
+    <?php include_once("../analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
 <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php'; ?>
 <!-- end of Nav menu container -->

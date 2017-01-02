@@ -9,23 +9,27 @@ $(document).ready(function(){
     
     /////////////////////////////////////Footer Script//////////////////////////////////////////////////
     var chgFooter = function (){
-        var footerCorrection = 4;
-        footerSmoother = 0; //reset footerSmoother function
-        timerFooter = setInterval(function(){
+        //var footerCorrection = 4;
+        //footerSmoother = 0; //reset footerSmoother function
+       /* timerFooter = setInterval(function(){
             $('body').css('margin-bottom',$('.footer').height());
             if (!footerCorrection) {
                 clearInterval(timerFooter);
             }
             footerCorrection --;
-        }, 300)
+        }, 300)*/
+        $('body').css('margin-bottom',$('.footer').height()); //set body margin height to that of the footer
+        scrollAdjust = 0; //reset scrolladjust trigger var
     }
     //window resize trigger event
     $(window).resize(function(){
         /////////////////Important height adjustment event for footer///////////////////
-        footerSmoother ++; //increment smoother variable make sure resize event is needed
+        /*footerSmoother ++; //increment smoother variable make sure resize event is needed
         if(footerSmoother == 3){
             chgFooter(); //and call the change footer method
-        }
+        }*/
+        chgFooter(); //call footer adjustment function
+         scrollAdjust = 1; //set scrolladjust trigger var
         ////////Important close event for Navbar///////////////////
         if (window.innerWidth > 992){
              $("span.material-icons").text("add");
@@ -90,9 +94,9 @@ $(document).ready(function(){
             clearTimeout(timerVar);
             $(".nav-wrapper").hide(500);
         }
-        if(scrollAdjust == 1){
+        ///FYI - Part of the footer height adjust code!///
+        if(scrollAdjust == 1){//This would equal 1 on page ini or when page resized
             chgFooter(); //call chgFooter proc to allow it initialise
-            scrollAdjust = 0; //reset scrollAdjust variable
 //            alert("it was called! yay");
         }
     });

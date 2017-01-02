@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!---Metadata!!!--->
+    <meta property="og:title" content="Perspectives" />
+    <meta name="description" content="We think Africa is ripe for new ideas and paradigms. We work with entities holding similar perspectives."/>
+    <meta property="og:description" content="We think Africa is ripe for new ideas and paradigms. We work with entities holding similar perspectives." />
+    <!---Above the generic included metadata should be any page specific metadata---->
+    <?php include_once("metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -29,6 +35,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icons-->
 </head>
 <body>
+    <!-- Start of Google Analytics Code -->
+    <?php include_once("analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
  <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php';?>
  <!-- end of Nav menu container -->
@@ -101,26 +110,42 @@
     <script src="js/LLPSite_2016.js"></script>
     <script>
         $(document).ready(function(){
+            var scrollAdjust = 1 //set scrollAdjust so it can call chgBlurbHeight on first scroll
             //initialise #tech-over-text height - run the resize event//
-          if(window.innerWidth > 768){ //then we're not in xs/mobile view so run i
+            //initialise #work-blurb-height run the resize event//
+            var chgBlueHeight = function(){
+                if(window.innerWidth > 768){ //then we're not in xs/mobile view so run it
+                    $("#tech-over-text").css('height', $("#power-map-box").height());   
+                    $(".second-row").css('height', "300px"); 
+                }
+                else {//else we're in the small view were we'd like auto height
+                    $("#tech-over-text").css('height', "auto"); 
+                    $(".second-row").css('height', "auto");  
+                }
+                scrollAdjust = 0; //reset scrolladjust trigger var
+            }
+            
+            //Run the resize event whenever the window is resized//
+            $(window).resize(function(){
+                chgBlueHeight(); //call the above height adjustment function
+                scrollAdjust = 1; //set scrolladjust trigger var
+            });
+            
+            $(window).scroll(function(){
+                if(scrollAdjust == 1){
+                    chgBlueHeight();
+//                    alert("chgBlurbHeight called");
+                }
+            })
+            
+   /*         if(window.innerWidth > 768){ //then we're not in xs/mobile view so run i
                      $("#tech-over-text").css('height', $("#power-map-box").height());    
                 }
                 else { //we're in the small view were we'd like auto height
                     $("#tech-over-text").css('height', "auto"); 
                     $(".second-row").css('height', "auto"); 
-                }
+                }*/
             
-            //Run the resize event whenever the window is resized//
-            $(window).resize(function(){
-                if(window.innerWidth > 768){ //then we're not in xs/mobile view so run i
-                    $("#tech-over-text").css('height', $("#power-map-box").height());  
-                    $(".second-row").css('height', "300px"); 
-                }
-                else { //we're in the small view were we'd like auto height
-                     $("#tech-over-text").css('height', "auto"); 
-                     $(".second-row").css('height', "auto"); 
-                }
-            });
         })
     </script>
     <!--------------------End of Scripts--------------->

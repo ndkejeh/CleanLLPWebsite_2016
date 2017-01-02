@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!---Metadata!!!--->
+    <meta property="og:title" content="Work | Africa 50" />
+    <meta property="og:image" content="http://decharles.com/work/images/Africa50/Africa50_Banner.png" />   
+    <meta name="description" content="De Charles produced the Africa50 report in order to quantify and benchmark the scale of Africa’s infrastructure deficit in the areas of power, transportation and water management, against other emerging and economically advanced nations."/>
+    <meta property="og:description" content="De Charles produced the Africa50 report in order to quantify and benchmark the scale of Africa’s infrastructure deficit in the areas of power, transportation and water management, against other emerging and economically advanced nations." />
+    <!---Above the generic included metadata should be any page specific metadata---->
+    <?php include_once("../metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -32,6 +39,9 @@
     <link href="../css/owl.theme.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Start of Google Analytics Code -->
+    <?php include_once("../analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
 <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php'; ?>
 <!-- end of Nav menu container -->
@@ -67,9 +77,9 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 nopadding">
-                                <img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share">
-                                <img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share">
-                                <img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//decharles.com/work/africa50.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share"></a>
+                                <a href="https://twitter.com/home?status=Check%20out%20%40decharlesllp's%20work%20with%20%40myfutureafrica%20%26%20Africa50!%20%23Tech%2BAfrica%20http%3A//decharles.com/work/africa50.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/africa50.php&title=Work%20%7C%20Africa%2050&summary=De%20Charles%20produced%20the%20Africa50%20report%20in%20order%20to%20quantify%20and%20benchmark%20the%20scale%20of%20Africa%E2%80%99s%20infrastructure%20deficit%20in%20the%20areas%20of%20power,%20transportation%20and%20water%20management,%20against%20other%20emerging%20and%20economically%20advanced%20nations.&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
                             </div>
                         </div>
                     </div>
@@ -87,9 +97,9 @@
                 </div>
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-8 col-md-offset-4 col-xs-10 col-xs-offset-2">
-                        <img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share">
-                        <img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share">
-                        <img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//decharles.com/work/africa50.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share"></a>
+                        <a href="https://twitter.com/home?status=Check%20out%20%40decharlesllp's%20work%20with%20%40myfutureafrica%20%26%20Africa50!%20%23Tech%2BAfrica%20http%3A//decharles.com/work/africa50.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/africa50.php&title=Work%20%7C%20Africa%2050&summary=De%20Charles%20produced%20the%20Africa50%20report%20in%20order%20to%20quantify%20and%20benchmark%20the%20scale%20of%20Africa%E2%80%99s%20infrastructure%20deficit%20in%20the%20areas%20of%20power,%20transportation%20and%20water%20management,%20against%20other%20emerging%20and%20economically%20advanced%20nations.&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
                     </div>
                 </div>
             </div>
@@ -129,7 +139,7 @@
             <div class="col-xs-12 nopadding">
                 <div class="body-frame">
                     <p class="body">Sub-Saharan Africa’s 49 countries collectively have approximately four-fifths of the UK’s power generation capacity to spread amongst over thirteen times more people. The continent’s unmaintained infrastructure leaves it with the highest logistics costs globally, and even with a similar rail density to Asia, its share of global rail freight stands at approximately 1% compared to 30% in Asia. Additionally, even with high magnitudes of surface water and rainfall second only to the Americas, poor water management renders Africa the driest continent on earth.</p>
-                    <p class="body">De Charles produced the Africa50 report in order to quantify and benchmarked the scale of Africa’s infrastructure deficit in the areas of power, transportation and water management, against other emerging and economically advanced nations. De Charles and Made in Africa Foundation considered this important as they believed such simplistic a comparison between Africa and the rest of the world across the broad areas of hard infrastructure had not yet been done.</p>
+                    <p class="body">De Charles produced the Africa50 report in order to quantify and benchmark the scale of Africa’s infrastructure deficit in the areas of power, transportation and water management, against other emerging and economically advanced nations. De Charles and Made in Africa Foundation considered this important as they believed such simplistic a comparison between Africa and the rest of the world across the broad areas of hard infrastructure had not yet been done.</p>
                     <p class="body">The report was for two purposes: to better illustrate Africa’s limited infrastructure for prospective project developers and investors, with the aim of greatly increasing activity; and - acknowledging African states’ fast rate of growth since the turn of the century – to highlight the continent’s remarkable emergence in the face of its significant challenges.</p>
                 </div>
             </div>

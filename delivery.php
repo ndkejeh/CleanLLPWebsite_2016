@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!---Metadata!!!--->
+    <meta property="og:title" content="Product Delivery" />
+    <meta property="og:image" content="http://decharles.com/images/DeliveryBanner.png" />
+    <meta name="description" content="We partner with clients to assist them realise novel technologies and reach new customers on the continent."/>
+    <meta property="og:description" content="We partner with clients to assist them realise novel technologies and reach new customers on the continent." />
+    <!---Above the generic included metadata should be any page specific metadata---->
+    <?php include_once("metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -23,12 +30,15 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     
-    <title>Product Design</title>
+    <title>Product Delivery</title>
     <link rel="icon" href="images/BlockFavicon_Large.jpg"> 
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icons-->
 </head>
 <body>
+    <!-- Start of Google Analytics Code -->
+    <?php include_once("analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
  <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php';?>
  <!-- end of Nav menu container -->
@@ -42,8 +52,8 @@
             <div class="col-xs-12 nopadding">
                 <div class="body-frame">
                     <p class="services-body">We partner with clients to assist them
-                        in realising their new technologies and
-                        bringing them to their customers on the
+                        realise novel technologies and
+                        reach new customers on the
                         continent.</p>
                     <p class="services-body">
                         We use our experience and expertise

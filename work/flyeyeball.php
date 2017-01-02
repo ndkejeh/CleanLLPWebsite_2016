@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!---Metadata!!!--->
+    <meta property="og:title" content="Work | Fly-eye Ball" />
+    <meta property="og:image" content="http://decharles.com/work/images/FeB/FeB-Banner.png" />   
+    <meta name="description" content="In-keeping with De Charles’ desire to push engineering boundaries, its team sought to develop a concept product capable of providing real-time data on its surrounding, which was also robust enough to be placed in difficult situations."/>
+    <meta property="og:description" content="In-keeping with De Charles’ desire to push engineering boundaries, its team sought to develop a concept product capable of providing real-time data on its surrounding, which was also robust enough to be placed in difficult situations." />
+    <!---Above the generic included metadata should be any page specific metadata---->
+    <?php include_once("../metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -32,6 +39,9 @@
     <link href="../css/owl.theme.css" rel="stylesheet">
 </head>
 <body>
+     <!-- Start of Google Analytics Code -->
+    <?php include_once("../analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
 <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php'; ?>
 <!-- end of Nav menu container -->
@@ -66,8 +76,8 @@
                         <div class="row">
                             <div class="col-xs-12 nopadding">
                                 <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//decharles.com/work/flyeyeball.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share"></a>
-                                <a href="https://twitter.com/home?status=http%3A//decharles.com/work/flyeyeball.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/flyeyeball.php&title=De%20Charles%20Highlights%20%7C%20Fly-eye%20Ball&summary=&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
+                                <a href="https://twitter.com/home?status=Check%20out%20%40decharlesllp%20concept%20product%20Fly-eye%20Ball%20%23TechPlusAfrica%20http%3A//decharles.com/work/flyeyeball.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/flyeyeball.php&title=Work%20%7C%20J.H.%20Flemmings&summary=In-keeping%20with%20De%20Charles%E2%80%99%20desire%20to%20push%20engineering%20boundaries,%20its%20team%20sought%20to%20develop%20a%20concept%20product%20capable%20of%20providing%20real-time%20data%20on%20its%20surrounding,%20which%20was%20also%20robust%20enough%20to%20be%20placed%20in%20difficult%20situations.&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
                             </div>
                         </div>
                     </div>
@@ -85,8 +95,8 @@
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-8 col-md-offset-4 col-xs-10 col-xs-offset-2">
                         <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//decharles.com/work/flyeyeball.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share"></a>
-                                <a href="https://twitter.com/home?status=http%3A//decharles.com/work/flyeyeball.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
-                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/flyeyeball.php&title=De%20Charles%20Highlights%20%7C%20Fly-eye%20Ball&summary=&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
+                        <a href="https://twitter.com/home?status=Check%20out%20%40decharlesllp%20concept%20product%20Fly-eye%20Ball%20%23TechPlusAfrica%20http%3A//decharles.com/work/flyeyeball.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/flyeyeball.php&title=Work%20%7C%20J.H.%20Flemmings&summary=In-keeping%20with%20De%20Charles%E2%80%99%20desire%20to%20push%20engineering%20boundaries,%20its%20team%20sought%20to%20develop%20a%20concept%20product%20capable%20of%20providing%20real-time%20data%20on%20its%20surrounding,%20which%20was%20also%20robust%20enough%20to%20be%20placed%20in%20difficult%20situations.&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
                     </div>
                 </div>
             </div>

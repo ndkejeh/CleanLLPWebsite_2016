@@ -2446,19 +2446,19 @@ div .att-blurb:not(:first-child) {
 }
 
 @media (max-width: 1000px) {
-    .services-body{
+    .services-body {
         font-size: 1.125rem;
         line-height: 1.44;
     }
 }
 
 @media (max-width: 768px) {
-    .services-body{
+    .services-body {
         font-size: 1.125rem;
         line-height: 1.7;
     }
 }
         
 @media (max-width: 600px) {
-    .services-body {font-size: 0.93rem; line-height: 1.5}
+    .services-body {font-size: 0.93rem; line-height: 1.5;}
 }

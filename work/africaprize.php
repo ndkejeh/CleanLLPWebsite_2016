@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!---Metadata!!!--->
+    <meta property="og:title" content="Work | The Africa Prize" />
+    <meta property="og:image" content="http://decharles.com/work/images/RAE/RAE-Banner.png" />   
+    <meta name="description" content="The Africa prize is the Royal Academy of Engineering's acknowledgement of growing innovation on the continent, and its effort to encourage and support higher standards by those involved engineering."/>
+    <meta property="og:description" content="The Africa prize is the Royal Academy of Engineering's acknowledgement of growing innovation on the continent, and its effort to encourage and support higher standards by those involved engineering." />
+    <!---Above the generic included metadata should be any page specific metadata---->
+    <?php include_once("../metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -32,6 +39,9 @@
     <link href="../css/owl.theme.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Start of Google Analytics Code -->
+    <?php include_once("../analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
 <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php'; ?>
 <!-- end of Nav menu container -->
@@ -65,9 +75,9 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 nopadding">
-                                <img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share">
-                                <img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share">
-                                <img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//decharles.com/work/africaprize.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share"></a>
+                                <a href="https://twitter.com/home?status=Check%20out%20%40decharlesllp's%20work%20with%20%40RAEngGlobal!%20%23Tech%2BAfrica%20http%3A//decharles.com/work/africaprize.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/africaprize.php&title=Work%20%7C%20The%20Africa%20Prize&summary=The%20Africa%20prize%20is%20the%20Royal%20Academy%20of%20Engineering's%20acknowledgement%20of%20growing%20innovation%20on%20the%20continent,%20and%20its%20effort%20to%20encourage%20and%20support%20higher%20standards%20by%20those%20involved%20engineering.&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
                             </div>
                         </div>
                     </div>
@@ -84,9 +94,9 @@
                 </div>
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-8 col-md-offset-4 col-xs-10 col-xs-offset-2">
-                        <img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share">
-                        <img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share">
-                        <img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share">
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//decharles.com/work/africaprize.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Facebook-Share.png" alt="facebook share"></a>
+                        <a href="https://twitter.com/home?status=Check%20out%20%40decharlesllp's%20work%20with%20%40RAEngGlobal!%20%23Tech%2BAfrica%20http%3A//decharles.com/work/africaprize.php" target="_blank"><img class="work-social-icons img-responsive" src="images/Twitter-Share.png" alt="twitter share"></a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//decharles.com/work/africaprize.php&title=Work%20%7C%20The%20Africa%20Prize&summary=The%20Africa%20prize%20is%20the%20Royal%20Academy%20of%20Engineering's%20acknowledgement%20of%20growing%20innovation%20on%20the%20continent,%20and%20its%20effort%20to%20encourage%20and%20support%20higher%20standards%20by%20those%20involved%20engineering.&source=" target="_blank"><img class="work-social-icons img-responsive" src="images/LinkedIn-Share.png" alt="LinkedIn share"></a>
                     </div>
                 </div>
             </div>

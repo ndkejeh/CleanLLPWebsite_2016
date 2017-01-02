@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!---Metadata!!!--->
+    <meta property="og:title" content="Product Strategy" />
+    <meta property="og:image" content="http://decharles.com/images/StrategyBanner.png" />   
+    <meta name="description" content="We help clients identify and capture new opportunities, increase their footprint and impact across the continent, and use technology to overcome their specific barriers to growth in Africa."/>
+    <meta property="og:description" content="We help clients identify and capture new opportunities, increase their footprint and impact across the continent, and use technology to overcome their specific barriers to growth in Africa." />
+    <!---Above the generic included metadata should be any page specific metadata---->
+    <?php include_once("metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -29,6 +36,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icons-->
 </head>
 <body>
+    <!-- Start of Google Analytics Code -->
+    <?php include_once("analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
  <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php';?>
  <!-- end of Nav menu container -->

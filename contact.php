@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!---Metadata!!!--->
+    <meta property="og:title" content="Contact De Charles" />
+    <meta name="description" content="Get in touch with us for work or a chat!"/>
+    <meta property="og:description" content="Get in touch with us for work or a chat!" />
+    <!---Above the generic included metadata should be any page specific metadata---->
+    <?php include_once("metadata-generic.php") ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
@@ -29,6 +35,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Icons-->
 </head>
 <body>
+    <!-- Start of Google Analytics Code -->
+    <?php include_once("analyticstracking.php") ?>
+    <!-- End of Google Analytics Code -->
  <!-- Start of reponsive Nav bar -->
 	<?php include 'navbar.php';?>
  <!-- end of Nav menu container -->
@@ -53,7 +62,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-4 col-xs-10 col-xs-offset-2 office-blk">
                         <p class="contact-address">The Bloomsbury Building<br>
-                        Holborn<br>
+                        10 Bloomsbury Way<br>
                         London <br>
                         WC1A 2SL<br>
                         United Kingdom</p>
