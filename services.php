@@ -54,21 +54,20 @@
                 </div>
             </div>
         </div>
-        <!--Product Strategy-->
+        <!--Product Narratives-->
         <a class="simple-link" href="strategy.php">
             <div class="row main-services-row" id="main-services-row-1"> 
                 <div class="col-xs-5 col-xs-offset-1">
                     <div class="row">
                         <div class="col-xs-11 nopadding">
-                            <p class="services-main-title" id="services-height-bench">Product Strategy</p>
+                            <p class="services-main-title" id="services-height-bench">Product Narratives</p>
                         </div>
                         <div class="col-xs-1 nopadding"></div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 hidden-xs nopadding">
-                            <p class="services-blurb" id="services-text-id">We help clients identify and capture new 
-                            opportunities, and increase their footprint and 
-                            impact with their technologies.</p>
+                            <p class="services-blurb" id="services-text-id">We work with clients to unearth the powerful
+                                stories behind their products that move the global community.</p>
                         </div>
                     </div>
                 </div>
@@ -78,21 +77,20 @@
                 <div class="col-xs-1 nopadding"></div>
             </div>
         </a>
-        <!--Product Design-->
+        <!--Software Delivery-->
         <a class="simple-link" href="design.php">
             <div class="row main-services-row" id="main-services-row-2">
                 <div class="col-xs-5 col-xs-offset-1">
                     <div class="row">
                         <div class="col-xs-11 nopadding">
-                            <p class="services-main-title">Product Design</p>
+                            <p class="services-main-title">Software Delivery</p>
                         </div>
                         <div class="col-xs-1 nopadding"></div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 hidden-xs nopadding">
-                            <p class="services-blurb" id="services-text-id">We work with client to create meaningful 
-                            products that are appropriate in their regional 
-                            context.</p>
+                            <p class="services-blurb" id="services-text-id">We help companies design and build digital
+                                    footprints and processes in a continent revolutionsied by mobile &amp; internet.</p>
                         </div>
                     </div>
                 </div>
@@ -102,21 +100,20 @@
                 <div class="col-xs-1 nopadding"></div>
             </div>
         </a>    
-        <!--Product Delivery-->
+        <!--Hardware Delivery-->
         <a class="simple-link" href="delivery.php">
             <div class="row main-services-row" id="main-services-row-3">
                 <div class="col-xs-5 col-xs-offset-1">
                     <div class="row">
                         <div class="col-xs-11 nopadding">
-                            <p class="services-main-title">Product Delivery</p>
+                            <p class="services-main-title">Hardware Delivery</p>
                         </div>
                         <div class="col-xs-1 nopadding"></div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 hidden-xs nopadding">
-                            <p class="services-blurb" id="services-text-id">We work with clients to realise new technologies 
-                            and bring them to new consumers on the 
-                            continent.</p>
+                            <p class="services-blurb" id="services-text-id">We work with clients to take their hardware
+                                    ideas from conception through to commercialisation.</p>
                         </div>
                     </div>
                 </div>
