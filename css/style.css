@@ -2051,12 +2051,19 @@ p.blurb-text:not(:first-child) {
     background-color: #b24026;
 }
 
-/*@media (max-width: 1110px){
+@media (max-width: 1110px){
     .services-blurb{
-        font-size: 2vw;
+        font-size: 1.1rem;
         width: 75%;
     }
-}*/
+}
+
+@media (max-width: 850px){
+    .services-blurb{
+        font-size: 1rem;
+        width: 75%;
+    }
+}
 
 
 @media (max-width: 768px){
@@ -2133,7 +2140,7 @@ p.blurb-text:not(:first-child) {
 }
 
 #main-services-row-3 {
-    background-color: #b24026;
+    background-color: #db7833;
 }
 
 .services-headline {
@@ -2436,8 +2443,8 @@ div .att-blurb:not(:first-child) {
 
 .services-body {
     font-family: "Georgia", serif;
-    font-size: 1.3125rem;
-    line-height: 1.43;
+    font-size: 1.1rem;
+    line-height: 1.6;
     color: #000;
 }
 

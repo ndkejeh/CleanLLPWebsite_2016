@@ -45,73 +45,29 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 nopadding">
-                <img class="img-responsive" src="images/StrategyBanner.png" alt="Strategy Banner">
+                <img class="img-responsive" src="images/NarrativesBanner.png" alt="Narratives Banner">
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 nopadding">
                 <div class="body-frame">
-                    <p class="services-body">We help clients identify and capture new
-                        opportunities, increase their footprint
-                        and impact across the continent, and
-                        use technology to overcome
-                        their specific barriers to growth in
-                        Africa. We chiefly distinguish ourselves
-                        by blending our commercial and
-                        engineering expertise, and have a
-                        quantitative, entrepreneurial and
-                        multidisciplinary approach to
-                        consulting.
-                        We rigorously qualify using gathered
-                        market and consumer data, but with
-                        strong venture-based backgrounds and
-                        Africa knowledge, we know when to go
-                        against perceived wisdom.</p>
-                    <p class="services-body">
-                        We consider it paramount that
-                        companies seek creativity in both their
-                        technology and market approach, which
-                        is why we take a mutually inclusive and
-                        multidimensional approach to executing
-                        product strategy.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row services-row hidden-xs">
-            <div class="col-sm-2 col-md-offset-2 col-sm-offset-1">
-                <img class="img-responsive services-icon" src="images/Ventures-Icon.png" alt="New Ventures">
-            </div>
-            <div class="col-sm-3">
-                <div class="row">
-                    <div class="col-sm-12 nopadding">
-                        <p class="services-title">New Ventures</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">With our insights and 
-                        gathered data, we illuminate
-                        new opportunities for clients.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2 nopadding">
-                <img class="img-responsive services-icon" src="images/Impact-Icon.png" alt="Profitable Impact">
-            </div>
-            <div class="col-sm-3" style="padding-left: -10px">
-                <div class="row">
-                    <div class="col-sm-12 nopadding">
-                        <p class="services-title">Profit &amp; Impact</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">Merging technical and 
-                        commercial expertise, 
-                        we solve problems to 
-                        marry profit and social 
-                        good.</p>
-                    </div>
+                    <p class="services-body">We work with clients to unearth powerful
+                        narratives that make lasting impressions,
+                        broaden the size and demographic of their
+                        consumer base, and put their company on
+                        thought trajectories more conducive to
+                        innovating in Africa.</p><p class="services-body">
+                        We realise that consumers today want to
+                        engage with products on many levels. Good
+                        interactions on the physical and functional
+                        level are necessary, but even before a purchase
+                        people want to be drawn in by the message
+                        behind the company and its products.</p><p class="services-body">
+                        Africa is currently in one of the most exciting
+                        periods in its modern era, which we believe
+                        puts forward-thinking companies on the
+                        continent at an innovation advantage – both
+                        technologically and with regards to narrative.</p>
                 </div>
             </div>
         </div>
@@ -127,84 +83,86 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">We advise on concepts
-                        that help develop well-positioned,
-                        relevant and engaging products.</p>
+                        <p class="services-blurb">We create stirring concepts
+                        that lead to well-positioned, relevant and
+                        engaging companies and products.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-2 nopadding">
-                <img class="img-responsive services-icon" src="images/Go2mrkt-Icon.png" alt="Go-to-market">
+                <img class="img-responsive services-icon" src="images/Impact-Icon.png" alt="Profitable Impact">
             </div>
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-title">Go-to-market</p>
+                        <p class="services-title">Profitable Impact</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">We develop strategies 
-                        and networks for clients to
-                        deploy products and build 
-                        awareness.</p>
+                        <p class="services-blurb">Merging technical, and
+                        commercial expertise, we help entities build
+                        ventures that marry profit and social good.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row services-row hidden-xs">
+            <div class="col-sm-2 col-md-offset-2 col-sm-offset-1">
+                <img class="img-responsive services-icon" src="images/Go2mrkt-Icon.png" alt="New Ventures">
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12 nopadding">
+                        <p class="services-title">New Ventures</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 nopadding">
+                        <p class="services-blurb">We help clients articulate
+                        and launch new ideas that may be complex
+                        in their model, story, and focus.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-1">
-            <div class="col-xs-3 col-xs-offset-1">
-                <img class="img-responsive services-icon" src="images/Ventures-Icon.png" alt="New Ventures">
+            <div class="col-xs-3">
+                <img class="img-responsive services-icon" src="images/Narrative-Icon.png" alt="Narratives">
             </div>
             <div class="col-xs-4 nopadding">
-                <p class="services-title">New Ventures</p>
+                <p class="services-title">Product Stories</p>
             </div>
-            <div class="col-xs-4 nopadding">
-                <p class="services-blurb">With our insights and 
-                        gathered data, we illuminate
-                        new opportunities for clients.</p>
+            <div class="col-xs-5 nopadding">
+                <p class="services-blurb">We create stirring concepts
+                        that lead to well-positioned, relevant and
+                        engaging companies and products.</p>
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-2">
-            <div class="col-xs-3 col-xs-offset-1">
-                <img class="img-responsive services-icon" src="images/Impact-Icon.png" alt="Profit + Impact">
+            <div class="col-xs-3 ">
+                <img class="img-responsive services-icon" src="images/Impact-Icon2.png" alt="Profitable Impact">
             </div>
             <div class="col-xs-4 nopadding">
                 <p class="services-title">Profit &amp; Impact</p>
             </div>
-            <div class="col-xs-4 nopadding">
-                <p class="services-blurb">Merging technical and 
-                commercial expertise, 
-                we solve problems to 
-                marry profit and social 
-                good.</p>
+            <div class="col-xs-5 nopadding">
+                <p class="services-blurb">Merging technical, and
+                commercial expertise, we help entities build
+                ventures that marry profit and social good.</p>
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-3">
-            <div class="col-xs-3 col-xs-offset-1">
-                <img class="img-responsive services-icon" src="images/Narrative-Icon.png" alt="Product Story">
+            <div class="col-xs-3">
+                <img class="img-responsive services-icon" src="images/Go2mrkt-Icon2.png" alt="New Ventures">
             </div>
             <div class="col-xs-4 nopadding">
-                <p class="services-title">Product Story</p>
-            </div>  
-            <div class="col-xs-4 nopadding">
-                <p class="services-blurb">We advise on concepts
-                that help develop well-positioned,
-                relevant and engaging products.</p>
+                <p class="services-title">New Ventures</p>
             </div>
-        </div>
-        <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-4">
-            <div class="col-xs-3 col-xs-offset-1">
-                <img class="img-responsive services-icon" src="images/Go2mrkt-Icon-768px.png" alt="Go-to-market">
-            </div>
-            <div class="col-xs-4 nopadding">
-                <p class="services-title">Go-to-market</p>
-            </div>
-            <div class="col-xs-4 nopadding">
-                <p class="services-blurb">Adapting clients&#8217; existing 
-                products for their new 
-                African consumer and 
-                environment.</p>
+            <div class="col-xs-5 nopadding">
+                <p class="services-blurb">We help clients articulate
+                and launch new ideas that may be complex
+                in their model, story, and focus.</p>
             </div>
         </div>
         <div class="row hidden-xs">

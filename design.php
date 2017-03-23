@@ -45,61 +45,67 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 nopadding">
-                <img class="img-responsive" src="images/DesignBanner.png" alt="Design Banner">
+                <img class="img-responsive" src="images/SoftwareBanner.png" alt="Software Banner">
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 nopadding">
                 <div class="body-frame">
-                    <p class="services-body">We work with clients to create
-                        meaningful innovations that can be
-                        impactful in their African contexts, and
-                        technologies that can increase their
-                        effectiveness and relevance on the
-                        continent.
-                        We operate on both sides of the fence:
-                        we understand clients’ overall business
-                        objectives and strategies using our
-                        commercial expertise, and with our
-                        engineering and design knowledge
-                        conceive products that move customers,
-                        brands, and society.</p>
+                    <p class="services-body">We help companies design and build digital
+                    footprints and processes in a continent where
+                    the internet and mobile telephony has
+                    revolutionised industry, practices and society
+                        since the turn of the century.</p><p class="services-body">
+                    An exponential rate of change across regions
+                    at various levels has made the African software
+                    space truly dynamic. Based on a company’s
+                    objectives and target consumer, a product
+                    could have drastically different constraints
+                    with regards to speed, complexity, data
+                    demand and front-end visualisation.</p><p class="services-body">
+                    We formed our software expertise with agility
+                    in mind. Having both developers and
+                    computer scientists, we are keen to work with
+                    clients to create digital presences and the
+                    algorithms behind the software that will shape
+                    Africa’s coming decades.</p>
                 </div>
             </div>
         </div>
         <div class="row services-row hidden-xs">
             <div class="col-sm-2 col-md-offset-2 col-sm-offset-1">
-                <img class="img-responsive services-icon" src="images/ProdDesign.png" alt="Product Design">
+                <img class="img-responsive services-icon" src="images/ProdDesign.png" alt="Applications">
             </div>
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-title">Product Design</p>
+                        <p class="services-title">Applications</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">The development of products&#8217; 
-                        context, function, design, 
-                        renders and specification.</p>
+                        <p class="services-blurb">We help clients build
+                        representations of their proposition on
+                        modern digital platforms, including
+                        mobile and the web.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-2 nopadding">
-                <img class="img-responsive services-icon" src="images/Engr-Design.png" alt="Prototype Design">
+                <img class="img-responsive services-icon" src="images/Engr-Design.png" alt="Processes">
             </div>
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-title">Prototype Build</p>
+                        <p class="services-title">Processes</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">Building models and 
-                        designing modules, 
-                        schematics, and pseudocode 
-                        of hardware/software.</p>
+                        <p class="services-blurb">We work with clients to create for
+                        them truly innovative systems, which sharpen
+                        their processes, increase effciency and grow
+                        their capabilities and propositions.</p>
                     </div>
                 </div>
             </div>
@@ -111,26 +117,27 @@
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-title">Product Shaping</p>
+                        <p class="services-title">Algorithms</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">Adapting clients&#8217; existing 
-                        products for their new African 
-                        consumer and environment.</p>
+                        <p class="services-blurb">We research the untested, and
+                        code solutions to the cutting-edge problems
+                        faced by ambitious clients, using the
+                        expertise of our scientists and engineers.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-1">
-            <div class="col-xs-3 col-xs-offset-1">
+            <div class="col-xs-3">
                 <img class="img-responsive services-icon" src="images/ProdDesign.png" alt="Product Design">
             </div>
             <div class="col-xs-4 nopadding">
                 <p class="services-title">Product Design</p>
             </div>
-            <div class="col-xs-4 nopadding">
+            <div class="col-xs-5 nopadding">
                 <p class="services-blurb">The development of 
                 products&#8217; context, 
                 function, design, renders 
@@ -138,13 +145,13 @@
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-2">
-            <div class="col-xs-3 col-xs-offset-1">
+            <div class="col-xs-3">
                 <img class="img-responsive services-icon" src="images/Engr-Design.png" alt="Prototype Build">
             </div>
             <div class="col-xs-4 nopadding">
                 <p class="services-title">Prototype Build</p>
             </div>
-            <div class="col-xs-4 nopadding">
+            <div class="col-xs-5 nopadding">
                 <p class="services-blurb">Building models and 
                 designing modules, 
                 schematics, and 
@@ -153,13 +160,13 @@
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-3">
-            <div class="col-xs-3 col-xs-offset-1">
+            <div class="col-xs-3">
                 <img class="img-responsive services-icon" src="images/Produ-Shaping.png" alt="Product Shaping">
             </div>
             <div class="col-xs-4 nopadding">
                 <p class="services-title">Product Shaping</p>
             </div>
-            <div class="col-xs-4 nopadding">
+            <div class="col-xs-5 nopadding">
                 <p class="services-blurb">Adapting clients&#8217; existing 
                 products for their new 
                 African consumer and 

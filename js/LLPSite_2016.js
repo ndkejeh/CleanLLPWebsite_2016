@@ -48,7 +48,7 @@ $(document).ready(function(){
                            if($(window).scrollTop() > 10 && !($("ul").is(":hover"))){//then we'll hide the menu 4 seconds after mouseover
                                 timerVar=setTimeout(function(){$(".nav-wrapper").hide(500)},4000);   
                            }
-                          //  alert($(window).scrollTop()+ "px");
+                            //alert($(window).scrollTop()+ "px");
                            });
     //need to do an if(open) on scroll hide//
     //nav-content SHOW on the mouseover; HIDE after a few seconds or on scroll//
@@ -133,11 +133,11 @@ $(document).ready(function(){
      
      
      /////////////////////////////Test Functions////////////////////////////////////////////
-    /*  $(".logo-big").mouseover(function() {
+      $(".logo-big").mouseover(function() {
         alert(window.innerWidth + " px");    
      });
      
     $(".logo-small").mouseover(function() {
         alert(window.innerWidth + " px");    
-     }); */
+     }); 
 });

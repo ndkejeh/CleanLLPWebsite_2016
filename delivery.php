@@ -45,132 +45,127 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 nopadding">
-                <img class="img-responsive" src="images/DeliveryBanner.png" alt="Delivery Banner">
+                <img class="img-responsive" src="images/HardwareBanner.png" alt="Hardware Banner">
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 nopadding">
                 <div class="body-frame">
-                    <p class="services-body">We partner with clients to assist them
-                        realise novel technologies and
-                        reach new customers on the
-                        continent.</p>
-                    <p class="services-body">
-                        We use our experience and expertise
-                        in engineering, computer science and
-                        product development, as well as our
-                        experience delivering our own award
-                        winning propositions to the continent,
-                        to assist companies through the process
-                        of realisation and delivery to market.
-                        We use our global network to assist
-                        with building a robust supply-chain with
-                        credible partners, and take the hassle
-                        away from the establishing of
-                        manufacturing and logistics partners
-                        and routes respectively.</p>
-                    <p class="services-body">
-                        We can continue to support your
-                        activities post-delivery, managing the
-                        flow of product supplies and planning
-                        for eventual growth.</p>
+                    <p class="services-body">We work with clients to form their hardware
+                    ideas at conception, and take them from
+                        prototype through to commercialisation.</p><p class="services-body">
+                    Historically known for its lack of physical
+                    infrastructure and distribution channels,
+                    in this century Africa has shifted the focus of
+                    many to its rapid adoption of new technology.
+                    This characteristic has made the continent and
+                    certain countries within it to be seen as
+                    relatively low entry barriers for creative
+                    hardware, particularly those aimed at Africa’s
+                    burgeoning, predominantly youthful, and tech
+                    hungry consumers.</p><p class="services-body">
+                    The De Charles team was initially founded on
+                    hardware engineering talent, which built
+                    impactful products for Africa contexts.</p>
                 </div>
             </div>
         </div>
         <div class="row services-row hidden-xs">
             <div class="col-sm-2 col-md-offset-2 col-sm-offset-1">
-                <img class="img-responsive services-icon" src="images/Prod-Dev.png" alt="Product Development">
+                <img class="img-responsive services-icon" src="images/Prod-Dev.png" alt="Product Design">
             </div>
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-title">Product Build</p>
+                        <p class="services-title">Product Design</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">Using our engineering 
-                        expertise, we realise clients&#8217; 
-                        hardware/software vision.</p>
+                        <p class="services-blurb">We translate client’s
+                        ideas into visual representations,
+                        appropriate for the contemporary African
+                        consumer.</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-2 nopadding">
-                <img class="img-responsive services-icon" src="images/Manufacture.png" style="padding-left: 10px" alt="Product Manufacture">
+                <img class="img-responsive services-icon" src="images/Manufacture.png" style="padding-left: 10px" alt="Product Development">
             </div>
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-title">Product Scale</p>
+                        <p class="services-title">Product Dev</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">We manage the 
-                        manufacturing and testing 
-                        process to ensure 
-                        high-fidelity product output.</p>
+                        <p class="services-blurb">Using our expertise
+                        across disciplines of engineering and science,
+                        we build prototypes and commercial versions
+                        of clients’ ideas.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row services-row hidden-xs">
             <div class="col-sm-2 col-md-offset-2 col-sm-offset-1">
-                <img class="img-responsive services-icon" src="images/Content-Delivery.png" alt="Content Delivery">
+                <img class="img-responsive services-icon" src="images/Content-Delivery.png" alt="Product Shaping">
             </div>
             <div class="col-sm-3">
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-title">Content Delivery</p>
+                        <p class="services-title">Product Shaping</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12 nopadding">
-                        <p class="services-blurb">We can assist with sourcing 
-                        logistics partners, and current
-                        and future delivery strategies.</p>
+                        <p class="services-blurb">We help clients adapt
+                        their existing products for new African
+                        consumers and environments.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-1">
-            <div class="col-xs-3 col-xs-offset-1">
+            <div class="col-xs-3">
                 <img class="img-responsive services-icon" src="images/Prod-Dev.png" alt="Product Design">
             </div>
             <div class="col-xs-4 nopadding">
-                <p class="services-title">Product Build</p>
+                <p class="services-title">Product Design</p>
             </div>
-            <div class="col-xs-4 nopadding">
-                <p class="services-blurb">Using our engineering 
-                expertise, we realise clients&#8217; 
-                hardware/software vision.</p>
+            <div class="col-xs-5 nopadding">
+                <p class="services-blurb">We translate client’s
+                ideas into visual representations,
+                appropriate for the contemporary African
+                consumer.</p>
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-2">
-            <div class="col-xs-3 col-xs-offset-1">
-                <img class="img-responsive services-icon" src="images/Manufacture.png" alt="Product Manufacture">
+            <div class="col-xs-3">
+                <img class="img-responsive services-icon" src="images/Manufacture.png" alt="Product Development">
             </div>
             <div class="col-xs-4 nopadding">
-                <p class="services-title">Product Scale</p>
+                <p class="services-title">Product Dev</p>
             </div>
-            <div class="col-xs-4 nopadding">
-                <p class="services-blurb">We manage the 
-                manufacturing and testing 
-                process to ensure 
-                high-fidelity product output.</p>
+            <div class="col-xs-5 nopadding">
+                <p class="services-blurb">Using our expertise
+                across disciplines of engineering and science,
+                we build prototypes and commercial versions
+                of clients’ ideas.</p>
             </div>
         </div>
         <div class="row services-row-small hidden-md hidden-sm hidden-lg" id="services-row-small-3">
-            <div class="col-xs-3 col-xs-offset-1">
-                <img class="img-responsive services-icon" src="images/Content-Delivery.png" alt="Content Delivery">
+            <div class="col-xs-3">
+                <img class="img-responsive services-icon" src="images/Content-Delivery.png" alt="Product Shaping">
             </div>
             <div class="col-xs-4 nopadding">
-                <p class="services-title">Content Delivery</p>
+                <p class="services-title">Product Shaping</p>
             </div>
-            <div class="col-xs-4 nopadding">
-                <p class="services-blurb">We can assist with sourcing 
-                logistics partners, and current
-                and future delivery strategies.</p>
+            <div class="col-xs-5 nopadding">
+                <p class="services-blurb">We help clients adapt
+                their existing products for new African
+                consumers and environments.</p>
             </div>
         </div>
         <div class="row hidden-xs">
