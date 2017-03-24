@@ -2174,13 +2174,15 @@ p.blurb-text:not(:first-child) {
 
 @media (max-width: 768px) {
     .services-main-title {padding-top: 40px; padding-left: 10px; font-size: 4.5rem}
-    .services-main-icon {padding-top: 60px}
+    .services-main-icon {padding-top: 30px}
     .services-main-icon#design-icon {padding-top: 80px}
+}
+@media (max-width: 713px) {
+    .services-main-icon {display: none}
 }
 
 @media (max-width: 550px) {
     .services-main-title {padding-left: 30px; font-size: 2.5rem;}
-    .services-main-icon {display: none}
 }
 
 @media (max-width: 400px) {
@@ -2468,4 +2470,18 @@ div .att-blurb:not(:first-child) {
         
 @media (max-width: 600px) {
     .services-body {font-size: 0.93rem; line-height: 1.5;}
+}
+
+.small-service-title {
+    font: 700 4.5em/1.25em "adelle-sans";
+    color: #ffffff;
+    padding-top: 55px
+}
+
+@media (max-width: 530px) {
+    .small-service-title{padding-top: 20px}
+}
+
+@media (max-width: 858px) {
+    #icon-rem {display: none}
 }

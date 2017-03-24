@@ -98,7 +98,7 @@
                 <img class="img-responsive" src="images/Green-Filler.png" alt="LLP Green!">
             </div>
             <div class="col-sm-3 col-xs-6 nopadding">
-                <img class="img-responsive" src="images/GetinTouchSq.png" alt="Get in Touch!">
+                <a href="contact.php"><img class="img-responsive" src="images/GetinTouchSq.png" alt="Get in Touch!"></a>
             </div>
         </div>
     </div>

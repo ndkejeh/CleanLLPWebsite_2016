@@ -72,6 +72,8 @@
                     </div>
                 </div>
                 <div class="col-xs-4 col-xs-offset-1">
+                    <!--<p class="services-blurb" id="services-text-id">We work with clients to unearth the powerful
+                                stories behind their products that move the global community.</p>-->
                     <img class="img-responsive services-main-icon" src="images/Vector-Smart-Object.png">
                 </div>
                 <div class="col-xs-1 nopadding"></div>
@@ -95,6 +97,8 @@
                     </div>
                 </div>
                 <div class="col-xs-4 col-xs-offset-1">
+                    <!--<p class="services-blurb" id="services-text-id">We help companies design and build digital
+                                    footprints and processes in a continent revolutionsied by mobile &amp; internet.</p>-->
                     <img class="img-responsive services-main-icon" id="design-icon" src="images/Vector-Smart-Object1.png">
                 </div>
                 <div class="col-xs-1 nopadding"></div>
@@ -118,6 +122,8 @@
                     </div>
                 </div>
                 <div class="col-xs-4 col-xs-offset-1">
+                    <!--<p class="services-blurb" id="services-text-id">We work with clients to take their hardware
+                                    ideas from conception through to commercialisation.</p>-->
                     <img class="img-responsive services-main-icon" src="images/Vector-Smart-Object2.png">
                 </div>
                 <div class="col-xs-1 nopadding"></div>

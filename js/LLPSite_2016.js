@@ -102,11 +102,11 @@ $(document).ready(function(){
     });
     
     //Important close function for navbar//
-    closeEventTimer = setInterval(function() {
+  /*  closeEventTimer = setInterval(function() {
                         if($(".nav-wrapper, .logo-small, .logo-big").is(":hover")){
                             alert("It's true!!");
                         };    
-    }, 300);
+    }, 300);*/
     /////////////////////////////////////////Image Overlays//////////////////////////////////////////
    /* $("img.slide-over").mouseenter(function() { //make another class in order to differentiate!!
         if (window.innerWidth > 992) {
@@ -133,11 +133,11 @@ $(document).ready(function(){
      
      
      /////////////////////////////Test Functions////////////////////////////////////////////
-      $(".logo-big").mouseover(function() {
+ /*     $(".logo-big").mouseover(function() {
         alert(window.innerWidth + " px");    
      });
      
     $(".logo-small").mouseover(function() {
         alert(window.innerWidth + " px");    
-     }); 
+     }); */
 });
