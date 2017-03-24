@@ -55,7 +55,7 @@
             </div>
         </div>
         <!--Product Narratives-->
-        <a class="simple-link" href="strategy.php">
+        <a class="simple-link" href="narratives.php">
             <div class="row main-services-row" id="main-services-row-1"> 
                 <div class="col-xs-5 col-xs-offset-1">
                     <div class="row">
@@ -80,7 +80,7 @@
             </div>
         </a>
         <!--Software Delivery-->
-        <a class="simple-link" href="design.php">
+        <a class="simple-link" href="software.php">
             <div class="row main-services-row" id="main-services-row-2">
                 <div class="col-xs-5 col-xs-offset-1">
                     <div class="row">
@@ -105,7 +105,7 @@
             </div>
         </a>    
         <!--Hardware Delivery-->
-        <a class="simple-link" href="delivery.php">
+        <a class="simple-link" href="hardware.php">
             <div class="row main-services-row" id="main-services-row-3">
                 <div class="col-xs-5 col-xs-offset-1">
                     <div class="row">
