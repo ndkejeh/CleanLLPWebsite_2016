@@ -77,8 +77,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-8 col-sm-offset-4 col-xs-10 col-xs-offset-2 office-blk">
-                        <p class="contact-address" style="color: B97A2B">203 Ikorodu Road<br>
-                        Obanikoro<br>
+                        <p class="contact-address" style="color: B97A2B">28B Babatunde Jose Street<br>
+                        Victoria Island<br>
                         Lagos<br>
                         Nigeria</p>
                     </div>

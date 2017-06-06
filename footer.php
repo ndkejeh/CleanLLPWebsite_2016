@@ -8,8 +8,8 @@
                         </div>
                         <div class="row">
                             <div class=" col-lg-12 col-md-10 col-xs-12">
-                                <p class="footer-text">We build products, strategies and ideas for 
-                                    forward-thinking entities in Africa's tech sectors.</p>
+                                <p class="footer-text">We build products, ideas and narratives for 
+                                    forward-thinking entities growing in Africa.</p>
                                 <p class="footer-text hidden-xs">We&#8217;re committed to fusing impact and profit and 
                                     bettering global perceptions of Africa.</p>
                             </div>

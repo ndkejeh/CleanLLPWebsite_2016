@@ -28,8 +28,8 @@
                         <a class="change-icon" href="../services.php">Services</a><span class="material-icons">add</span>
                         <ul class="sub-menu">
                             <li><a href="../narratives.php">Narratives</a></li>
-                            <li><a href="../software.php">Software</a></li>
-                            <li><a href="../hardware.php">Hardware</a></li>
+                            <li><a href="../digital.php">Digital</a></li>
+                            <li><a href="../physical.php">Physical</a></li>
                         </ul>
                     </li>
                     <li>

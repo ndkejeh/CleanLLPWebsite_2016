@@ -47,7 +47,7 @@
                 <div class="banner-container">
                     <img class="img-responsive" src="images/IndexBanner.jpg">
                     <div class="banner-overlay" style="background: rgba(0,0,0,0);">
-                        <p class="work-headline" id="home-headline">We build products, strategies &amp; ideas for entities in Africa's tech sectors.</p>
+                        <p class="work-headline" id="home-headline">We build products, ideas &amp; narratives for game-changing entities in Africa.</p>
                     </div>
                 </div>
             </div>
