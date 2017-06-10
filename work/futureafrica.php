@@ -130,9 +130,20 @@
         </div>
         <div class="row">
             <div class="col-md-12 hidden-sm hidden-xs nopadding">
+                <div class="vid-placeholder-container">
+                    <img class="play-button img-responsive" src="../images/PlayButton.png">
+                    <img class="img-responsive" id="videoPlaceholder" src="images/MIAF/VideoPlaceholder.jpg">
+                </div>
+            </div>
+            <div class="col-md-12 hidden-sm hidden-xs nopadding">
+                <div class="js-video vimeo">
+                    <iframe id="vid-frame" src="https://player.vimeo.com/video/220435322?autoplay=0&color=ffffff&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+<!--
                 <div class="js-video vimeo">
                   <iframe src="https://player.vimeo.com/video/170204881?title=0&byline=0&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
+-->
             </div>
         </div>
         <div class="row">
@@ -210,6 +221,15 @@
     <script src="../js/LLPSite_2016.js"></script>
     <script src="../js/plugins/owl.carousel.min.js"></script>
     <script src="../js/Projects.js"></script>
+    <script>
+        $(document).ready(function() {
+           $("img.play-button").on("click", function() {
+              $(".vid-placeholder-container").css("display", "none");
+              $("iframe#vid-frame").attr("src", $("iframe#vid-frame").attr("src").replace("autoplay=0", "autoplay=1"));
+              $(".js-video").css("display", "block");
+           }); 
+        });
+    </script>
     <!--------------------End of Scripts--------------->
     <!--End of Content-->
 </body>

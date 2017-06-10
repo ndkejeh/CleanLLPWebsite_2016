@@ -1916,6 +1916,7 @@ p.blurb-text:not(:first-child) {
 /*    margin-bottom: 10px;*/
     position: relative;
     overflow: hidden;
+    display: none;
 }
 
 .js-video.vimeo {
@@ -2484,4 +2485,18 @@ div .att-blurb:not(:first-child) {
 
 @media (max-width: 858px) {
     #icon-rem {display: none}
+}
+
+.vid-placeholder-container {
+    position: relative;
+    
+}
+
+.play-button {
+    position: absolute;
+    margin: auto;
+    width: 100px;
+    height: auto;
+    bottom: 40%;
+    left: 40%;
 }
