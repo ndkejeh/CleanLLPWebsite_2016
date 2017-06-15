@@ -136,7 +136,7 @@
                 </div>
             </div>
             <div class="col-md-12 hidden-sm hidden-xs nopadding">
-                <div class="js-video vimeo">
+                <div class="js-video vimeo" id="vid-space">
                     <iframe id="vid-frame" src="https://player.vimeo.com/video/220435322?autoplay=0&color=ffffff&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 <!--
@@ -226,7 +226,7 @@
            $("img.play-button").on("click", function() {
               $(".vid-placeholder-container").css("display", "none");
               $("iframe#vid-frame").attr("src", $("iframe#vid-frame").attr("src").replace("autoplay=0", "autoplay=1"));
-              $(".js-video").css("display", "block");
+              $("#vid-space").css("display", "block");
            }); 
         });
     </script>

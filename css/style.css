@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background-color: #ebebeb;
+    background-color: #717171;
     margin-bottom: 300px;
 }
 /*
@@ -1912,7 +1912,7 @@ p.blurb-text:not(:first-child) {
 .js-video {
     height: 0;
     padding-top: 25px;
-    padding-bottom: 67.5%;
+    padding-bottom: 56.25%;
 /*    margin-bottom: 10px;*/
     position: relative;
     overflow: hidden;
@@ -2499,4 +2499,11 @@ div .att-blurb:not(:first-child) {
     height: auto;
     bottom: 40%;
     left: 40%;
+    opacity: 0.5;
+    
+}
+
+.play-button:hover {
+    opacity: 1;
+    cursor: pointer;
 }
