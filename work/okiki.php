@@ -70,7 +70,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 nopadding">
-                                <p class="service-text">Strategy/Design</p>
+                                <p class="service-text">Narratives</p>
                             </div>
                         </div>
                         <div class="row">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-8 col-md-offset-4 col-xs-10 col-xs-offset-2">
-                        <p class="service-text">Strategy/Design</p>
+                        <p class="service-text">Narratives</p>
                     </div>
                 </div>
                 <div class="row hidden-sm hidden-xs">
@@ -147,6 +147,10 @@
         </div>
         <div class="row">
             <div class="col-md-12 hidden-sm hidden-xs nopadding">
+                <div class="vid-placeholder-container">
+                    <img class="play-button img-responsive" src="../images/PlayButton.png">
+                    <img class="img-responsive" id="videoPlaceholder" src="images/MIAF/VideoPlaceholder.jpg">
+                </div>
                 <div class="js-video vimeo">
                     <iframe src="https://player.vimeo.com/video/170756700?title=0&byline=0&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
@@ -186,6 +190,15 @@
     <script src="../js/LLPSite_2016.js"></script>
     <script src="../js/plugins/owl.carousel.min.js"></script>
     <script src="../js/Projects.js"></script>
+    <script>
+        $(document).ready(function() {
+           $("img.play-button").on("click", function() {
+              $(".vid-placeholder-container").css("display", "none");
+              $("iframe#vid-frame").attr("src", $("iframe#vid-frame").attr("src").replace("autoplay=0", "autoplay=1"));
+              $("#vid-space").css("display", "block");
+           }); 
+        });
+    </script>
     <!--------------------End of Scripts--------------->
     <!--End of Content-->
 </body>

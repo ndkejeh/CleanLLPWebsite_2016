@@ -70,7 +70,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 nopadding">
-                                <p class="service-text">Strategy/Design/Delivery</p>
+                                <p class="service-text">Narratives</p>
                             </div>
                         </div>
                         <div class="row">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-8 col-md-offset-4 col-xs-10 col-xs-offset-2">
-                        <p class="service-text">Strategy/Design/Delivery</p>
+                        <p class="service-text">Narratives</p>
                     </div>
                 </div>
                 <div class="row hidden-sm hidden-xs">
@@ -137,13 +137,8 @@
             </div>
             <div class="col-md-12 hidden-sm hidden-xs nopadding">
                 <div class="js-video vimeo" id="vid-space">
-                    <iframe id="vid-frame" src="https://player.vimeo.com/video/220435322?autoplay=0&color=ffffff&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe id="vid-frame" src="https://player.vimeo.com/video/222261727?autoplay=0&color=ffffff&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
-<!--
-                <div class="js-video vimeo">
-                  <iframe src="https://player.vimeo.com/video/170204881?title=0&byline=0&portrait=0" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                </div>
--->
             </div>
         </div>
         <div class="row">

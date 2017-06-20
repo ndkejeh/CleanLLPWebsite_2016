@@ -70,7 +70,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12 nopadding">
-                                <p class="service-text">Design/Delivery</p>
+                                <p class="service-text">Physical</p>
                             </div>
                         </div>
                         <div class="row">
@@ -89,7 +89,7 @@
                 </div>
                 <div class="row hidden-sm hidden-xs">
                     <div class="col-md-8 col-md-offset-4 col-xs-10 col-xs-offset-2">
-                        <p class="service-text">Design/Delivery</p>
+                        <p class="service-text">Physical</p>
                     </div>
                 </div>
                 <div class="row hidden-sm hidden-xs">
