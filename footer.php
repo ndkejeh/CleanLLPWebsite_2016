@@ -16,7 +16,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <p id="footercopy">&copy; 2016 De-Charles LLP</p>
+                                <p id="footercopy">&copy; 2017 De-Charles LLP</p>
                             </div>
                         </div>
                     </div>
